@@ -1,5 +1,5 @@
 {
-  "name": "solvedac-icpc-apac",
+  "name": "@solved-ac/icpc-apac",
   "version": "0.1.0",
   "private": true,
   "scripts": {
