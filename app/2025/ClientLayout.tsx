@@ -20,7 +20,7 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
         </Typo>
         <Space h={32} />
         <Tabs>
-          <Tab href="./" current={pathname === "/2025"}>
+          <Tab href="/2025" current={pathname === "/2025"}>
             Home
           </Tab>
           {regions.map((region) => (
