@@ -1,5 +1,8 @@
 "use client";
 
+import Region from "@/components/Region";
+import { shortenInstitutionName } from "@/utils/institution";
+import { useTheme } from "@emotion/react";
 import {
   Cell,
   Row,
@@ -10,17 +13,11 @@ import {
   TableHead,
   Typo,
 } from "@solved-ac/ui-react";
+import { institutionRegionMap } from "../data/institution";
 import {
   ChampionshipTeamLike,
-  TeamInFilteredStandingsLike,
-  TeamInStandingsLike,
-  TeamInTeamListLike,
   TeamRankInCombinedScoreboardStatus,
 } from "../data/types";
-import Region from "@/components/Region";
-import { shortenInstitutionName } from "@/utils/institution";
-import { institutionRegionMap } from "../data/institution";
-import { useTheme } from "@emotion/react";
 
 interface Props {
   teams: ChampionshipTeamLike[];

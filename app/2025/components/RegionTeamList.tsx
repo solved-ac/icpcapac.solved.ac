@@ -2,20 +2,19 @@
 
 import Region from "@/components/Region";
 import { shortenInstitutionName } from "@/utils/institution";
-import { useTheme } from "@emotion/react";
 import {
-  TableContainer,
-  Table,
-  TableHead,
-  Row,
   Cell,
-  TableBody,
-  Typo,
+  Row,
   Space,
+  Table,
+  TableBody,
+  TableContainer,
+  TableHead,
+  Typo,
 } from "@solved-ac/ui-react";
 import { institutionRegionMap } from "../data/institution";
-import { TeamInTeamListLike } from "../data/types";
 import { instutiteRequireValueMap } from "../data/mergedTeams";
+import { TeamInTeamListLike } from "../data/types";
 
 interface Props {
   teams: TeamInTeamListLike[];
@@ -23,8 +22,6 @@ interface Props {
 }
 
 const RegionTeamList = ({ teams, score }: Props) => {
-  const theme = useTheme();
-
   return (
     <TableContainer>
       <Table fullWidth>

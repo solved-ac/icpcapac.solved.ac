@@ -4,8 +4,6 @@ import { Card, Container } from "@solved-ac/ui-react";
 
 import RegionHeader from "../components/RegionHeader";
 import RegionTeams from "../components/RegionTeams";
-import { Taichung } from "../data/taichung/region";
-import { Jakarta } from "../data/jakarta/region";
 import { Yokohama } from "../data/yokohama/region";
 
 const Page = () => {
