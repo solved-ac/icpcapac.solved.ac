@@ -1,0 +1,43 @@
+"use client";
+
+import { Container, Space, Tab, Tabs, Typo } from "@solved-ac/ui-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { PropsWithChildren } from "react";
+
+const regions = ["Taichung", "Seoul", "Jakarta", "Hanoi", "Yokohama"];
+
+const ClientLayout = ({ children }: PropsWithChildren) => {
+  const pathname = usePathname();
+
+  return (
+    <>
+      <Space h={64} />
+      <Container>
+        <Typo h1>ICPC APAC 2024-2025</Typo>
+        <Typo description>
+          by <a href="https://solved.ac">solved.ac</a>
+        </Typo>
+        <Space h={32} />
+        <Tabs>
+          <Tab href="./" current={pathname === "/2025"}>
+            Home
+          </Tab>
+          {regions.map((region) => (
+            <Tab
+              key={region}
+              as={Link}
+              href={`/2025/${region.toLowerCase()}`}
+              current={pathname.includes(region.toLowerCase())}
+            >
+              {region}
+            </Tab>
+          ))}
+        </Tabs>
+      </Container>
+      {children}
+    </>
+  );
+};
+
+export default ClientLayout;

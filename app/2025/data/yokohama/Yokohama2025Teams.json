@@ -1,0 +1,37 @@
+[
+  {
+    "teamId": 999126,
+    "name": "Ashes",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan University"
+  },
+  {
+    "teamId": 998543,
+    "name": ") ? - ? )",
+    "status": null,
+    "country": "",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 1001825,
+    "name": "WayInWilderness",
+    "status": null,
+    "country": "",
+    "institution": "Kyung Hee University"
+  },
+  {
+    "teamId": 1001875,
+    "name": "Penguin Feeders",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 993418,
+    "name": "NutCrackers",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  }
+]

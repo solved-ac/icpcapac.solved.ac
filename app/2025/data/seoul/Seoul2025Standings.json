@@ -1,0 +1,882 @@
+[
+  {
+    "teamId": 1032495,
+    "rank": 1,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "DaXingHao",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032696,
+    "rank": 2,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Gyerantak",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032692,
+    "rank": 3,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BIGSHOT",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032661,
+    "rank": 4,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "kopagi",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1036455,
+    "rank": 5,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "AMATSUKAZE",
+    "status": null,
+    "country": "",
+    "institution": "Tokyo Institute of Technology"
+  },
+  {
+    "teamId": 1036456,
+    "rank": 6,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "R-12",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan University"
+  },
+  {
+    "teamId": 1036458,
+    "rank": 7,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "NEU. gugugaga",
+    "status": null,
+    "country": "",
+    "institution": "National Economics University"
+  },
+  {
+    "teamId": 1032665,
+    "rank": 8,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "YardInchPound",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032660,
+    "rank": 9,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Heize",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032655,
+    "rank": 10,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "aespa",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032657,
+    "rank": 11,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BitsetNapsac",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032662,
+    "rank": 12,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "LCK",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032651,
+    "rank": 13,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "AllTimeLegend",
+    "status": null,
+    "country": "",
+    "institution": "Sogang University"
+  },
+  {
+    "teamId": 1036453,
+    "rank": 14,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "NYCU_CartesianTree",
+    "status": null,
+    "country": "",
+    "institution": "National Yang Ming Chiao Tung University"
+  },
+  {
+    "teamId": 1032674,
+    "rank": 15,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Endgame",
+    "status": null,
+    "country": "",
+    "institution": "Yonsei University"
+  },
+  {
+    "teamId": 1032640,
+    "rank": 16,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "DolAndDool",
+    "status": null,
+    "country": "",
+    "institution": "Korea University"
+  },
+  {
+    "teamId": 1032694,
+    "rank": 17,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Freefood",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032652,
+    "rank": 18,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Redshift",
+    "status": null,
+    "country": "",
+    "institution": "Sogang University"
+  },
+  {
+    "teamId": 1032653,
+    "rank": 19,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": " 202124",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032664,
+    "rank": 20,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "scscHeroes",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032659,
+    "rank": 21,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "GracefulSkyBlue",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032656,
+    "rank": 22,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BinZip",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032705,
+    "rank": 23,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BetterThanO1",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032695,
+    "rank": 24,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "GEESECROSSING",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032698,
+    "rank": 25,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "LovesickGirls",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032700,
+    "rank": 26,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "slowforce",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032706,
+    "rank": 27,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Catastrophe",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1036454,
+    "rank": 28,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": " XL-pants",
+    "status": null,
+    "country": "",
+    "institution": "National Tsing Hua University"
+  },
+  {
+    "teamId": 1032677,
+    "rank": 29,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Everyone",
+    "status": null,
+    "country": "",
+    "institution": "Ulsan National Institute of Science and Technology"
+  },
+  {
+    "teamId": 1032690,
+    "rank": 30,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Pourist",
+    "status": null,
+    "country": "",
+    "institution": "Pohang University of Science and Technology"
+  },
+  {
+    "teamId": 1032678,
+    "rank": 31,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "NomadCoders",
+    "status": null,
+    "country": "",
+    "institution": "Ulsan National Institute of Science and Technology"
+  },
+  {
+    "teamId": 1032683,
+    "rank": 32,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "2358and14",
+    "status": null,
+    "country": "",
+    "institution": "Jeonbuk National University"
+  },
+  {
+    "teamId": 1032707,
+    "rank": 33,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "NMK",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032646,
+    "rank": 34,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "AwesomeTeamName",
+    "status": null,
+    "country": "",
+    "institution": "Daegu Gyungbook Institute of Science and Technology"
+  },
+  {
+    "teamId": 1032658,
+    "rank": 35,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "CatTowerFriends",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032668,
+    "rank": 36,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "ThinkingTomato",
+    "status": null,
+    "country": "",
+    "institution": "SungKyunKwan University"
+  },
+  {
+    "teamId": 1032654,
+    "rank": 37,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": " BORADAN",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032633,
+    "rank": 38,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BusTaeWarJo",
+    "status": null,
+    "country": "",
+    "institution": "Konkuk University"
+  },
+  {
+    "teamId": 1032693,
+    "rank": 39,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "CS202",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032638,
+    "rank": 40,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "WayInWilderness",
+    "status": null,
+    "country": "",
+    "institution": "Kyung Hee University"
+  },
+  {
+    "teamId": 1032701,
+    "rank": 41,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "SnowyDay",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032673,
+    "rank": 42,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "AoCorasicchi",
+    "status": null,
+    "country": "",
+    "institution": "Yonsei University"
+  },
+  {
+    "teamId": 1032680,
+    "rank": 43,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "KINTEXTour",
+    "status": null,
+    "country": "",
+    "institution": "Incheon National University"
+  },
+  {
+    "teamId": 1032689,
+    "rank": 44,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "ConForza",
+    "status": null,
+    "country": "",
+    "institution": "Pohang University of Science and Technology"
+  },
+  {
+    "teamId": 1032682,
+    "rank": 45,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "REJECTED",
+    "status": null,
+    "country": "",
+    "institution": "Inha University"
+  },
+  {
+    "teamId": 1032639,
+    "rank": 46,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "ACShoooooooooot",
+    "status": null,
+    "country": "",
+    "institution": "Korea University"
+  },
+  {
+    "teamId": 1032704,
+    "rank": 47,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "BaBamBa",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032666,
+    "rank": 48,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "IrumaeIsCat",
+    "status": null,
+    "country": "",
+    "institution": "University of Seoul"
+  },
+  {
+    "teamId": 1032636,
+    "rank": 49,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Hobanwoo",
+    "status": null,
+    "country": "",
+    "institution": "Kyungpook National University"
+  },
+  {
+    "teamId": 1032637,
+    "rank": 50,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "nEwBiE",
+    "status": null,
+    "country": "",
+    "institution": "Kyung Hee University"
+  },
+  {
+    "teamId": 1032709,
+    "rank": 51,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "StackUnderflow",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032635,
+    "rank": 52,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "CRET",
+    "status": null,
+    "country": "",
+    "institution": "Kyungpook National University"
+  },
+  {
+    "teamId": 1032710,
+    "rank": 53,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "teamname",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032669,
+    "rank": 54,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "TeamGambit",
+    "status": null,
+    "country": "",
+    "institution": "Sejong University"
+  },
+  {
+    "teamId": 1032672,
+    "rank": 55,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "MeatInTheMiddle",
+    "status": null,
+    "country": "",
+    "institution": "Ajou University"
+  },
+  {
+    "teamId": 1032697,
+    "rank": 56,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "HeyJinhwi",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032676,
+    "rank": 57,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "DancingTurtles",
+    "status": null,
+    "country": "",
+    "institution": "Ulsan National Institute of Science and Technology"
+  },
+  {
+    "teamId": 1032671,
+    "rank": 58,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "wmw",
+    "status": null,
+    "country": "",
+    "institution": "Soongsil University"
+  },
+  {
+    "teamId": 1032708,
+    "rank": 59,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "OeisReunion",
+    "status": null,
+    "country": "",
+    "institution": "Hanyang University"
+  },
+  {
+    "teamId": 1032663,
+    "rank": 60,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "newbi27182818",
+    "status": null,
+    "country": "",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 1032670,
+    "rank": 61,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "DancingWookje",
+    "status": null,
+    "country": "",
+    "institution": "Soongsil University"
+  },
+  {
+    "teamId": 1032641,
+    "rank": 62,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Nameless",
+    "status": null,
+    "country": "",
+    "institution": "Korea University"
+  },
+  {
+    "teamId": 1032643,
+    "rank": 63,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "dropDatabase",
+    "status": null,
+    "country": "",
+    "institution": "Gwangju Institute of Science and Technology"
+  },
+  {
+    "teamId": 1032699,
+    "rank": 64,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "MoongTaengI",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032644,
+    "rank": 65,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "GAME",
+    "status": null,
+    "country": "",
+    "institution": "Kookmin University"
+  },
+  {
+    "teamId": 1036457,
+    "rank": 66,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "official beautiful fruit",
+    "status": null,
+    "country": "",
+    "institution": "National Cheng Kung University"
+  },
+  {
+    "teamId": 1032642,
+    "rank": 67,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "pakkiyatou",
+    "status": null,
+    "country": "",
+    "institution": "Korea University"
+  },
+  {
+    "teamId": 1032691,
+    "rank": 68,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "AMA",
+    "status": null,
+    "country": "",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 1032649,
+    "rank": 69,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "LeetTtukBang",
+    "status": null,
+    "country": "",
+    "institution": "Pusan National University"
+  },
+  {
+    "teamId": 1032711,
+    "rank": 70,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "wowSpirit",
+    "status": null,
+    "country": "",
+    "institution": "Hongik University"
+  },
+  {
+    "teamId": 1032650,
+    "rank": 71,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "0x200",
+    "status": null,
+    "country": "",
+    "institution": "Sogang University"
+  },
+  {
+    "teamId": 1032702,
+    "rank": 72,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "KimsaiAn",
+    "status": null,
+    "country": "",
+    "institution": "Handong Global University"
+  },
+  {
+    "teamId": 1032686,
+    "rank": 73,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Angorithm",
+    "status": null,
+    "country": "",
+    "institution": "Chung-Ang University"
+  },
+  {
+    "teamId": 1032647,
+    "rank": 74,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "DART",
+    "status": null,
+    "country": "",
+    "institution": "Dongguk University"
+  },
+  {
+    "teamId": 1032648,
+    "rank": 75,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "JungSangHwa",
+    "status": null,
+    "country": "",
+    "institution": "Pusan National University"
+  },
+  {
+    "teamId": 1032675,
+    "rank": 76,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "TooOldToCompete",
+    "status": null,
+    "country": "",
+    "institution": "Yonsei University"
+  },
+  {
+    "teamId": 1032645,
+    "rank": 77,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "TwoMinuteSearch",
+    "status": null,
+    "country": "",
+    "institution": "Dankook University"
+  },
+  {
+    "teamId": 1032681,
+    "rank": 78,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "sungjunho",
+    "status": null,
+    "country": "",
+    "institution": "Inha Technical College"
+  },
+  {
+    "teamId": 1032687,
+    "rank": 79,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "ANA",
+    "status": null,
+    "country": "",
+    "institution": "Chungnam National University"
+  },
+  {
+    "teamId": 1032688,
+    "rank": 80,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "Memoria",
+    "status": null,
+    "country": "",
+    "institution": "Chungbuk National University"
+  },
+  {
+    "teamId": 1032634,
+    "rank": 81,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "99percentWA",
+    "status": null,
+    "country": "",
+    "institution": "Kyonggi University"
+  },
+  {
+    "teamId": 1032632,
+    "rank": 82,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "NormalizeICPC",
+    "status": null,
+    "country": "",
+    "institution": "The Catholic University of Korea"
+  },
+  {
+    "teamId": 1032667,
+    "rank": 83,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "megaCoders",
+    "status": null,
+    "country": "",
+    "institution": "SungKyul University"
+  },
+  {
+    "teamId": 1032631,
+    "rank": 84,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "GPT",
+    "status": null,
+    "country": "",
+    "institution": "Gachon University"
+  },
+  {
+    "teamId": 1032685,
+    "rank": 85,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "HP1",
+    "status": null,
+    "country": "",
+    "institution": "Chosun University"
+  },
+  {
+    "teamId": 1032684,
+    "rank": 86,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "MerVermillon",
+    "status": null,
+    "country": "",
+    "institution": "Jeju National University"
+  },
+  {
+    "teamId": 1032679,
+    "rank": 87,
+    "problemsSolved": 1,
+    "totalTime": 0,
+    "teamName": "CodingZombies",
+    "status": null,
+    "country": "",
+    "institution": "Ewha Womans University"
+  },
+  {
+    "teamId": 1032703,
+    "rank": 88,
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "teamName": "OwO",
+    "status": null,
+    "country": "",
+    "institution": "Hallym University"
+  }
+]

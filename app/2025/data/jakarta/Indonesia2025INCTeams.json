@@ -1,0 +1,5602 @@
+[
+  {
+    "teamId": 1010261,
+    "name": "NULL",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1008830,
+    "name": "The Naroditsky",
+    "status": null,
+    "country": "",
+    "institution": "Parahyangan University"
+  },
+  {
+    "teamId": 1008831,
+    "name": "Wombatu",
+    "status": null,
+    "country": "",
+    "institution": "Parahyangan University"
+  },
+  {
+    "teamId": 1016827,
+    "name": "Syntax Error",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016828,
+    "name": "Zip zip",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010265,
+    "name": "rb_megachan",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1016830,
+    "name": "Ditto",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016831,
+    "name": "repay",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016356,
+    "name": "Icen Ganteng",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016357,
+    "name": "Gomen Amanai",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016358,
+    "name": "Skenus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016835,
+    "name": "Bebas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015712,
+    "name": "\"p , Diddy\"",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015713,
+    "name": "bocil kematian",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015714,
+    "name": "Laba-Labil",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014397,
+    "name": "Arek Rantown",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014398,
+    "name": "mana mana",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014399,
+    "name": "Alisa Mikhailovna Kujou",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014400,
+    "name": "GGMU",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014401,
+    "name": "Telu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015987,
+    "name": "Skibidi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016840,
+    "name": "Gpt",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016841,
+    "name": "Powerpuff",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015722,
+    "name": "GIgih BRANi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015723,
+    "name": "Gacorezz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015725,
+    "name": "Gibrowo Rakabianto",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015993,
+    "name": "Hustlers' University",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015994,
+    "name": "reverse oreo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015995,
+    "name": "Works on my machine",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016406,
+    "name": "RafaelGod",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016407,
+    "name": "Natural Intel",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016408,
+    "name": "Emergency Exit",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015739,
+    "name": "Byte Buster",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009848,
+    "name": "smokeBreak",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1008852,
+    "name": "@&$-+($)#((&8 Stress Limit Exceeded (SLE)",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1009850,
+    "name": "skrg hari apa?",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009851,
+    "name": "Do Not Give Opinion",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1015743,
+    "name": "Skibidi Le Davinci",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015741,
+    "name": "BocahAlomaniWeendah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015742,
+    "name": "schizodivers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009856,
+    "name": "Tidal Wave",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009857,
+    "name": "codemaxxing",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009858,
+    "name": "Bismillah Anak Baru AC",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1014424,
+    "name": "ThreeMusketeers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015745,
+    "name": "Hantu Darat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014423,
+    "name": "ChatGPT",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014425,
+    "name": "MenyalADAku",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015746,
+    "name": "Cahaya Abadi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015747,
+    "name": "Clementine",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1007833,
+    "name": "BCC_SateTapeKrawu",
+    "status": null,
+    "country": "",
+    "institution": "Brawijaya University"
+  },
+  {
+    "teamId": 1016007,
+    "name": "Rice COOKERS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016008,
+    "name": "Mom's Prayer",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016006,
+    "name": "Optional",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015751,
+    "name": "DoaAnakRestuIstri",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015752,
+    "name": "tripleK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015753,
+    "name": "ygpentingbnr1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015754,
+    "name": "Los Pollos Hermanos",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016425,
+    "name": "Fufufafa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016426,
+    "name": "Hash-Slinging Slasher",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016673,
+    "name": "Es teh panas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016674,
+    "name": "Yang Penting Ijo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016675,
+    "name": "P, bl?",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016676,
+    "name": "Z8F4A3B792C5D1E6",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009866,
+    "name": "varama",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009867,
+    "name": "Yang Coachnya Adha",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009865,
+    "name": "DoaAyahRestuIbu",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1016427,
+    "name": "goodgame",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008864,
+    "name": "Cdeez",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1016678,
+    "name": "ADA ADA saja 4",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014436,
+    "name": "Bambang Cak Telo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015757,
+    "name": "Santai Santai!",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015758,
+    "name": "EGK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015759,
+    "name": "Pencari Sesuap Nasi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015760,
+    "name": "SemogaBener2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016858,
+    "name": "TBA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016859,
+    "name": "AbC",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016860,
+    "name": "ONDE MANDE",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015761,
+    "name": "Algo Warriors",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015763,
+    "name": "Micin Addict",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015764,
+    "name": "Anak Om Bowo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009879,
+    "name": "Buitenzzz.org",
+    "status": null,
+    "country": "",
+    "institution": "Institut Pertanian Bogor"
+  },
+  {
+    "teamId": 1014771,
+    "name": "Semoga Lancar Jaya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014770,
+    "name": "Tim Menang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014772,
+    "name": "rafamarvinrizky",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008873,
+    "name": "Name Tim nya Apa ya",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1014773,
+    "name": "Vadel Badjideh",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014774,
+    "name": "naik unta",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014775,
+    "name": "Tim Lulus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015767,
+    "name": "TRIO ITIK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014443,
+    "name": "Penyodok Handal",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014444,
+    "name": "Elstein",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014442,
+    "name": "BINUS Jaya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014776,
+    "name": "steve lov raki lov owen",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014777,
+    "name": "amin lulus ",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014778,
+    "name": "barathum rider",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015768,
+    "name": "rizzler",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014779,
+    "name": "zzzzzzzzzz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015769,
+    "name": "KuliJowo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015770,
+    "name": "fafafufu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016872,
+    "name": "Blazing Duet",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016873,
+    "name": "Martabak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015772,
+    "name": "mie karet 1 mas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015773,
+    "name": "Chinese Computist Party",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015774,
+    "name": "AlphaSigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014784,
+    "name": "ADA ADA saja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014785,
+    "name": "Manchester City",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014786,
+    "name": "Apa aja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016875,
+    "name": "Zaiyank and Friends",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016876,
+    "name": "Snap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016877,
+    "name": "ISleepWeSleep",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016878,
+    "name": "MylordIck",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016879,
+    "name": "Pablo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016880,
+    "name": "Fort Night",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008882,
+    "name": "ape name tim e",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1008885,
+    "name": "undefined",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1014790,
+    "name": "Tea Party",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014791,
+    "name": "We Never Code",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014792,
+    "name": "i hope they play fein",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015777,
+    "name": "Ainz Ooal Gown",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015778,
+    "name": "CyvmRios4",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014793,
+    "name": "we tried",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014794,
+    "name": "GF Hunter",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014795,
+    "name": "aku tahu dia tahu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008888,
+    "name": "MACniBOS!",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1016881,
+    "name": "InfinityLoop",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014454,
+    "name": "ABDS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014455,
+    "name": "Mr.BREWOC",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016882,
+    "name": "WAPATU",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016883,
+    "name": "Salar",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016884,
+    "name": "HappyCoding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016885,
+    "name": "Gamja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008893,
+    "name": "encrypted",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1014797,
+    "name": "aman aja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014798,
+    "name": "apa aja terserah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014799,
+    "name": "fufufafa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014459,
+    "name": "Otak Kami Buntu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014460,
+    "name": "YangPentingLolos",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1007885,
+    "name": "Mendadak Mendidik",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pendidikan Indonesia"
+  },
+  {
+    "teamId": 1015783,
+    "name": "Subsequent Visions",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016691,
+    "name": "KuliSigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008907,
+    "name": "Pejuang IPK",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1016692,
+    "name": "Barudak BaTaGor",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016693,
+    "name": "IshowCode",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016694,
+    "name": "Device -1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016695,
+    "name": "ngebut",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014467,
+    "name": "Choky Maxwin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014812,
+    "name": "Kelompok Ghoib",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014813,
+    "name": "Sumanto",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014814,
+    "name": "Laba-laba Sunda",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016887,
+    "name": "OhMyGatto",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015790,
+    "name": "christopher jago coding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015791,
+    "name": "Samsan Tech",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016046,
+    "name": "Crycoding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014471,
+    "name": "Pasar gelap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014472,
+    "name": "Skill Issue",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016700,
+    "name": "NT YGY",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016047,
+    "name": "semoga bisa mikir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016699,
+    "name": "Jawa x Bali",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016701,
+    "name": "Go Go Power Ranger",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016702,
+    "name": "Tim TikiTaka",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016703,
+    "name": "Amin Lulus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016704,
+    "name": "keberADAan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014477,
+    "name": "Liz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014474,
+    "name": "Fullgreen",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014475,
+    "name": "JuaraWan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014476,
+    "name": "Getting By",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014478,
+    "name": "LinusTechMaster",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014479,
+    "name": "Nangka",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014480,
+    "name": "Naga hitam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014481,
+    "name": "Peretas Hati",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008915,
+    "name": "Popsicle",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1013190,
+    "name": "tiba-tiba mo ikut aja",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1015796,
+    "name": "TRINITY",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015797,
+    "name": "Group-1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014163,
+    "name": "It is what it is",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014824,
+    "name": "Nasi Goreng",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014164,
+    "name": "KOJO",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014165,
+    "name": "AHA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014161,
+    "name": "Path Finder",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014162,
+    "name": "Maroon",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014825,
+    "name": "dipipi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014826,
+    "name": "Evergreen",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014827,
+    "name": "bebas asal sopan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014828,
+    "name": "OrekTempe",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014829,
+    "name": "skalitz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016706,
+    "name": "Pemandangan Sejuk Sulawesi Timur",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016705,
+    "name": "NPHardBeater",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016891,
+    "name": "tim sukses pak lie maximilianus maria kolbe",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015804,
+    "name": "Kicau Mania",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015805,
+    "name": "Senyum Roblox",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015806,
+    "name": "Journey of the Overthinking Hooper",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016484,
+    "name": "BudiBudiman",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016485,
+    "name": "Nenek Sihir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016893,
+    "name": "Anak Tuhan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015807,
+    "name": "BinusCP01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015808,
+    "name": "BinusCP02",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015809,
+    "name": "VSenjoyer",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016487,
+    "name": "3 brain cells ",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016488,
+    "name": "-1Otak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016057,
+    "name": "KuraKuraNinja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009938,
+    "name": "namanya gak bisa aneh2 nanti dicancel",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1014171,
+    "name": "Kopiluwak412",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014172,
+    "name": "Dabloons",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014173,
+    "name": "Flow Floats",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014174,
+    "name": "Sicx",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016058,
+    "name": "JoMoK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014179,
+    "name": "Johannes Mondprinzin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015813,
+    "name": "Ambatucode 2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016158,
+    "name": "Kapal Karam1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014491,
+    "name": "Penakluk Bumi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014492,
+    "name": "sistem gelap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014493,
+    "name": "Si Paling Ngoding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016710,
+    "name": "Aku dan dua mnyt",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016161,
+    "name": "Apahayo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016495,
+    "name": "BAYgon",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016496,
+    "name": "PPG",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016711,
+    "name": "Babi Panggang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016162,
+    "name": "Darksistem",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016712,
+    "name": "Dingin tetapi tidak kejam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016713,
+    "name": "3 murid yesus yang tertinggal",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016064,
+    "name": "Trio quack quack",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009948,
+    "name": "Cowo Tembalang",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Diponegoro"
+  },
+  {
+    "teamId": 1016063,
+    "name": "Buah kediri buah strawberry. Acintya disini, jangan lari",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016163,
+    "name": "404",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016714,
+    "name": "Bintang Terang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016715,
+    "name": "Tiga Pilar",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009949,
+    "name": "micin kriuk",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009950,
+    "name": "DP5tate",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1009951,
+    "name": "Lo Siento",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1016164,
+    "name": "Kimchi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016165,
+    "name": "LM01-A",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016166,
+    "name": "muffin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008470,
+    "name": "MathEnjoyer",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1016068,
+    "name": "AJY",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016072,
+    "name": "wooimboutamakeanameformahselfyuh",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016074,
+    "name": "JustHope NA carry",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016514,
+    "name": "Ngko bakmi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016515,
+    "name": "Sante Aja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016720,
+    "name": "Pizza Boboiboy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016721,
+    "name": "Master Sodok Bola",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016722,
+    "name": "Semoga dapet A",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016723,
+    "name": "Oke gas, Oke gas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016724,
+    "name": "Ponti Pride",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016075,
+    "name": "Mister Buas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016076,
+    "name": "mungkin ini jalan terbaik",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014509,
+    "name": "Anak Sukses",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014510,
+    "name": "SOS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016521,
+    "name": "JCR",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016522,
+    "name": "thomas shelbek",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016727,
+    "name": "apa ya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016077,
+    "name": "Proto-Owls",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016728,
+    "name": "Semoga bisa selesai",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014517,
+    "name": "Boboboy 3 kuasa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014518,
+    "name": "IDC",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014514,
+    "name": "CNN",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014515,
+    "name": "WeDontKnow",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014516,
+    "name": "Durian",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016079,
+    "name": " 4",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009970,
+    "name": "Zivision by Dero",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pendidikan Indonesia"
+  },
+  {
+    "teamId": 1016529,
+    "name": "AK - 47",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016530,
+    "name": "Zen",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017080,
+    "name": "Marimas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016189,
+    "name": "OTP",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016531,
+    "name": "Alpukat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016190,
+    "name": "Marrion",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016532,
+    "name": "INDOMIE",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016533,
+    "name": "Geng Gacoan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016740,
+    "name": "placeholder",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016191,
+    "name": "LiSA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014524,
+    "name": "Stella Jeruk",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014525,
+    "name": "Trio Sigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014526,
+    "name": "AmbaTech",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016192,
+    "name": "ShamRiNo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016193,
+    "name": "zobrist",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016194,
+    "name": "Kapak Analys",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016536,
+    "name": "Oppenheimer",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016200,
+    "name": "HMA Alliance",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016201,
+    "name": "RoadToSaga",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016537,
+    "name": "Exorcist",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018014,
+    "name": "Kecoa balap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014530,
+    "name": "Very Cutie Meow",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014531,
+    "name": "Dingin Tetapi Tidak Kejam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014532,
+    "name": "Ayam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014533,
+    "name": "Es Teh Panas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014534,
+    "name": "Performante",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008490,
+    "name": "Aramalas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015547,
+    "name": "Azhar Fam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015545,
+    "name": "Terserah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015546,
+    "name": "TriUnity",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016540,
+    "name": "ikan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016744,
+    "name": "Ga Tau Apa2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015548,
+    "name": "Brocoli",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015549,
+    "name": "panggilanroblox",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015550,
+    "name": "Ayam Sayur Haji Son",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014541,
+    "name": "Trio SIGMA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014542,
+    "name": "Batachi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014543,
+    "name": "Titik Koma Hunter",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014544,
+    "name": "AmbaRAGA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014545,
+    "name": "Kelrez",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014546,
+    "name": "Icik Bos",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014547,
+    "name": "Benyaminsz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016923,
+    "name": "P mana pialanya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016924,
+    "name": "Sigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016925,
+    "name": "ydhly",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016545,
+    "name": "ga ijo ga tidur",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016206,
+    "name": "kodok dinding (koding)",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016207,
+    "name": "-p-",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016208,
+    "name": "radiance",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016209,
+    "name": "C Level",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016926,
+    "name": "Para pria  imut",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016927,
+    "name": "CompileError",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016928,
+    "name": "Warung Pojok Gangster",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014550,
+    "name": "Mr.Chodiks",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014551,
+    "name": "BinusPox",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015555,
+    "name": "Optimization Ops",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016211,
+    "name": "Adios Amigos",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016212,
+    "name": "Byte Breakers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016213,
+    "name": "Gembira Wahai Senang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016929,
+    "name": "seADAnya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016930,
+    "name": "Ilalu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016931,
+    "name": "Dragon Ball",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016214,
+    "name": "ICT",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014554,
+    "name": "generasi kayu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014555,
+    "name": "Periwinkle",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014556,
+    "name": "inspiraTeam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014557,
+    "name": "Cuma Bertiga",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014553,
+    "name": "We Tried Our Best",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014558,
+    "name": "Gregorius Isjwara",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009469,
+    "name": "Aku ikut boleh ya?",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Riau"
+  },
+  {
+    "teamId": 1016218,
+    "name": "3 Musketeers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014560,
+    "name": "Please HelpUs",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016219,
+    "name": "C-Bye",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016555,
+    "name": "Ambatucode 3",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010000,
+    "name": "Programming 01",
+    "status": null,
+    "country": "",
+    "institution": "Calvin Institute of Technology"
+  },
+  {
+    "teamId": 1010001,
+    "name": "Coder programmer",
+    "status": null,
+    "country": "",
+    "institution": "Calvin Institute of Technology"
+  },
+  {
+    "teamId": 1010002,
+    "name": "New Coders",
+    "status": null,
+    "country": "",
+    "institution": "Calvin Institute of Technology"
+  },
+  {
+    "teamId": 1009472,
+    "name": "bedanya ilkompu sama ti apa yah?",
+    "status": null,
+    "country": "",
+    "institution": "Gadjah Mada University"
+  },
+  {
+    "teamId": 1014561,
+    "name": "doG_bonE",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014562,
+    "name": "BerkahRamadhan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014563,
+    "name": "Dingin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016223,
+    "name": "Jusijin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016222,
+    "name": "Dingin Tetapi Tidak Kejam 2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017690,
+    "name": "Gtw dah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017691,
+    "name": "Spinwheel",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017692,
+    "name": "Mantap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017693,
+    "name": "Bukan Kiki Dermawan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017694,
+    "name": "Cheesecake",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017695,
+    "name": "Apaa Yaaa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1007976,
+    "name": "Feeding Frenzy",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Jenderal Soedirman"
+  },
+  {
+    "teamId": 1016224,
+    "name": "N39R",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018015,
+    "name": "Retri Indomaret",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018016,
+    "name": "Warteg Neng Husni",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016225,
+    "name": "Lord Alden",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016226,
+    "name": "Badak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016227,
+    "name": "Ytta",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015858,
+    "name": "Bubadibako",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015859,
+    "name": "LBYS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015860,
+    "name": "Road to VCT Champions Bekasi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009491,
+    "name": "FSD",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Sepuluh Nopember"
+  },
+  {
+    "teamId": 1014571,
+    "name": "Gulali berjalan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014572,
+    "name": "vtman",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014573,
+    "name": "panas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1012608,
+    "name": "Eagles",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pelita Harapan"
+  },
+  {
+    "teamId": 1015863,
+    "name": "Gasinc",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015864,
+    "name": "Paw Patrol",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015862,
+    "name": "The Three Musketeers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017704,
+    "name": "Woilah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017705,
+    "name": "TechNova",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017706,
+    "name": "Keren Euy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017707,
+    "name": "Butuh Bantuan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017708,
+    "name": "JayPrat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017709,
+    "name": "DED",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017710,
+    "name": "Bg DODO",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1012611,
+    "name": "Falcon",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pelita Harapan"
+  },
+  {
+    "teamId": 1008549,
+    "name": "Shikanokonokonokokoshitantan",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Mikroskil"
+  },
+  {
+    "teamId": 1008550,
+    "name": "u c pc?",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Mikroskil"
+  },
+  {
+    "teamId": 1012614,
+    "name": "Gryphon",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pelita Harapan"
+  },
+  {
+    "teamId": 1015865,
+    "name": "Master Minds",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015866,
+    "name": "samsan tech",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015867,
+    "name": "Byte Me",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015574,
+    "name": "Mahasigma1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015575,
+    "name": "Nama Tim1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017711,
+    "name": "MBK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017712,
+    "name": "Bebas asal sopan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1003818,
+    "name": "cpenjoyer",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008043,
+    "name": "N-Dimensional Sum",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008045,
+    "name": "JKT609",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008046,
+    "name": "Lebah Ganteng",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008047,
+    "name": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008048,
+    "name": "Lebah Bahagia",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008049,
+    "name": "Lebah Sedih",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008050,
+    "name": "Clowers likes men ang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008054,
+    "name": "Risol Mayo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008051,
+    "name": "Dapur Sakti",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008052,
+    "name": "VE!N VE!N VE!N VE!N VE!N VE!N VE!N VE!N",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008053,
+    "name": "Contingency Mewing Plan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009527,
+    "name": "Katalyst",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1009528,
+    "name": "Bantai3",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1008063,
+    "name": "Lebah Kurang Gizi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009529,
+    "name": "Pilar Alprog (Amin)",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1009530,
+    "name": "JagoanMamah",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1009531,
+    "name": "Sipit Sipit Favorit",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1015874,
+    "name": "saya sayang roblox",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015875,
+    "name": "The Blessed Three",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017715,
+    "name": "santaiae",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017716,
+    "name": "MarvinGaye",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017717,
+    "name": "OhioRizzler",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017718,
+    "name": "Jametz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017719,
+    "name": "Skibidisigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017720,
+    "name": "SpontanUhuyy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017721,
+    "name": "Mbul",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016250,
+    "name": "Kelompok 8 LA95",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014590,
+    "name": "Teh Manis Gapake Gula",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014591,
+    "name": "Biasa Aja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014592,
+    "name": "King Jose",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016251,
+    "name": "Alpindokim",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016247,
+    "name": "Pejuang AoL",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016248,
+    "name": "IPUNK SWINK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016249,
+    "name": "Goofi Ah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016252,
+    "name": "Jason J nya Java",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009535,
+    "name": "sqrt(-1)",
+    "status": null,
+    "country": "",
+    "institution": "University of Padjadjaran"
+  },
+  {
+    "teamId": 1014593,
+    "name": "The Three Maskentirs",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014594,
+    "name": "FR",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015878,
+    "name": "Paham",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014595,
+    "name": "Pemuda Tersesat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015879,
+    "name": "One Team One Pride",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015877,
+    "name": "Mancing Mania",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015590,
+    "name": "BadakLaut",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015591,
+    "name": "MEOW",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015592,
+    "name": "Telur Ceplok",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015880,
+    "name": "Moo Deng",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014916,
+    "name": "Labubu Jib Long Kau",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015883,
+    "name": "Moon",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014598,
+    "name": "Telur Omega",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014599,
+    "name": "LA04-Beta",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014600,
+    "name": "LA04-Charlie",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014601,
+    "name": "LA04-Echo+LB01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015882,
+    "name": "JMK48",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015884,
+    "name": "compile crew",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008617,
+    "name": "Ad victoriam",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Mikroskil"
+  },
+  {
+    "teamId": 1015595,
+    "name": "Le mi ting",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016266,
+    "name": "Phoenix",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014605,
+    "name": "Ivan Kasi nama grup woii",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014606,
+    "name": "Paling Gemas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014607,
+    "name": "Mantap Jiwa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016261,
+    "name": "Caelum Codex Oracle",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016262,
+    "name": "Samsamry",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016263,
+    "name": "ES TEH ANGET",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016264,
+    "name": "Icikiwir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016265,
+    "name": "Fantastic Fools",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016267,
+    "name": "Pikachu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014614,
+    "name": "Sigma Skibidi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014615,
+    "name": "Quaso",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014613,
+    "name": "Wie Tried",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017733,
+    "name": "Bagas baterplai",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017730,
+    "name": "LanSia",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017731,
+    "name": "TonuSan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017732,
+    "name": "Skena",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017734,
+    "name": "ghachorkhang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017735,
+    "name": "bobang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017736,
+    "name": "Gen Z",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017737,
+    "name": "RadaTuli",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014616,
+    "name": "LA04-Sigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014617,
+    "name": "LA04-Gamma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014618,
+    "name": "LA04-Omega",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014619,
+    "name": "Tango",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015603,
+    "name": "JamurWarteg",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014926,
+    "name": "ADA ADA AJA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014927,
+    "name": "Vincitori",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014928,
+    "name": "Meong Cit Auu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015894,
+    "name": "Byte Belles",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015895,
+    "name": "Pseudoku",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015896,
+    "name": "Tiga Serangkai",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015897,
+    "name": "Team Arms",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014934,
+    "name": "Pembasmi Kesepian",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014935,
+    "name": "BEKEN 4EVER",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014936,
+    "name": "Ninjalgo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013955,
+    "name": "O(1)",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013956,
+    "name": "Four Concealed Triplets",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013958,
+    "name": "RajaCoding88",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014628,
+    "name": "Unicorn Bunting",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014629,
+    "name": "WED Unit",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014630,
+    "name": "Mahasiswa Teladan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015610,
+    "name": "Aim Directly Ahead",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015611,
+    "name": "Hawk Tuah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015612,
+    "name": "Parent's Prayers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015613,
+    "name": "T1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015614,
+    "name": "Partai Koding Indonesia",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010102,
+    "name": "Spontan",
+    "status": null,
+    "country": "",
+    "institution": "Telkom University"
+  },
+  {
+    "teamId": 1009606,
+    "name": "belum ada satu bulan",
+    "status": null,
+    "country": "",
+    "institution": "Gunadarma University"
+  },
+  {
+    "teamId": 1015615,
+    "name": "JembatanSuhat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015616,
+    "name": "tahuteklombok2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015617,
+    "name": "MafiaKoding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013966,
+    "name": "The Skibidis",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013967,
+    "name": "Soli Deo Gloria",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013968,
+    "name": "Nama Tim",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013969,
+    "name": "ntahlah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013970,
+    "name": "roblox together",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014632,
+    "name": "Queencard",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014633,
+    "name": "El Kecepatan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009170,
+    "name": "HaveFun++",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1009171,
+    "name": "aku ikut yak bebass",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1009172,
+    "name": "Ambatucode",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1009176,
+    "name": "Mamah, aku mau juara",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1008171,
+    "name": "U+0D9E",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013975,
+    "name": "random banget",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013976,
+    "name": "Maaf Jika Benar",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013974,
+    "name": "Tulus Melurus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013977,
+    "name": "Manchester United",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013978,
+    "name": "Go Green",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013979,
+    "name": "Dugtrio",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008174,
+    "name": "Kapal Karam",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010136,
+    "name": "GAMD",
+    "status": null,
+    "country": "",
+    "institution": "Gadjah Mada University"
+  },
+  {
+    "teamId": 1009180,
+    "name": "GMAC",
+    "status": null,
+    "country": "",
+    "institution": "Gadjah Mada University"
+  },
+  {
+    "teamId": 1013981,
+    "name": ";HelloWorld(\"printf\")",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013982,
+    "name": "LK01+LC07+LB20",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013983,
+    "name": "Yang penting aol kelar",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013986,
+    "name": "Cinglish",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015623,
+    "name": "THANKS BEYONCÉ",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013987,
+    "name": "Bonjuj",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013988,
+    "name": "Liquid",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013989,
+    "name": "wokwok",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013990,
+    "name": "XI GUA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015619,
+    "name": "el kecepatan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015620,
+    "name": "Diddy Party",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015621,
+    "name": "AMBATUWIN",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015622,
+    "name": "ambatucode",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014946,
+    "name": "THELEO",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014947,
+    "name": "Aliran Otak Lima",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014948,
+    "name": "Comphy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015629,
+    "name": "Gacor88",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015904,
+    "name": "I ... AM STEVE",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015905,
+    "name": "BAJAK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015906,
+    "name": "BOTAK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014652,
+    "name": " Nepada",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014653,
+    "name": "KaiMatGeo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1013999,
+    "name": "Iwak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014000,
+    "name": "Mahasigma",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014001,
+    "name": "Diddy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014002,
+    "name": "threebros",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014003,
+    "name": "senari",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014004,
+    "name": "Bijuj",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014005,
+    "name": "Vistak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014006,
+    "name": "Pudidi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014656,
+    "name": "Gyatt Pangkal Pintar (GPP ygy)",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014657,
+    "name": "NGA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009673,
+    "name": "404 Skill Not Found",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1016296,
+    "name": "YPL",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014009,
+    "name": "HelloWorld",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014010,
+    "name": "lebahsuka3",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016297,
+    "name": "Velanso",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014011,
+    "name": "Compile Error",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014012,
+    "name": "Lumpur Lapindo Blukutukkutuk",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014013,
+    "name": "Username123",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015917,
+    "name": "Dystonian",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015918,
+    "name": "GAJE",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015919,
+    "name": "AlgoProYolo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016298,
+    "name": "Labu-labu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016299,
+    "name": "OG",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016300,
+    "name": "Mau Lulus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016301,
+    "name": "Anjo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1009685,
+    "name": "Bitwise Bandits",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009687,
+    "name": "DDP to SDA",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009681,
+    "name": "For You and For Me",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009690,
+    "name": "Autonomous Sensory Meridian Response but no Response :((",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009688,
+    "name": "Code of Ethics",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009682,
+    "name": "akan ditinggalkan",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009686,
+    "name": "1 Silver, 1 Bronze, 1 MasMas",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009683,
+    "name": "Brrr",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009689,
+    "name": "bismillah 1000 aura",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1009684,
+    "name": "martabak pandan keju",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1010160,
+    "name": "Last Minute SAT",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015645,
+    "name": "Harta tahta manta aja gas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010164,
+    "name": "Kokoro Reconnect",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Udayana"
+  },
+  {
+    "teamId": 1015646,
+    "name": "elite_glibil",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015647,
+    "name": "Peternak Naga",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015648,
+    "name": "Fatimah Rider",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015644,
+    "name": "Poco a Poco",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016306,
+    "name": "Gatau",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016307,
+    "name": "isekode",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014024,
+    "name": "Anomali",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014025,
+    "name": "Tim Algo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014026,
+    "name": "Ouihhh Lagi Santai Kawan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014027,
+    "name": "KEYBOARD WARRIOR",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014028,
+    "name": "3 Naga",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1017762,
+    "name": "Hompimpa 2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014035,
+    "name": "Archive",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014033,
+    "name": "Lowkey Stressed",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014034,
+    "name": "ea",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014036,
+    "name": "PHMKTAKK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014037,
+    "name": "YOLO",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015659,
+    "name": "Aku Tahu Dia Tahu (ATDT)",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014330,
+    "name": "Fantastic Three",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015662,
+    "name": "Belah Tengah Enjoyers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015663,
+    "name": "Kita Kuat Amin",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015939,
+    "name": "THE GRINDERS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015940,
+    "name": "THE DIDDLERS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015941,
+    "name": "eggsausagebacon",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016319,
+    "name": "Code to Impress",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015664,
+    "name": "Wild Little Trio",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016320,
+    "name": "S.T.R.I.N.G",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016633,
+    "name": "Anak skena",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016634,
+    "name": "IQ Terbang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016635,
+    "name": "Sabitchelle",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016322,
+    "name": "Sapi Kecebur",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016323,
+    "name": "Nothing to Lose",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016324,
+    "name": "NIKPPD",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014047,
+    "name": "nama kelompoknya apaan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014048,
+    "name": "2 Jones 1 Bahagia",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014049,
+    "name": "Haventa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014050,
+    "name": "lemme think",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014051,
+    "name": "w00t",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010185,
+    "name": "Bogo Bogo Sort",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Diponegoro"
+  },
+  {
+    "teamId": 1014340,
+    "name": "Sigmagrammer",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014341,
+    "name": "Powerpuff Girls",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014342,
+    "name": "Yolo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016325,
+    "name": "Hompimpa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016326,
+    "name": "Eden Jaya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015670,
+    "name": "Sebas n Amigos",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015671,
+    "name": "LA08+LJ01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014348,
+    "name": "Yoga dan Yogi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014349,
+    "name": "Ternak Jawaban",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014350,
+    "name": "wiKsoakwkaks",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015674,
+    "name": "<script>prompt(\"Input nama tim:\", \"tiga rusa santaklaus\")</script>",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015675,
+    "name": "Isi Aja Sembarang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016333,
+    "name": "MaRiGo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016334,
+    "name": "Ayam MAT",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016335,
+    "name": "Three Idiots",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015676,
+    "name": "Dream Team",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015677,
+    "name": "LR01+LL01 A Team of sorts",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010216,
+    "name": "OrangUnik",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Diponegoro"
+  },
+  {
+    "teamId": 1014058,
+    "name": "Kelompok Mantap",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1010228,
+    "name": "Warteg Prancis",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1013721,
+    "name": "OTW Jakarta",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Sepuluh Nopember"
+  },
+  {
+    "teamId": 1016646,
+    "name": "Kibar",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015696,
+    "name": "Gems Beauty",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015697,
+    "name": "Lego 26047",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015698,
+    "name": "Sisyphus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014371,
+    "name": "Margin Call",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014372,
+    "name": "Gak ADA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014373,
+    "name": "3 Brain Cells",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014374,
+    "name": "Thrice as Nice ",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014375,
+    "name": "Dream Achievers",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1014376,
+    "name": "ADA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016651,
+    "name": "VLEN",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016348,
+    "name": "GUINNESS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016349,
+    "name": "2 hari belom tidur",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016351,
+    "name": "Trust in God",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1016350,
+    "name": "Trisula Uchiha",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1015976,
+    "name": "Sakkarep",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018086,
+    "name": "Chillin' Hub",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018087,
+    "name": "Sigma Males",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018088,
+    "name": "Broski",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018090,
+    "name": "Teripang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018094,
+    "name": "SigmaSkibidi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018095,
+    "name": "Bebas Dah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018122,
+    "name": "Gledek",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018138,
+    "name": "Lowbrain",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018139,
+    "name": "MaxxwinKing",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018140,
+    "name": "menang8320",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018141,
+    "name": "el bobo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018161,
+    "name": "Bing Chilling",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018176,
+    "name": "404 Not Found",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018178,
+    "name": "Matrix",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018181,
+    "name": "Pdidy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018146,
+    "name": "TimSes 04",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018183,
+    "name": "Tim Hore Hore",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018184,
+    "name": "Turu Aja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018186,
+    "name": "Full Powah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018187,
+    "name": "LA04-Delta",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018332,
+    "name": "Terserah2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018342,
+    "name": "Tim lo solo",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018343,
+    "name": "Penikmat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018411,
+    "name": "Kata Jeff Namanya Bebas",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018412,
+    "name": "BGA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018414,
+    "name": "AAA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018440,
+    "name": "menggabut Di:",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018441,
+    "name": "Rizzful",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018453,
+    "name": "Junior",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018457,
+    "name": "Sin Prisa Coding",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018460,
+    "name": "TLD",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018520,
+    "name": "heeee reeee naaaa",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018577,
+    "name": "Sapu lidi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018578,
+    "name": "SABAGMA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018581,
+    "name": "gang macan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018583,
+    "name": "Area 51",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018585,
+    "name": "Tech Titans",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018595,
+    "name": "sbuxaja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018607,
+    "name": "Taleron",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018611,
+    "name": "3 Little Woof Woof",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018612,
+    "name": "Pudidi 02",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018613,
+    "name": "Runner",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018614,
+    "name": "chr(sum(range(ord(min(str(not()))))))",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018615,
+    "name": "StillWater",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018616,
+    "name": "Lany",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018618,
+    "name": "apaaja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018619,
+    "name": "sok_asik",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018620,
+    "name": "Big Three",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018621,
+    "name": "Mas arya tolong maju untuk gendong kita semua",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018631,
+    "name": "The Script Master",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018647,
+    "name": "Anak Pungut",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018651,
+    "name": "Ambatucode02",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018967,
+    "name": "inc siap gila :D",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018985,
+    "name": "Trifeat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018987,
+    "name": "3 Orang Coba-Coba",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1018989,
+    "name": "I Like My Cheese Drippy Bruh",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019042,
+    "name": "minecraft",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019151,
+    "name": "Ammeterload",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019152,
+    "name": "GobakUbi",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019154,
+    "name": "LI01+LA04",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019155,
+    "name": "Batunat",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019156,
+    "name": "AKM",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019157,
+    "name": "Corleone",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019160,
+    "name": "Trio Bocil",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019162,
+    "name": "Terserah 2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019163,
+    "name": "Triocipe",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019166,
+    "name": "LC20+LA01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019165,
+    "name": "VAR",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019167,
+    "name": "Simpang Ijen",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019183,
+    "name": "Two Son",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019177,
+    "name": "Powerpuff Girls2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019191,
+    "name": "Society",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019185,
+    "name": "Sigma Skibidi2",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019188,
+    "name": "Antara",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019234,
+    "name": "sukses jaya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019256,
+    "name": "FIN",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019257,
+    "name": "AGR-423",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019258,
+    "name": "LB07+LA01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019259,
+    "name": "AbonCakalang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019260,
+    "name": "Kelompok Apaya",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019263,
+    "name": "Semangka",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019264,
+    "name": "GaTech",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019320,
+    "name": "AuAh",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019321,
+    "name": "Doa bapak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019324,
+    "name": "Sceeby di Binus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019325,
+    "name": "Couple Loud",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019326,
+    "name": "Sigma SOS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019327,
+    "name": "Power Ranger",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019332,
+    "name": "ctrl+alt+ezz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019333,
+    "name": "The Darkhorse",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019334,
+    "name": "INCecure",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019339,
+    "name": "GetaranVadel",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019345,
+    "name": "Spesialis \"Hello World!\"",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019346,
+    "name": "trio gacor",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019347,
+    "name": "Doa Mama",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019372,
+    "name": "Stack",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019353,
+    "name": "trio LateGame",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019354,
+    "name": "FTV",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019355,
+    "name": "Runtime Error",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019357,
+    "name": "tim-tim",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019359,
+    "name": "Syiriq",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019360,
+    "name": "Cape Menang Terus",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019361,
+    "name": "Yaudah Lah",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019366,
+    "name": "gaADA",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019367,
+    "name": "skibidi shortcake",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019368,
+    "name": "max win",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019373,
+    "name": "GGWP",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019374,
+    "name": "Risol Bihun",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019383,
+    "name": "Meatrosoft",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019384,
+    "name": "ElGato",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019390,
+    "name": "Anak_Hilang_Pak_SS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019448,
+    "name": "Naga emas 88",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019501,
+    "name": "xccepted",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019518,
+    "name": "GOAT",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019538,
+    "name": "Programmator mortuus est",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019557,
+    "name": "CRUD",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019560,
+    "name": "skibidi69",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019564,
+    "name": "missing1",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019567,
+    "name": "jolibee",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019570,
+    "name": "hadir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019573,
+    "name": "siuu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019577,
+    "name": "PlrHorse",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019579,
+    "name": "HrzBallz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019587,
+    "name": "Plr.Black",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019594,
+    "name": "STARDUST KRUSADERS",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019596,
+    "name": "wheelofnames",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019597,
+    "name": "TRILOGY",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019609,
+    "name": "Similikitiw",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019610,
+    "name": "uwu",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019630,
+    "name": "Kelompok Tommy",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019653,
+    "name": "Bebas69",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019659,
+    "name": "SSD",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019664,
+    "name": "Team Y",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019671,
+    "name": "Kel 17",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1019864,
+    "name": "Similikitiw 02",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020197,
+    "name": "PPP",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020198,
+    "name": "Rizzler",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020243,
+    "name": "ballSAK",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020245,
+    "name": "exogenesis",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020304,
+    "name": "admin1234#",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020305,
+    "name": "B0t",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020306,
+    "name": "EST",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020307,
+    "name": "ADA Gacor [fire]",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020364,
+    "name": "Freaky",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020581,
+    "name": "ygpentinglulusaja",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1020616,
+    "name": "Wadidaw",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1008648,
+    "name": "halo, aku suka jeruk molentle",
+    "status": null,
+    "country": "",
+    "institution": "Institut Pertanian Bogor"
+  },
+  {
+    "teamId": 1021517,
+    "name": "Grup KuLe",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1021531,
+    "name": "deezNutz",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1022407,
+    "name": "FSL",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Diponegoro"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "teamId": 1011262,
+    "name": "Jägermeister",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 1011263,
+    "name": "Tê con",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 1011265,
+    "name": "We like to party!",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 1011275,
+    "name": "Lebih Lebih Loncat!",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 1011276,
+    "name": "Hhc",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 1007320,
+    "name": "Link Cut Tree",
+    "status": null,
+    "country": "",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 1013548,
+    "name": "HCMUS-AtCoder",
+    "status": null,
+    "country": "",
+    "institution": "University of Science, VNU-HCM"
+  },
+  {
+    "teamId": 1013880,
+    "name": "Harbour.Space01",
+    "status": null,
+    "country": "",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": 1013881,
+    "name": "Harbour.Space02",
+    "status": null,
+    "country": "",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": 1003663,
+    "name": "2 3 5 8 14",
+    "status": null,
+    "country": "",
+    "institution": "Jeonbuk National University"
+  },
+  {
+    "teamId": 1007398,
+    "name": "acwyfiphite",
+    "status": null,
+    "country": "",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 1003743,
+    "name": "Batik Enjoyer",
+    "status": null,
+    "country": "",
+    "institution": "Singapore University of Technology and Design"
+  },
+  {
+    "teamId": 1007999,
+    "name": "DestroyDuckDecember",
+    "status": null,
+    "country": "",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 1005385,
+    "name": ") ? - ? )",
+    "status": null,
+    "country": "",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 1006840,
+    "name": "NYCU_FriedShrimp",
+    "status": null,
+    "country": "",
+    "institution": "National Yang Ming Chiao Tung University"
+  },
+  {
+    "teamId": 1003810,
+    "name": "MeatInTheMiddle",
+    "status": null,
+    "country": "",
+    "institution": "Ajou University"
+  },
+  {
+    "teamId": 1005447,
+    "name": "7 is our favourite number",
+    "status": null,
+    "country": "",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 1005452,
+    "name": "nameless",
+    "status": null,
+    "country": "",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 1008131,
+    "name": "std_abs",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan University"
+  },
+  {
+    "teamId": 1008169,
+    "name": "NYCU_MyGO!!!",
+    "status": null,
+    "country": "",
+    "institution": "National Yang Ming Chiao Tung University"
+  },
+  {
+    "teamId": 1008745,
+    "name": "3 times a day",
+    "status": null,
+    "country": "",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 1008746,
+    "name": "ProfOhBigFan",
+    "status": null,
+    "country": "",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 1012389,
+    "name": "RedCapeFlyingCat",
+    "status": null,
+    "country": "",
+    "institution": "National Tsing Hua University"
+  },
+  {
+    "teamId": 1020184,
+    "name": "NTNU_SSH",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan Normal University"
+  },
+  {
+    "teamId": 1023105,
+    "name": "LCA",
+    "status": null,
+    "country": "",
+    "institution": "Ateneo de Manila University"
+  },
+  {
+    "teamId": 1031071,
+    "name": "N-Dimensional Sum",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031073,
+    "name": "404 Skill Not Found",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031146,
+    "name": "Contingency Mewing Plan",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031147,
+    "name": "codemaxxing",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031148,
+    "name": "Lebah Ganteng",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031149,
+    "name": "JKT609",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031150,
+    "name": "Lebah Bahagia",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031151,
+    "name": "Tidal Wave",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031152,
+    "name": "GMAC",
+    "status": null,
+    "country": "",
+    "institution": "Gadjah Mada University"
+  },
+  {
+    "teamId": 1031153,
+    "name": "Lebah Sedih",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031154,
+    "name": "Brrr",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031155,
+    "name": "For You and For Me",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031156,
+    "name": "DoaAyahRestuIbu",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031157,
+    "name": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031158,
+    "name": "Autonomous Sensory Meridian Response but no Response :((",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031159,
+    "name": "akan ditinggalkan",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031160,
+    "name": "martabak pandan keju",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031161,
+    "name": "MathEnjoyer",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031162,
+    "name": "halo, aku suka jeruk molentle",
+    "status": null,
+    "country": "",
+    "institution": "Institut Pertanian Bogor"
+  },
+  {
+    "teamId": 1031163,
+    "name": "Cdeez",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1031164,
+    "name": "Bogo Bogo Sort",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Diponegoro"
+  },
+  {
+    "teamId": 1031165,
+    "name": "@&$-+($)#((&8 Stress Limit Exceeded (SLE)",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1031166,
+    "name": "bismillah 1000 aura",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031167,
+    "name": "DP5tate",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031168,
+    "name": "VE!N VE!N VE!N VE!N VE!N VE!N VE!N VE!N",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031169,
+    "name": "Do Not Give Opinion",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031170,
+    "name": "1 Silver, 1 Bronze, 1 MasMas",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031171,
+    "name": "tiba-tiba mo ikut aja",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031172,
+    "name": "skrg hari apa?",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031173,
+    "name": "micin kriuk",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Bandung"
+  },
+  {
+    "teamId": 1031174,
+    "name": "namanya gak bisa aneh2 nanti dicancel",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031175,
+    "name": "Spontan",
+    "status": null,
+    "country": "",
+    "institution": "Telkom University"
+  },
+  {
+    "teamId": 1031176,
+    "name": "BCC_SateTapeKrawu",
+    "status": null,
+    "country": "",
+    "institution": "Brawijaya University"
+  },
+  {
+    "teamId": 1031177,
+    "name": "Nenek Sihir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031178,
+    "name": "Bitwise Bandits",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031179,
+    "name": "Clowers likes men ang",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031180,
+    "name": "OTW Jakarta",
+    "status": null,
+    "country": "",
+    "institution": "Institut Teknologi Sepuluh Nopember"
+  },
+  {
+    "teamId": 1031181,
+    "name": "DDP to SDA",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031197,
+    "name": "Eagles",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pelita Harapan"
+  },
+  {
+    "teamId": 1031182,
+    "name": "Shikanokonokonokokoshitantan",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Mikroskil"
+  },
+  {
+    "teamId": 1031183,
+    "name": "u c pc?",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Mikroskil"
+  },
+  {
+    "teamId": 1031198,
+    "name": "Feeding Frenzy",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Jenderal Soedirman"
+  },
+  {
+    "teamId": 1031184,
+    "name": "encrypted",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Tanjungpura"
+  },
+  {
+    "teamId": 1031185,
+    "name": "Dapur Sakti",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031186,
+    "name": "Code of Ethics",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Indonesia"
+  },
+  {
+    "teamId": 1031187,
+    "name": "The Naroditsky",
+    "status": null,
+    "country": "",
+    "institution": "Parahyangan University"
+  },
+  {
+    "teamId": 1031188,
+    "name": "Wombatu",
+    "status": null,
+    "country": "",
+    "institution": "Parahyangan University"
+  },
+  {
+    "teamId": 1031189,
+    "name": "BinusCP01",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031190,
+    "name": "Kokoro Reconnect",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Udayana"
+  },
+  {
+    "teamId": 1031191,
+    "name": "GAMD",
+    "status": null,
+    "country": "",
+    "institution": "Gadjah Mada University"
+  },
+  {
+    "teamId": 1031192,
+    "name": "semoga bisa mikir",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031193,
+    "name": "-1Otak",
+    "status": null,
+    "country": "",
+    "institution": "Bina Nusantara University"
+  },
+  {
+    "teamId": 1031194,
+    "name": "belum ada satu bulan",
+    "status": null,
+    "country": "",
+    "institution": "Gunadarma University"
+  },
+  {
+    "teamId": 1031195,
+    "name": "New Coders",
+    "status": null,
+    "country": "",
+    "institution": "Calvin Institute of Technology"
+  },
+  {
+    "teamId": 1031196,
+    "name": "Mendadak Mendidik",
+    "status": null,
+    "country": "",
+    "institution": "Universitas Pendidikan Indonesia"
+  }
+]

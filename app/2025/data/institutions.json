@@ -1,0 +1,417 @@
+[
+  {
+    "institution": "UNSW Sydney",
+    "region": "AUS"
+  },
+  {
+    "institution": "University of Melbourne",
+    "region": "AUS"
+  },
+  {
+    "institution": "Ajou University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Bina Nusantara University",
+    "region": "IDN"
+  },
+  {
+    "institution": "Chosun University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Chung Hua University",
+    "region": "TWN"
+  },
+  {
+    "institution": "Chung-Ang University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Chungbuk National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Chungnam National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Daegu Gyungbook Institute of Science and Technology",
+    "region": "KOR"
+  },
+  {
+    "institution": "Dankook University",
+    "region": "KOR"
+  },
+  {
+    "institution": "De La Salle University",
+    "region": "PHL"
+  },
+  {
+    "institution": "Dongguk University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Ewha Womans University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Feng Chia University",
+    "region": "TWN"
+  },
+  {
+    "institution": "Fu Jen Catholic University",
+    "region": "TWN"
+  },
+  {
+    "institution": "Gachon University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Gwangju Institute of Science and Technology",
+    "region": "KOR"
+  },
+  {
+    "institution": "Hallym University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Handong Global University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Hanyang University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Hongik University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Incheon National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Inha Technical College",
+    "region": "KOR"
+  },
+  {
+    "institution": "Inha University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Jeju National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Jeonbuk National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "KAIST",
+    "region": "KOR"
+  },
+  {
+    "institution": "Konkuk University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Kookmin University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Korea University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Kyonggi University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Kyung Hee University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Kyungpook National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Ming Chuan University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Central University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Cheng Kung University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Cheng-Chi University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Chi Nan University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Chiayi University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Chung Cheng University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Economics University",
+    "region": "VNM"
+  },
+  {
+    "institution": "National Formosa University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Ilan University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Pingtung University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Sun-Yat-Sen University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taichung University of Education",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taichung University of Science and Technology",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taipei University of Business",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taipei University of Technology",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taitung University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taiwan Normal University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taiwan Ocean University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taiwan University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Taiwan University of Science and Technology",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Tsing Hua University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Yang Ming Chiao Tung University",
+    "region": "TWN"
+  },
+  {
+    "institution": "National Yunlin University of Science and Technology",
+    "region": "TWN"
+  },
+  {
+    "institution": "Osaka University",
+    "region": "JPN"
+  },
+  {
+    "institution": "Pohang University of Science and Technology",
+    "region": "KOR"
+  },
+  {
+    "institution": "Providence University",
+    "region": "TWN"
+  },
+  {
+    "institution": "Pusan National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Sejong University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Senshu University",
+    "region": "JPN"
+  },
+  {
+    "institution": "Seoul National University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Sogang University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Soongsil University",
+    "region": "KOR"
+  },
+  {
+    "institution": "SungKyul University",
+    "region": "KOR"
+  },
+  {
+    "institution": "SungKyunKwan University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Tamkang University",
+    "region": "TWN"
+  },
+  {
+    "institution": "Tatung University",
+    "region": "TWN"
+  },
+  {
+    "institution": "The Catholic University of Korea",
+    "region": "KOR"
+  },
+  {
+    "institution": "The University of Tokyo",
+    "region": "JPN"
+  },
+  {
+    "institution": "Tokyo Institute of Technology",
+    "region": "JPN"
+  },
+  {
+    "institution": "Ulsan National Institute of Science and Technology",
+    "region": "KOR"
+  },
+  {
+    "institution": "University of Aizu",
+    "region": "JPN"
+  },
+  {
+    "institution": "University of Seoul",
+    "region": "KOR"
+  },
+  {
+    "institution": "University of Taipei",
+    "region": "TWN"
+  },
+  {
+    "institution": "Waseda University",
+    "region": "JPN"
+  },
+  {
+    "institution": "Yonsei University",
+    "region": "KOR"
+  },
+  {
+    "institution": "Yuan Ze University",
+    "region": "TWN"
+  },
+  { "institution": "Chulalongkorn University", "region": "THA" },
+  { "institution": "National University of Singapore", "region": "SGP" },
+  { "institution": "Kyoto University", "region": "JPN" },
+  { "institution": "University of Tsukuba", "region": "JPN" },
+  { "institution": "Kyoto University", "region": "JPN" },
+  { "institution": "Kyoto University", "region": "JPN" },
+  { "institution": "Tohoku University", "region": "JPN" },
+  { "institution": "Keio University", "region": "JPN" },
+  { "institution": "University of Tsukuba", "region": "JPN" },
+  { "institution": "Nagoya University", "region": "JPN" },
+  { "institution": "Tokyo University of Science", "region": "JPN" },
+  { "institution": "Saitama University", "region": "JPN" },
+  { "institution": "Tokyo University of Science", "region": "JPN" },
+  { "institution": "University of Tsukuba", "region": "JPN" },
+  { "institution": "Tohoku University", "region": "JPN" },
+  { "institution": "Kyushu Institute of Technology", "region": "JPN" },
+  {
+    "institution": "The University of Electro-Communications",
+    "region": "JPN"
+  },
+  {
+    "institution": "National Institute of Technology, Tokuyama College",
+    "region": "JPN"
+  },
+  { "institution": "Hokkaido University", "region": "JPN" },
+  { "institution": "Keio University", "region": "JPN" },
+  { "institution": "Gifu University", "region": "JPN" },
+  {
+    "institution": "National Institute of Technology, Kisarazu College",
+    "region": "JPN"
+  },
+  { "institution": "Future University Hakodate", "region": "JPN" },
+  { "institution": "Yokohama National University", "region": "JPN" },
+  { "institution": "Sophia University", "region": "JPN" },
+  { "institution": "Shizuoka University", "region": "JPN" },
+  { "institution": "Ritsumeikan University", "region": "JPN" },
+  {
+    "institution": "National Institute of Technology, Ariake College",
+    "region": "JPN"
+  },
+  { "institution": "Meiji University", "region": "JPN" },
+  {
+    "institution": "The University of Electro-Communications",
+    "region": "JPN"
+  },
+  {
+    "institution": "National Institute of Technology, Matsue College",
+    "region": "JPN"
+  },
+  {
+    "institution": "Tokyo University of Agriculture and Technology",
+    "region": "JPN"
+  },
+  {
+    "institution": "Nara Institute of Science and Technology",
+    "region": "JPN"
+  },
+  { "institution": "Kobe University", "region": "JPN" },
+  { "institution": "Toyota Technological Institute", "region": "JPN" },
+  { "institution": "Kyushu University", "region": "JPN" },
+  { "institution": "Hosei University", "region": "JPN" },
+  { "institution": "Tokyo Metropolitan University", "region": "JPN" },
+  { "institution": "Konan University", "region": "JPN" },
+  { "institution": "Nanyang Technological University", "region": "SGP" },
+  { "institution": "University of Science, VNU-HCM", "region": "VNM" },
+  {
+    "institution": "University of the Thai Chamber of Commerce",
+    "region": "THA"
+  },
+  {
+    "institution": "Singapore University of Technology and Design",
+    "region": "SGP"
+  },
+  { "institution": "Ateneo de Manila University", "region": "PHL" },
+  { "institution": "Universitas Indonesia", "region": "IDN" },
+  { "institution": "Institut Teknologi Bandung", "region": "IDN" },
+  { "institution": "Gadjah Mada University", "region": "IDN" },
+  { "institution": "Institut Pertanian Bogor", "region": "IDN" },
+  { "institution": "Universitas Tanjungpura", "region": "IDN" },
+  { "institution": "Universitas Diponegoro", "region": "IDN" },
+  { "institution": "Telkom University", "region": "IDN" },
+  { "institution": "Brawijaya University", "region": "IDN" },
+  { "institution": "Institut Teknologi Sepuluh Nopember", "region": "IDN" },
+  { "institution": "Universitas Pelita Harapan", "region": "IDN" },
+  { "institution": "Universitas Mikroskil", "region": "IDN" },
+  { "institution": "Universitas Jenderal Soedirman", "region": "IDN" },
+  { "institution": "Parahyangan University", "region": "IDN" },
+  { "institution": "Universitas Udayana", "region": "IDN" },
+  { "institution": "Gunadarma University", "region": "IDN" },
+  { "institution": "Calvin Institute of Technology", "region": "IDN" },
+  { "institution": "Universitas Pendidikan Indonesia", "region": "IDN" }
+]
