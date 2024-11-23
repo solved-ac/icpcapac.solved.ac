@@ -16,7 +16,9 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
       <Container>
         <Typo h1>ICPC APAC 2024-2025</Typo>
         <Typo description>
-          by <a href="https://solved.ac">solved.ac</a>
+          by <a href="https://solved.ac">solved.ac</a> / X{" "}
+          <a href="https://x.com/shiftpsh">@shiftpsh</a> / CF{" "}
+          <a href="https://codeforces.com/profile/shiftpsh">@shiftpsh</a>
         </Typo>
         <Space h={32} />
         <Tabs>
