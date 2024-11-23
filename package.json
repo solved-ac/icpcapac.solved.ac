@@ -14,9 +14,11 @@
     "@emotion/styled": "^11.13.5",
     "@floating-ui/react": "^0.26.28",
     "@solved-ac/ui-react": "^0.7.0",
+    "@tabler/icons-react": "^3.22.0",
     "es-toolkit": "^1.27.0",
     "framer-motion": "^11.11.17",
     "next": "15.0.3",
+    "polished": "^4.3.1",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "twemoji": "^14.0.2"
