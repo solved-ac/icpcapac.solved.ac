@@ -16,6 +16,8 @@ import { institutionRegionMap } from "../data/institution";
 import { instutiteRequireValueMap } from "../data/mergedTeams";
 import { TeamInTeamListLike } from "../data/types";
 
+import winnerInstitutions from "../data/winnerInstitutions.json";
+
 interface Props {
   teams: TeamInTeamListLike[];
   score: number;
@@ -66,7 +68,9 @@ const RegionTeamList = ({ teams, score }: Props) => {
                   </Typo>
                 </Cell>
                 <Cell>
-                  {instutiteRequireValueMap.has(team.institution) ? (
+                  {winnerInstitutions.includes(team.institution) ? (
+                    "Win this site"
+                  ) : instutiteRequireValueMap.has(team.institution) ? (
                     `At least #${Math.floor(
                       (instutiteRequireValueMap.get(team.institution) || 0) *
                         score +
