@@ -6,14 +6,20 @@ import {
 } from "../regionScore";
 import { Region, RegionStatus } from "../types";
 
-import prelimsTeams from "./Vietnam2025NationalScoreboard.json";
+import prelimsTeamsWithUnofficial from "./Vietnam2025NationalScoreboard.json";
+
+const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
+  if (x.institution.match(/^HS(GS)? /)) return false;
+  if (x.institution.match(/High School/i)) return false;
+  return true;
+});
 
 const VIETNAM_REGION_SCORE: RegionScoreArgs = {
   univs: 63,
   teams: 125,
   foreignTeams: 20,
-  teamsPrelim: countTeams(prelimsTeams),
-  univsPrelim: countUniversities(prelimsTeams),
+  teamsPrelim: countTeams(VIETNAM_PRELIM_TEAMS),
+  univsPrelim: countUniversities(VIETNAM_PRELIM_TEAMS),
 };
 
 export const Hanoi: Region = {
