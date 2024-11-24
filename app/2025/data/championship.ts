@@ -45,9 +45,12 @@ export const combineRegions = (regions: Region[]) => {
             fromSite: region.site,
             rankInSite: t.recalculatedRank,
             rankInRegion: -1,
-            assignedValue: (t.recalculatedRank - 1) / region.score,
+            assignedValue: Math.max(0, (t.recalculatedRank - 1) / region.score),
             sortKey: (t.recalculatedRank - 1) / region.score,
-            status: TeamRankInCombinedScoreboardStatus.NONE,
+            status:
+              t.recalculatedRank === 0
+                ? TeamRankInCombinedScoreboardStatus.D3_3
+                : TeamRankInCombinedScoreboardStatus.NONE,
           } satisfies ChampionshipTeamLike)
       )
     )
@@ -72,24 +75,32 @@ export const combineRegions = (regions: Region[]) => {
     instituteCountMap.set(team.institution, instituteCount + 1);
   });
 
-  // D4-3: smallest value for each region
+  // D4-3: smallest value for each region (they are removed)
   const regionsSet = new Set<string>();
   teams.forEach((team) => {
-    if (team.status === TeamRankInCombinedScoreboardStatus.D4_2_1) return;
-    if (team.status === TeamRankInCombinedScoreboardStatus.D4_2_2) return;
+    if (
+      team.status === TeamRankInCombinedScoreboardStatus.D4_2_1 ||
+      team.status === TeamRankInCombinedScoreboardStatus.D4_2_2
+    ) {
+      return;
+    }
+    if (team.status === TeamRankInCombinedScoreboardStatus.D3_3) {
+      team.sortKey = -1000;
+      return;
+    }
     const teamRegion = institutionRegionMap.get(team.institution);
     if (!teamRegion) return;
     if (regionsSet.has(teamRegion)) return;
     regionsSet.add(teamRegion);
     team.status = TeamRankInCombinedScoreboardStatus.D4_3;
-    team.sortKey = 0;
+    team.sortKey = -500;
   });
 
   // D2: Two top teams of the South Pacific Independent Regional Contest
   teams.push({
     teamId: -1,
     assignedValue: 0,
-    sortKey: 0,
+    sortKey: -1000,
     status: TeamRankInCombinedScoreboardStatus.D2,
     rank: null,
     fromSite: "SP Finals",
@@ -101,7 +112,7 @@ export const combineRegions = (regions: Region[]) => {
   teams.push({
     teamId: -1,
     assignedValue: 0,
-    sortKey: 0,
+    sortKey: -1000,
     status: TeamRankInCombinedScoreboardStatus.D2,
     rank: null,
     fromSite: "SP Finals",
@@ -115,11 +126,11 @@ export const combineRegions = (regions: Region[]) => {
   teams.push({
     teamId: -1,
     assignedValue: 0,
-    sortKey: 0,
+    sortKey: -1000,
     status: TeamRankInCombinedScoreboardStatus.D5,
     rank: null,
     fromSite: "Wildcard",
-    rankInSite: 1,
+    rankInSite: 0,
     rankInRegion: -1,
     institution: "Wildcard",
     teamName: "Wildcard",
@@ -133,18 +144,21 @@ export const combineRegions = (regions: Region[]) => {
 
   let rank = 1;
   let rowCount = 1;
-  let prvScore = 0;
+  let prvScore: number | null = null;
   const regionRank = new Map<string, number>();
   const regionRowCount = new Map<string, number>();
   const regionPrvScore = new Map<string, number>();
   teams.forEach((team) => {
     if (
       team.status === TeamRankInCombinedScoreboardStatus.NONE ||
+      team.status === TeamRankInCombinedScoreboardStatus.D3_3 ||
       team.status === TeamRankInCombinedScoreboardStatus.D4_3 ||
       team.status === TeamRankInCombinedScoreboardStatus.D2 ||
       team.status === TeamRankInCombinedScoreboardStatus.D5
     ) {
-      if (team.sortKey !== prvScore) {
+      if (prvScore === null) {
+        prvScore = team.sortKey;
+      } else if (team.sortKey !== prvScore) {
         rank += rowCount;
         rowCount = 1;
         prvScore = team.sortKey;
@@ -152,6 +166,9 @@ export const combineRegions = (regions: Region[]) => {
         rowCount += 1;
       }
       team.rank = rank;
+    }
+    if (team.status === TeamRankInCombinedScoreboardStatus.D3_3) {
+      team.rankInRegion = -1;
     }
 
     if (

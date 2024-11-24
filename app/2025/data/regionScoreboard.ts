@@ -61,7 +61,10 @@ export const filterRegionalTeams = <T extends TeamInStandingsLike>(
     institutionOccurCount.set(x.institution, institutionCount + 1);
   });
 
-  let recaulculatedRank = 1;
+  // (D4-3): we have to remove #1s from each region,
+  // but since we want to include them in the displayed teams list,
+  // we'll just consider the rank as 0
+  let recaulculatedRank = 0;
   ret.forEach((x) => {
     if (x.status === TeamRankStatus.NONE) {
       x.recalculatedRank = recaulculatedRank++;

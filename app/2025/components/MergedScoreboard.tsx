@@ -11,13 +11,22 @@ import {
   TableBody,
   TableContainer,
   TableHead,
+  Tooltip,
   Typo,
 } from "@solved-ac/ui-react";
+import { IconAlertCircle } from "@tabler/icons-react";
 import { institutionRegionMap } from "../data/institution";
 import {
   ChampionshipTeamLike,
   TeamRankInCombinedScoreboardStatus,
 } from "../data/types";
+import MergedScoreboardTooltip from "./MergedScoreboardTooltip";
+
+const isTeamInvited = (status: TeamRankInCombinedScoreboardStatus) =>
+  status === TeamRankInCombinedScoreboardStatus.D2 ||
+  status === TeamRankInCombinedScoreboardStatus.D3_3 ||
+  status === TeamRankInCombinedScoreboardStatus.D5 ||
+  status === TeamRankInCombinedScoreboardStatus.D4_4;
 
 interface Props {
   teams: ChampionshipTeamLike[];
@@ -35,6 +44,7 @@ const RegionScoreboard = ({ teams }: Props) => {
           <col style={{ minWidth: "6em" }} />
           <col style={{ minWidth: "6em" }} />
           <col />
+          <col style={{ minWidth: "2em" }} />
         </colgroup>
         <TableHead>
           <Row>
@@ -43,6 +53,7 @@ const RegionScoreboard = ({ teams }: Props) => {
             <Cell>Site</Cell>
             <Cell>Region</Cell>
             <Cell>Team</Cell>
+            <Cell>?</Cell>
           </Row>
         </TableHead>
         <TableBody>
@@ -62,21 +73,20 @@ const RegionScoreboard = ({ teams }: Props) => {
                   <Typo tabular>{team.rank === -1 ? "-" : team.rank}</Typo>
                 </Cell>
                 <Cell style={{ textAlign: "right" }}>
-                  <Typo
-                    tabular
-                    description={
-                      team.status === TeamRankInCombinedScoreboardStatus.D2 ||
-                      team.status === TeamRankInCombinedScoreboardStatus.D5
-                    }
-                  >
-                    {team.status === TeamRankInCombinedScoreboardStatus.D2 ||
-                    team.status === TeamRankInCombinedScoreboardStatus.D5
+                  <Typo tabular description={isTeamInvited(team.status)}>
+                    {isTeamInvited(team.status)
                       ? "invited"
                       : team.assignedValue.toFixed(4)}
                   </Typo>
                 </Cell>
                 <Cell>
-                  {team.fromSite} <Typo description>#{team.rankInSite}</Typo>
+                  {team.fromSite}
+                  {team.rankInSite !== 0 && (
+                    <>
+                      {" "}
+                      <Typo description>#{team.rankInSite}</Typo>
+                    </>
+                  )}
                 </Cell>
                 <Cell>
                   <Region
@@ -112,6 +122,15 @@ const RegionScoreboard = ({ teams }: Props) => {
                   >
                     {shortenInstitutionName(team.institution)}
                   </Typo>
+                </Cell>
+                <Cell>
+                  {team.status !== TeamRankInCombinedScoreboardStatus.NONE && (
+                    <>
+                      <Tooltip title={<MergedScoreboardTooltip team={team} />}>
+                        <IconAlertCircle />
+                      </Tooltip>
+                    </>
+                  )}
                 </Cell>
               </Row>
             );

@@ -102,6 +102,7 @@ export type Region = RegionBase &
 export enum TeamRankInCombinedScoreboardStatus {
   NONE = "none",
   D2 = "South Pacific Independent Regional Contest",
+  D3_3 = "winner universities",
   D4_2_1 = "second instance of a single team",
   D4_2_2 = "fourth or later instances of teams of a single university",
   D4_3 = "smallest value from each Asia Pacific country",
@@ -114,6 +115,7 @@ export interface ChampionshipTeamLike {
   assignedValue: number;
   sortKey: number;
   status: TeamRankInCombinedScoreboardStatus;
+  statusMetadata?: string;
   rank: number | null;
   fromSite: string;
   rankInSite: number | null;
