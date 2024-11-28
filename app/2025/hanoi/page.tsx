@@ -11,11 +11,9 @@ const Page = () => {
     <Container>
       <RegionHeader region={Hanoi} />
       <Card>
-        <b>Hanoi:</b> 140 teams (120 Vietnamese teams + 20 foreign teams) from
-        58 domestic universities and unknown count of foreign universities are
-        expected:
-        https://www.olp.vn/tin-t%E1%BB%A9c/olympic-icpc/th%C3%B4ng-b%C3%A1o; #
-        foreign universities is calculated from the last year&lsquo;s number.
+        <b>Hanoi:</b> 136 teams (116 Vietnamese teams + 20 foreign teams) from
+        69 universities are expected:
+        https://www.olp.vn/tin-t%E1%BB%A9c/olympic-icpc/th%C3%B4ng-b%C3%A1o
       </Card>
       <RegionTeams region={Hanoi} />
     </Container>
