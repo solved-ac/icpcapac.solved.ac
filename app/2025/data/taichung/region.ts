@@ -33,18 +33,6 @@ const TAIWAN_PRELIMS_ALL_STANDINGS = (() => {
       }
     });
   });
-  console.log(
-    Array.from(teamOccurSet).sort((a, b) => {
-      const aInst = a.split("$$")[1];
-      const bInst = b.split("$$")[1];
-      if (aInst < bInst) return -1;
-      if (aInst > bInst) return 1;
-      if (a < b) return -1;
-      if (a > b) return 1;
-      return 0;
-    }).join("\n")
-  );
-  console.log(teamOccurSet.size)
   return prelimsAllStandings;
 })();
 
