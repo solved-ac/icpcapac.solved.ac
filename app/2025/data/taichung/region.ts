@@ -5,7 +5,7 @@ import {
   regionScore,
   RegionScoreArgs,
 } from "../regionScore";
-import { Region, RegionStatus } from "../types";
+import { Region, RegionStatus, TeamInStandingsLike } from "../types";
 
 import regionalStandings from "./Taichung2025Standings.json";
 
@@ -13,11 +13,40 @@ import prelimsOnlineStandings from "./Taiwan2025OnlineStandings.json";
 import prelimsPrivateUSStandings from "./Taiwan2025PrivateUStandings.json";
 import prelimsTechUSStandings from "./Taiwan2025TechUStandings.json";
 
-const TAIWAN_PRELIMS_ALL_STANDINGS = [
-  ...prelimsOnlineStandings,
-  ...prelimsPrivateUSStandings,
-  ...prelimsTechUSStandings,
-];
+// Remove duplicate teams in prelims standings:
+// in Taiwan, one team can participate in multiple prelims contests
+// (both TOPC and PUPC / both TOPC and TUPC)
+const TAIWAN_PRELIMS_ALL_STANDINGS = (() => {
+  const prelimsAllStandings: TeamInStandingsLike[] = [];
+  const teamOccurSet = new Set<string>();
+  [
+    prelimsOnlineStandings,
+    prelimsPrivateUSStandings,
+    prelimsTechUSStandings,
+  ].forEach((prelimsStandings) => {
+    prelimsStandings.forEach((team) => {
+      const { teamName, institution } = team;
+      if (team.problemsSolved === 0) return;
+      if (!teamOccurSet.has(`${teamName}$$${institution}`)) {
+        teamOccurSet.add(`${teamName}$$${institution}`);
+        prelimsAllStandings.push(team);
+      }
+    });
+  });
+  console.log(
+    Array.from(teamOccurSet).sort((a, b) => {
+      const aInst = a.split("$$")[1];
+      const bInst = b.split("$$")[1];
+      if (aInst < bInst) return -1;
+      if (aInst > bInst) return 1;
+      if (a < b) return -1;
+      if (a > b) return 1;
+      return 0;
+    }).join("\n")
+  );
+  console.log(teamOccurSet.size)
+  return prelimsAllStandings;
+})();
 
 const TAIWAN_REGION_SCORE: RegionScoreArgs = {
   univs: countUniversities(regionalStandings),
