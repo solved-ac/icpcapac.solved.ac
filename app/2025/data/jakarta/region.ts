@@ -7,16 +7,14 @@ import {
 } from "../regionScore";
 import { Region, RegionStatus } from "../types";
 
-import regionalTeams from "./Jakarta2025Teams.json";
 // TODO replace this with official ICPC data
-// import prelimsTeams from "./Indonesia2025INCTeams.json";
+import regionalStandings from "./Jakarta2025Standings.json";
 
 const INDONESIA_REGION_SCORE: RegionScoreArgs = {
-  // Last year's numbers
-  univs: countUniversities(regionalTeams),
-  teams: countTeams(regionalTeams),
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
-    regionalTeams.filter(
+    regionalStandings.filter(
       (team) => institutionRegionMap.get(team.institution) !== "IDN"
     )
   ),
@@ -30,8 +28,9 @@ export const Jakarta: Region = {
   site: "Jakarta",
   region: "IDN",
   url: "https://competition.binus.ac.id/icpc2024/",
-  status: RegionStatus.preliminariesFinished,
+  status: RegionStatus.regionalsFinished,
   score: regionScore(INDONESIA_REGION_SCORE),
   scoreDetails: INDONESIA_REGION_SCORE,
-  regionalTeams,
+  // TODO replace with ICPC official scoreboard
+  scoreboard: regionalStandings,
 };

@@ -11,8 +11,9 @@ const Page = () => {
     <Container>
       <RegionHeader region={Jakarta} />
       <Card>
-        <b>Jakarta:</b> Preliminary scoreboard is not published yet in the ICPC
-        system, but calculated with: https://competition.binus.ac.id/inc2024/
+        <b>Jakarta:</b> Scoreboard is not published yet in the ICPC system, but
+        calculated with: https://competition.binus.ac.id/inc2024/ and
+        https://competition.binus.ac.id/contest/public
       </Card>
       <RegionTeams region={Jakarta} />
     </Container>
