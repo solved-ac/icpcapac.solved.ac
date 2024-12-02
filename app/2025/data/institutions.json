@@ -413,5 +413,13 @@
   { "institution": "Universitas Udayana", "region": "IDN" },
   { "institution": "Gunadarma University", "region": "IDN" },
   { "institution": "Calvin Institute of Technology", "region": "IDN" },
-  { "institution": "Universitas Pendidikan Indonesia", "region": "IDN" }
+  { "institution": "Universitas Pendidikan Indonesia", "region": "IDN" },
+  {
+    "institution": "Chiang Mai University",
+    "region": "THA"
+  },
+  {
+    "institution": "Singapore Management University",
+    "region": "SGP"
+  }
 ]
