@@ -9,6 +9,8 @@ import {
   TeamRankStatus,
 } from "./types";
 
+import sameTeams from "./same_teams.json";
+
 const createFauxTeams = (
   region: Region,
   count: number
@@ -26,6 +28,19 @@ const createFauxTeams = (
 };
 
 export const combineRegions = (regions: Region[]) => {
+  const sameTeamsMap = new Map<string, string>();
+  sameTeams.forEach((team) => {
+    const { institution, names } = team;
+    names.sort((a, b) => a.localeCompare(b));
+    const teamIdBase = `${institution}$$${names[0]}`;
+    names.forEach((name) => {
+      const teamId = `${institution}$$${name}`;
+      if (teamIdBase !== teamId) {
+        sameTeamsMap.set(teamId, teamIdBase);
+      }
+    });
+  });
+
   const teams: ChampionshipTeamLike[] = regions
     .map((region) => ({
       region,
@@ -61,7 +76,10 @@ export const combineRegions = (regions: Region[]) => {
   const teamIdsSet = new Set<string>();
   const instituteCountMap = new Map<string, number>();
   teams.forEach((team) => {
-    const teamId = `${team.institution}$$${team.teamName}`;
+    const teamIdTemp = `${team.institution}$$${team.teamName}`;
+    const teamId = sameTeamsMap.has(teamIdTemp)
+      ? sameTeamsMap.get(teamIdTemp)!
+      : teamIdTemp;
     if (teamIdsSet.has(teamId)) {
       team.status = TeamRankInCombinedScoreboardStatus.D4_2_1;
       return;
