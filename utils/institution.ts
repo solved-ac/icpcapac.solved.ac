@@ -20,6 +20,8 @@ export const shortenInstitutionName = (institution: string) => {
   }
 
   return institution
+    .replace(/University of Engineering and Technology/, "UET")
+    .replace(/Vietnam National University/, "VNU")
     .replace(/University/, "U")
     .replace(
       /([A-Z])[a-z]+ ([A-Z])[a-z]+ Institute of Science and Technology/,
