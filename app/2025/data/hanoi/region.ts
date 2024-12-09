@@ -8,7 +8,11 @@ import { Region, RegionStatus } from "../types";
 
 import prelimsTeamsWithUnofficial from "./Vietnam2025NationalScoreboard.json";
 
-import regionalTeams from "./Hanoi2025Teams.json";
+import { institutionRegionMap } from "../institution";
+import regionalTeamsDomestic from "./Hanoi2025TeamsDomestic.json";
+import regionalTeamsIntl from "./Hanoi2025TeamsIntl.json";
+
+const regionalTeams = regionalTeamsIntl.concat(regionalTeamsDomestic);
 
 const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
   if (x.institution.match(/^HS(GS)? /)) return false;
@@ -17,11 +21,13 @@ const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
 });
 
 const VIETNAM_REGION_SCORE: RegionScoreArgs = {
-  // 11/28 16:30 (UTC+7):
-  // https://www.olp.vn/tin-t%E1%BB%A9c/olympic-icpc/th%C3%B4ng-b%C3%A1o
-  univs: 61 + countUniversities(regionalTeams),
-  teams: 117 + countTeams(regionalTeams),
-  foreignTeams: countTeams(regionalTeams),
+  univs: countUniversities(regionalTeams),
+  teams: countTeams(regionalTeams),
+  foreignTeams: countTeams(
+    regionalTeams.filter(
+      (team) => institutionRegionMap.get(team.institution) !== "VNM"
+    )
+  ),
   teamsPrelim: countTeams(VIETNAM_PRELIM_TEAMS),
   univsPrelim: countUniversities(VIETNAM_PRELIM_TEAMS),
 };
