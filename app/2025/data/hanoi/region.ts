@@ -9,10 +9,8 @@ import { Region, RegionStatus } from "../types";
 import prelimsTeamsWithUnofficial from "./Vietnam2025NationalScoreboard.json";
 
 import { institutionRegionMap } from "../institution";
-import regionalTeamsDomestic from "./Hanoi2025TeamsDomestic.json";
-import regionalTeamsIntl from "./Hanoi2025TeamsIntl.json";
 
-const regionalTeams = regionalTeamsIntl.concat(regionalTeamsDomestic);
+import regionalStandings from "./Hanoi2025Standings.json";
 
 const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
   if (x.institution.match(/^HS(GS)? /)) return false;
@@ -21,10 +19,10 @@ const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
 });
 
 const VIETNAM_REGION_SCORE: RegionScoreArgs = {
-  univs: countUniversities(regionalTeams),
-  teams: countTeams(regionalTeams),
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
-    regionalTeams.filter(
+    regionalStandings.filter(
       (team) => institutionRegionMap.get(team.institution) !== "VNM"
     )
   ),
@@ -36,8 +34,9 @@ export const Hanoi: Region = {
   site: "Hanoi",
   region: "VNM",
   url: "https://acm-icpc.olp.vn/",
-  status: RegionStatus.preliminariesFinished,
+  status: RegionStatus.regionalsFinished,
   score: regionScore(VIETNAM_REGION_SCORE),
   scoreDetails: VIETNAM_REGION_SCORE,
-  regionalTeams,
+  // TODO replace with ICPC official scoreboard
+  scoreboard: regionalStandings,
 };
