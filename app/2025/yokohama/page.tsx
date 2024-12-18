@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, Container } from "@solved-ac/ui-react";
+import { Container } from "@solved-ac/ui-react";
 
 import RegionHeader from "../components/RegionHeader";
 import RegionTeams from "../components/RegionTeams";
@@ -10,11 +10,6 @@ const Page = () => {
   return (
     <Container>
       <RegionHeader region={Yokohama} />
-      <Card>
-        <b>Yokohama:</b> Regional teams are not published yet, but calculated
-        with the internal rules:
-        https://icpc.iisf.or.jp/2024-yokohama/domestic/selectionrule/
-      </Card>
       <RegionTeams region={Yokohama} />
     </Container>
   );
