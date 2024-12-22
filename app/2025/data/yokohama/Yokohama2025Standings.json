@@ -1,0 +1,442 @@
+[
+  {
+    "teamId": 5000040,
+    "rank": 1,
+    "problemsSolved": 11,
+    "totalTime": 1366,
+    "teamName": "Screenwalkers",
+    "institution": "The University of Tokyo"
+  },
+  {
+    "teamId": 5000015,
+    "rank": 2,
+    "problemsSolved": 10,
+    "totalTime": 1500,
+    "teamName": "Objective-KUB1",
+    "institution": "Kyoto University"
+  },
+  {
+    "teamId": 5000029,
+    "rank": 3,
+    "problemsSolved": 9,
+    "totalTime": 813,
+    "teamName": "Penguin Feeders",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 5000006,
+    "rank": 4,
+    "problemsSolved": 9,
+    "totalTime": 977,
+    "teamName": "AMATSUKAZE",
+    "institution": "Tokyo Institute of Technology"
+  },
+  {
+    "teamId": 5000041,
+    "rank": 5,
+    "problemsSolved": 9,
+    "totalTime": 1003,
+    "teamName": "SPJ",
+    "institution": "The University of Tokyo"
+  },
+  {
+    "teamId": 5000016,
+    "rank": 6,
+    "problemsSolved": 9,
+    "totalTime": 1196,
+    "teamName": "Red Phobia",
+    "institution": "Kyoto University"
+  },
+  {
+    "teamId": 5000043,
+    "rank": 7,
+    "problemsSolved": 8,
+    "totalTime": 761,
+    "teamName": "suzukaze_Aobayama",
+    "institution": "Tohoku University"
+  },
+  {
+    "teamId": 5000007,
+    "rank": 8,
+    "problemsSolved": 8,
+    "totalTime": 865,
+    "teamName": "Bocchi The Tech",
+    "institution": "Tokyo Institute of Technology"
+  },
+  {
+    "teamId": 5000008,
+    "rank": 9,
+    "problemsSolved": 8,
+    "totalTime": 908,
+    "teamName": "WADATSUMI",
+    "institution": "Tokyo Institute of Technology"
+  },
+  {
+    "teamId": 5000011,
+    "rank": 10,
+    "problemsSolved": 8,
+    "totalTime": 953,
+    "teamName": "Anonyms",
+    "institution": "Keio University"
+  },
+  {
+    "teamId": 5000027,
+    "rank": 11,
+    "problemsSolved": 8,
+    "totalTime": 1258,
+    "teamName": "XNOR",
+    "institution": "National Institute of Technology, Tokuyama College"
+  },
+  {
+    "teamId": 5000030,
+    "rank": 12,
+    "problemsSolved": 7,
+    "totalTime": 479,
+    "teamName": "kotamanegi_hint_kureya",
+    "institution": "Osaka University"
+  },
+  {
+    "teamId": 5000052,
+    "rank": 13,
+    "problemsSolved": 7,
+    "totalTime": 548,
+    "teamName": "I_do_understand_the_danger_of_overflow_and_really_want_to_use_32bit_integer",
+    "institution": "University of Tsukuba"
+  },
+  {
+    "teamId": 5000017,
+    "rank": 14,
+    "problemsSolved": 7,
+    "totalTime": 701,
+    "teamName": "THS",
+    "institution": "Kyoto University"
+  },
+  {
+    "teamId": 5000018,
+    "rank": 15,
+    "problemsSolved": 7,
+    "totalTime": 793,
+    "teamName": "WayInWilderness",
+    "institution": "Kyung Hee University"
+  },
+  {
+    "teamId": 5000001,
+    "rank": 16,
+    "problemsSolved": 7,
+    "totalTime": 806,
+    "teamName": ") ? - ? )",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 5000004,
+    "rank": 17,
+    "problemsSolved": 7,
+    "totalTime": 840,
+    "teamName": "HokkaidoDekkaido",
+    "institution": "Hokkaido University"
+  },
+  {
+    "teamId": 5000051,
+    "rank": 18,
+    "problemsSolved": 7,
+    "totalTime": 866,
+    "teamName": "Distance Sums 2",
+    "institution": "University of Tsukuba"
+  },
+  {
+    "teamId": 5000009,
+    "rank": 19,
+    "problemsSolved": 7,
+    "totalTime": 937,
+    "teamName": "zer0shiki",
+    "institution": "Tokyo Institute of Technology"
+  },
+  {
+    "teamId": 5000031,
+    "rank": 20,
+    "problemsSolved": 6,
+    "totalTime": 412,
+    "teamName": "kotamanegi_world",
+    "institution": "Osaka University"
+  },
+  {
+    "teamId": 5000049,
+    "rank": 21,
+    "problemsSolved": 6,
+    "totalTime": 445,
+    "teamName": "SkyBlaze",
+    "institution": "University of Aizu"
+  },
+  {
+    "teamId": 5000026,
+    "rank": 22,
+    "problemsSolved": 6,
+    "totalTime": 587,
+    "teamName": "nemui",
+    "institution": "National Institute of Technology, Matsue College"
+  },
+  {
+    "teamId": 5000045,
+    "rank": 23,
+    "problemsSolved": 6,
+    "totalTime": 587,
+    "teamName": "novvcovv",
+    "institution": "Tokyo University of Agriculture and Technology"
+  },
+  {
+    "teamId": 5000042,
+    "rank": 24,
+    "problemsSolved": 6,
+    "totalTime": 629,
+    "teamName": "Aobayama_Marines",
+    "institution": "Tohoku University"
+  },
+  {
+    "teamId": 5000022,
+    "rank": 25,
+    "problemsSolved": 6,
+    "totalTime": 637,
+    "teamName": "NUcomer",
+    "institution": "Nagoya University"
+  },
+  {
+    "teamId": 5000013,
+    "rank": 26,
+    "problemsSolved": 6,
+    "totalTime": 660,
+    "teamName": "Uriboys",
+    "institution": "Kobe University"
+  },
+  {
+    "teamId": 5000039,
+    "rank": 27,
+    "problemsSolved": 6,
+    "totalTime": 675,
+    "teamName": "HHIJKT",
+    "institution": "The University of Tokyo"
+  },
+  {
+    "teamId": 5000038,
+    "rank": 28,
+    "problemsSolved": 6,
+    "totalTime": 712,
+    "teamName": "inactive-0.67",
+    "institution": "The University of Electro-Communications"
+  },
+  {
+    "teamId": 5000002,
+    "rank": 29,
+    "problemsSolved": 6,
+    "totalTime": 786,
+    "teamName": "FUNCoderA",
+    "institution": "Future University Hakodate"
+  },
+  {
+    "teamId": 5000028,
+    "rank": 30,
+    "problemsSolved": 6,
+    "totalTime": 787,
+    "teamName": "Ashes",
+    "institution": "National Taiwan University"
+  },
+  {
+    "teamId": 5000055,
+    "rank": 31,
+    "problemsSolved": 6,
+    "totalTime": 832,
+    "teamName": "Sazanka",
+    "institution": "Yokohama National University"
+  },
+  {
+    "teamId": 5000046,
+    "rank": 32,
+    "problemsSolved": 6,
+    "totalTime": 844,
+    "teamName": "OSMA",
+    "institution": "Tokyo University of Science"
+  },
+  {
+    "teamId": 5000003,
+    "rank": 33,
+    "problemsSolved": 6,
+    "totalTime": 910,
+    "teamName": "Shamrock",
+    "institution": "Gifu University"
+  },
+  {
+    "teamId": 5000050,
+    "rank": 34,
+    "problemsSolved": 6,
+    "totalTime": 933,
+    "teamName": "Spinning-akabeko",
+    "institution": "University of Aizu"
+  },
+  {
+    "teamId": 5000035,
+    "rank": 35,
+    "problemsSolved": 6,
+    "totalTime": 1039,
+    "teamName": "HuMaN",
+    "institution": "Shizuoka University"
+  },
+  {
+    "teamId": 5000010,
+    "rank": 36,
+    "problemsSolved": 6,
+    "totalTime": 1143,
+    "teamName": "NutCrackers",
+    "institution": "KAIST"
+  },
+  {
+    "teamId": 5000019,
+    "rank": 37,
+    "problemsSolved": 5,
+    "totalTime": 323,
+    "teamName": "KITKAT",
+    "institution": "Kyushu Institute of Technology"
+  },
+  {
+    "teamId": 5000053,
+    "rank": 38,
+    "problemsSolved": 5,
+    "totalTime": 536,
+    "teamName": "saehass",
+    "institution": "University of Tsukuba"
+  },
+  {
+    "teamId": 5000054,
+    "rank": 39,
+    "problemsSolved": 5,
+    "totalTime": 554,
+    "teamName": "tcknyo",
+    "institution": "Waseda University"
+  },
+  {
+    "teamId": 5000005,
+    "rank": 40,
+    "problemsSolved": 5,
+    "totalTime": 563,
+    "teamName": "HigaCoder",
+    "institution": "Hosei University"
+  },
+  {
+    "teamId": 5000044,
+    "rank": 41,
+    "problemsSolved": 5,
+    "totalTime": 601,
+    "teamName": "triC",
+    "institution": "Tokyo Metropolitan University"
+  },
+  {
+    "teamId": 5000047,
+    "rank": 42,
+    "problemsSolved": 5,
+    "totalTime": 610,
+    "teamName": "TECHNICOLORZ",
+    "institution": "Tokyo University of Science"
+  },
+  {
+    "teamId": 5000036,
+    "rank": 43,
+    "problemsSolved": 5,
+    "totalTime": 616,
+    "teamName": "Sophia Ondemand Printer",
+    "institution": "Sophia University"
+  },
+  {
+    "teamId": 5000023,
+    "rank": 44,
+    "problemsSolved": 5,
+    "totalTime": 866,
+    "teamName": "I Eat Shika-Senbei",
+    "institution": "Nara Institute of Science and Technology"
+  },
+  {
+    "teamId": 5000034,
+    "rank": 45,
+    "problemsSolved": 4,
+    "totalTime": 260,
+    "teamName": "0x158",
+    "institution": "Senshu University"
+  },
+  {
+    "teamId": 5000032,
+    "rank": 46,
+    "problemsSolved": 4,
+    "totalTime": 329,
+    "teamName": "pebbles",
+    "institution": "Ritsumeikan University"
+  },
+  {
+    "teamId": 5000033,
+    "rank": 47,
+    "problemsSolved": 4,
+    "totalTime": 414,
+    "teamName": "executive is deprived",
+    "institution": "Saitama University"
+  },
+  {
+    "teamId": 5000020,
+    "rank": 48,
+    "problemsSolved": 4,
+    "totalTime": 440,
+    "teamName": "query conqueror",
+    "institution": "Kyushu University"
+  },
+  {
+    "teamId": 5000037,
+    "rank": 49,
+    "problemsSolved": 4,
+    "totalTime": 592,
+    "teamName": "CodeWarriors",
+    "institution": "The University of Electro-Communications"
+  },
+  {
+    "teamId": 5000048,
+    "rank": 50,
+    "problemsSolved": 4,
+    "totalTime": 812,
+    "teamName": "TTI_PC0",
+    "institution": "Toyota Technological Institute"
+  },
+  {
+    "teamId": 5000025,
+    "rank": 51,
+    "problemsSolved": 3,
+    "totalTime": 168,
+    "teamName": "Aqua",
+    "institution": "National Institute of Technology, Kisarazu College"
+  },
+  {
+    "teamId": 5000014,
+    "rank": 52,
+    "problemsSolved": 3,
+    "totalTime": 224,
+    "teamName": "MushipanBakeries",
+    "institution": "Konan University"
+  },
+  {
+    "teamId": 5000021,
+    "rank": 53,
+    "problemsSolved": 3,
+    "totalTime": 417,
+    "teamName": "TORA NI TSUBASA",
+    "institution": "Meiji University"
+  },
+  {
+    "teamId": 5000012,
+    "rank": 54,
+    "problemsSolved": 3,
+    "totalTime": 429,
+    "teamName": "egg_raspberry_choco",
+    "institution": "Keio University"
+  },
+  {
+    "teamId": 5000024,
+    "rank": 55,
+    "problemsSolved": 3,
+    "totalTime": 492,
+    "teamName": "programmer once",
+    "institution": "National Institute of Technology, Ariake College"
+  }
+]

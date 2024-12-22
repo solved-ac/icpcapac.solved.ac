@@ -9,13 +9,13 @@ import { Region, RegionStatus } from "../types";
 
 import prelimsStandings from "./Japan2025OnlineFirstRoundStandings.json";
 
-import regionalTeams from "./Yokohama2025Teams.json";
+import regionalStandings from "./Yokohama2025Standings.json";
 
 const JAPAN_REGION_SCORE: RegionScoreArgs = {
-  univs: countUniversities(regionalTeams),
-  teams: countTeams(regionalTeams),
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
-    regionalTeams.filter(
+    regionalStandings.filter(
       (team) => institutionRegionMap.get(team.institution) !== "JPN"
     )
   ),
@@ -27,8 +27,8 @@ export const Yokohama: Region = {
   site: "Yokohama",
   region: "JPN",
   url: "https://icpc.iisf.or.jp/2024-yokohama/",
-  status: RegionStatus.preliminariesFinished,
+  status: RegionStatus.regionalsFinished,
   score: regionScore(JAPAN_REGION_SCORE),
   scoreDetails: JAPAN_REGION_SCORE,
-  regionalTeams: regionalTeams,
+  scoreboard: regionalStandings,
 };
