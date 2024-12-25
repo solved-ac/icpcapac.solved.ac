@@ -94,7 +94,7 @@ export const combineRegions = (regions: Region[]) => {
   });
 
   // D4-3: smallest value for each region (they are removed)
-  const regionsSet = new Set<string>();
+  const regionsMap = new Map<string, number>();
   teams.forEach((team) => {
     if (
       team.status === TeamRankInCombinedScoreboardStatus.D4_2_1 ||
@@ -108,10 +108,14 @@ export const combineRegions = (regions: Region[]) => {
     }
     const teamRegion = institutionRegionMap.get(team.institution);
     if (!teamRegion) return;
-    if (regionsSet.has(teamRegion)) return;
-    regionsSet.add(teamRegion);
+    if (
+      regionsMap.has(teamRegion) &&
+      team.assignedValue > regionsMap.get(teamRegion)!
+    )
+      return;
+    regionsMap.set(teamRegion, team.assignedValue);
     team.status = TeamRankInCombinedScoreboardStatus.D4_3;
-    team.sortKey = -500;
+    team.sortKey = -500 + team.assignedValue;
   });
 
   // D2: Two top teams of the South Pacific Independent Regional Contest
