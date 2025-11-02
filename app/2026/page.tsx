@@ -71,8 +71,7 @@ const Page = () => {
         <a href="https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/">
           https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/
         </a>
-        <br />
-        The selection algorithm is not yet adapted for 2025-2026 cycle.
+        The selection algorithm is assumed to be the same as 2024-2025 cycle.
       </Card>
       <MergedScoreboard teams={mergedTeams} />
     </Container>
