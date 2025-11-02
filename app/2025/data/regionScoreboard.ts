@@ -1,4 +1,4 @@
-import { institutionRegionMap } from "./institution";
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import {
   TeamInFilteredStandingsLike,
   TeamInStandingsLike,
@@ -40,7 +40,7 @@ export const filterRegionalTeams = <T extends TeamInStandingsLike>(
     // it should be not removed from the ranking list.
     if (x.rank === 1) return;
 
-    const region = institutionRegionMap.get(x.institution);
+    const region = INSTITUTION_REGION_MAP.get(x.institution);
     if (!region || !asiaPacificRegions.has(region)) {
       x.status = TeamRankStatus.D3_1;
       return;

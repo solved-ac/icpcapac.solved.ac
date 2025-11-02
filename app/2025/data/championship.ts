@@ -1,4 +1,3 @@
-import { institutionRegionMap } from "./institution";
 import { filterRegionalTeams } from "./regionScoreboard";
 import {
   ChampionshipTeamLike,
@@ -9,6 +8,7 @@ import {
   TeamRankStatus,
 } from "./types";
 
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import sameTeams from "./same_teams.json";
 
 const createFauxTeams = (
@@ -106,7 +106,7 @@ export const combineRegions = (regions: Region[]) => {
       team.sortKey = -1000;
       return;
     }
-    const teamRegion = institutionRegionMap.get(team.institution);
+    const teamRegion = INSTITUTION_REGION_MAP.get(team.institution);
     if (!teamRegion) return;
     if (
       regionsMap.has(teamRegion) &&
@@ -206,7 +206,7 @@ export const combineRegions = (regions: Region[]) => {
       team.status === TeamRankInCombinedScoreboardStatus.NONE ||
       team.status === TeamRankInCombinedScoreboardStatus.D4_3
     ) {
-      const region = institutionRegionMap.get(team.institution);
+      const region = INSTITUTION_REGION_MAP.get(team.institution);
       if (region) {
         if (!regionPrvScore.has(region)) {
           regionRank.set(region, 1);

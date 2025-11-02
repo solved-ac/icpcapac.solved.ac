@@ -12,10 +12,10 @@ import {
   TableHead,
   Typo,
 } from "@solved-ac/ui-react";
-import { institutionRegionMap } from "../data/institution";
 import { instutiteRequireValueMap } from "../data/mergedTeams";
 import { TeamInTeamListLike } from "../data/types";
 
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import winnerInstitutions from "../data/winnerInstitutions.json";
 
 interface Props {
@@ -41,7 +41,7 @@ const RegionTeamList = ({ teams, score }: Props) => {
                 <Cell>
                   <Region
                     region={
-                      institutionRegionMap.get(team.institution) ?? "Unknown"
+                      INSTITUTION_REGION_MAP.get(team.institution) ?? "Unknown"
                     }
                   />
                 </Cell>

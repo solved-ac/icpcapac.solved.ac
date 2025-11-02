@@ -1,5 +1,6 @@
 "use client";
 
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import Region from "@/components/Region";
 import { shortenInstitutionName } from "@/utils/institution";
 import { useTheme } from "@emotion/react";
@@ -15,7 +16,6 @@ import {
   Typo,
 } from "@solved-ac/ui-react";
 import { IconAlertCircle } from "@tabler/icons-react";
-import { institutionRegionMap } from "../data/institution";
 import {
   ChampionshipTeamLike,
   TeamRankInCombinedScoreboardStatus,
@@ -91,7 +91,7 @@ const RegionScoreboard = ({ teams }: Props) => {
                 <Cell>
                   <Region
                     region={
-                      institutionRegionMap.get(team.institution) ?? "Unknown"
+                      INSTITUTION_REGION_MAP.get(team.institution) ?? "Unknown"
                     }
                   />
                   {team.rankInRegion !== -1 && (

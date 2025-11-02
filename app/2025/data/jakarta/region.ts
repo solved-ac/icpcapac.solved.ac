@@ -1,4 +1,4 @@
-import { institutionRegionMap } from "../institution";
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import {
   countTeams,
   countUniversities,
@@ -15,7 +15,7 @@ const INDONESIA_REGION_SCORE: RegionScoreArgs = {
   teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
     regionalStandings.filter(
-      (team) => institutionRegionMap.get(team.institution) !== "IDN"
+      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "IDN"
     )
   ),
   // Calculated from https://competition.binus.ac.id/inc2024/

@@ -1,11 +1,11 @@
 "use client";
 
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import { shortenInstitutionName } from "@/utils/institution";
 import {
   ChampionshipTeamLike,
   TeamRankInCombinedScoreboardStatus,
 } from "../data/types";
-import { institutionRegionMap } from "../data/institution";
 
 interface Props {
   team: ChampionshipTeamLike;
@@ -39,7 +39,7 @@ const MergedScoreboardTooltip = ({ team }: Props) => {
   if (status === TeamRankInCombinedScoreboardStatus.D4_3) {
     return (
       <>
-        Lowest value from region {institutionRegionMap.get(team.institution)}{" "}
+        Lowest value from region {INSTITUTION_REGION_MAP.get(team.institution)}{" "}
         (see D4 (3))
       </>
     );

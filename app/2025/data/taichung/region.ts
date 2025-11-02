@@ -1,4 +1,4 @@
-import { institutionRegionMap } from "../institution";
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import {
   countTeams,
   countUniversities,
@@ -41,7 +41,7 @@ const TAIWAN_REGION_SCORE: RegionScoreArgs = {
   teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
     regionalStandings.filter(
-      (team) => institutionRegionMap.get(team.institution) !== "TWN"
+      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "TWN"
     )
   ),
   teamsPrelim: countTeams(TAIWAN_PRELIMS_ALL_STANDINGS),

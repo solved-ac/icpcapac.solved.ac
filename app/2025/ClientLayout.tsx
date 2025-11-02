@@ -1,6 +1,7 @@
 "use client";
 
 import { Container, Space, Tab, Tabs, Typo } from "@solved-ac/ui-react";
+import { IconChevronRight } from "@tabler/icons-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { PropsWithChildren } from "react";
@@ -14,6 +15,19 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
     <>
       <Space h={64} />
       <Container>
+        <Typo description>
+          <Link
+            href="/2026"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+            }}
+          >
+            <span>2025-2026</span>
+            <IconChevronRight />
+          </Link>
+        </Typo>
         <Typo h1>ICPC APAC 2024-2025</Typo>
         <Typo description>
           by <a href="https://solved.ac">solved.ac</a> / X{" "}

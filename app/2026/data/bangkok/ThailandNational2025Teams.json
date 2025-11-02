@@ -1,0 +1,520 @@
+[
+  {
+    "teamId": null,
+    "name": "Tomorrow we will rich",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "Emptyful",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "ChillX2",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "UndefinedAC + HomuraAkemi + Intercontinental Ballistic Missile CMU",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "Saturnian",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "AoiSuisei",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": null,
+    "name": "IMF",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulabhorn Royal Academy"
+  },
+  {
+    "teamId": null,
+    "name": "PEA",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulabhorn Royal Academy"
+  },
+  {
+    "teamId": null,
+    "name": "3piggies",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "kuha",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "Ajarn Kub VM Ran Out Of Memory Chuay Duai",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "Rhombicosidodecahedron",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "CSCU Team A",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "t-bears",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": null,
+    "name": "CMKL Gooners",
+    "status": null,
+    "country": "Thailand",
+    "institution": "CMKL University"
+  },
+  {
+    "teamId": null,
+    "name": "FBT",
+    "status": null,
+    "country": "Thailand",
+    "institution": "CMKL University"
+  },
+  {
+    "teamId": null,
+    "name": "Tana01",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University"
+  },
+  {
+    "teamId": null,
+    "name": "Tana02",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University"
+  },
+  {
+    "teamId": null,
+    "name": "WorksFineOnMyMachine",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University"
+  },
+  {
+    "teamId": null,
+    "name": "My friend like to send pig emoji",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University"
+  },
+  {
+    "teamId": null,
+    "name": "This Team Prays in a For Loop",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University (Kamphaeng Saen Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "Nakroppanejon",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University (Sriracha Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "tum yung ngai wa",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University (Sriracha Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "Chill Guys",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University (Sriracha Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "ITanic",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Kasetsart University (Sriracha Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "AjanKob",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Khon Kaen University"
+  },
+  {
+    "teamId": null,
+    "name": "WeirdoGoCoding",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Khon Kaen University"
+  },
+  {
+    "teamId": null,
+    "name": "Egg E Egg Egg",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Khon Kaen University"
+  },
+  {
+    "teamId": null,
+    "name": "Chanasit",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Khon Kaen University"
+  },
+  {
+    "teamId": null,
+    "name": "kernel panic",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "RedwaveInwza",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "I am legend",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "Rithm",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "Submit and Pray",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "sleep first solve later",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": null,
+    "name": "UwULoL",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's University of Technology Thonburi"
+  },
+  {
+    "teamId": null,
+    "name": "cuda_out_of_memory",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's University of Technology Thonburi"
+  },
+  {
+    "teamId": null,
+    "name": "MODCOM",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's University of Technology Thonburi"
+  },
+  {
+    "teamId": null,
+    "name": "Time to too slow",
+    "status": null,
+    "country": "Thailand",
+    "institution": "King Mongkut's University of Technology Thonburi"
+  },
+  {
+    "teamId": null,
+    "name": "Sawatdee",
+    "status": null,
+    "country": "Thailand",
+    "institution": "KOSEN-KMITL"
+  },
+  {
+    "teamId": null,
+    "name": "SudJarb",
+    "status": null,
+    "country": "Thailand",
+    "institution": "KOSEN-KMITL"
+  },
+  {
+    "teamId": null,
+    "name": "AroiHoh",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Mahidol University"
+  },
+  {
+    "teamId": null,
+    "name": "Peter and Pals",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Mahidol University"
+  },
+  {
+    "teamId": null,
+    "name": "Spaghetti Coders",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Mahidol University"
+  },
+  {
+    "teamId": null,
+    "name": "HopeIsInCode",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Phetchaburi Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "404NotFound",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Phetchaburi Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "PSU-CoE-01",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Prince of Songkla University"
+  },
+  {
+    "teamId": null,
+    "name": "PSU-CoE-02",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Prince of Songkla University"
+  },
+  {
+    "teamId": null,
+    "name": "105Lab",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Prince of Songkla University"
+  },
+  {
+    "teamId": null,
+    "name": "Goodbye World",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Prince of Songkla University (Phuket Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "Newbies",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Krungthep"
+  },
+  {
+    "teamId": null,
+    "name": "No Comment",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Krungthep"
+  },
+  {
+    "teamId": null,
+    "name": "Shift",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Krungthep"
+  },
+  {
+    "teamId": null,
+    "name": "Del",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Krungthep"
+  },
+  {
+    "teamId": null,
+    "name": "PowerpuffBOYZ",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Tawan-ok (Chanthaburi Campus)"
+  },
+  {
+    "teamId": null,
+    "name": "CPE RMUTT",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Thanyaburi"
+  },
+  {
+    "teamId": null,
+    "name": "OMG",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rajamangala University of Technology Thanyaburi"
+  },
+  {
+    "teamId": null,
+    "name": "Byteme",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rambhai Barni Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "solveX",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rambhai Barni Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "Neuron Trippin",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rambhai Barni Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "System",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Rambhai Barni Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "403 Forbidden Love",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Silpakorn University"
+  },
+  {
+    "teamId": null,
+    "name": "404 LoveNotFound",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Silpakorn University"
+  },
+  {
+    "teamId": null,
+    "name": "Pipo",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Sirindhorn International Institute of Technology"
+  },
+  {
+    "teamId": null,
+    "name": "Makham",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Thai-Nichi Institute of Technology"
+  },
+  {
+    "teamId": null,
+    "name": "TNI Classic",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Thai-Nichi Institute of Technology"
+  },
+  {
+    "teamId": null,
+    "name": "Koh-Norn-Gon",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Thammasat University"
+  },
+  {
+    "teamId": null,
+    "name": "Parsec",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Thammasat University"
+  },
+  {
+    "teamId": null,
+    "name": "RachaTaobin",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Thammasat University"
+  },
+  {
+    "teamId": null,
+    "name": "Don't Know Everything",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Ubon Ratchathani Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "Shadow",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Ubon Ratchathani Rajabhat University"
+  },
+  {
+    "teamId": null,
+    "name": "Harbour.SpaceUTCC",
+    "status": null,
+    "country": "Thailand",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": null,
+    "name": "HarbourSpace_mi_tailantsi",
+    "status": null,
+    "country": "Thailand",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": null,
+    "name": "QwQ",
+    "status": null,
+    "country": "Thailand",
+    "institution": "Walailak University"
+  }
+]

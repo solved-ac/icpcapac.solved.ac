@@ -1,4 +1,4 @@
-import { institutionRegionMap } from "../institution";
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import {
   countTeams,
   countUniversities,
@@ -16,7 +16,7 @@ const JAPAN_REGION_SCORE: RegionScoreArgs = {
   teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
     regionalStandings.filter(
-      (team) => institutionRegionMap.get(team.institution) !== "JPN"
+      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "JPN"
     )
   ),
   teamsPrelim: countTeams(prelimsStandings),
@@ -26,7 +26,7 @@ const JAPAN_REGION_SCORE: RegionScoreArgs = {
 export const Yokohama: Region = {
   site: "Yokohama",
   region: "JPN",
-  url: "https://icpc.iisf.or.jp/2024-yokohama/",
+  url: "https://icpc.jp/2025/",
   status: RegionStatus.regionalsFinished,
   score: regionScore(JAPAN_REGION_SCORE),
   scoreDetails: JAPAN_REGION_SCORE,

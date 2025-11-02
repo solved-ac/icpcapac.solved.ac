@@ -1,3 +1,4 @@
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import {
   countTeams,
   countUniversities,
@@ -7,8 +8,6 @@ import {
 import { Region, RegionStatus } from "../types";
 
 import prelimsTeamsWithUnofficial from "./Vietnam2025NationalScoreboard.json";
-
-import { institutionRegionMap } from "../institution";
 
 import regionalStandings from "./Hanoi2025Standings.json";
 
@@ -23,7 +22,7 @@ const VIETNAM_REGION_SCORE: RegionScoreArgs = {
   teams: countTeams(regionalStandings),
   foreignTeams: countTeams(
     regionalStandings.filter(
-      (team) => institutionRegionMap.get(team.institution) !== "VNM"
+      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "VNM"
     )
   ),
   teamsPrelim: countTeams(VIETNAM_PRELIM_TEAMS),

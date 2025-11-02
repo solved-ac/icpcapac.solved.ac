@@ -25,16 +25,17 @@ const REGION_EMOJI_MAP = {
 
 interface Props {
   region: string;
+  flagOnly?: boolean;
 }
 
-const Region = ({ region }: Props) => {
+const Region = ({ region, flagOnly }: Props) => {
   if (region in REGION_EMOJI_MAP) {
     return (
       <>
         <Twemoji>
           {REGION_EMOJI_MAP[region as keyof typeof REGION_EMOJI_MAP]}
-        </Twemoji>{" "}
-        {region}
+        </Twemoji>
+        {!flagOnly && <> {region}</>}
       </>
     );
   }

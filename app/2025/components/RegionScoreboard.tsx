@@ -1,5 +1,6 @@
 "use client";
 
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import Region from "@/components/Region";
 import { shortenInstitutionName } from "@/utils/institution";
 import { useTheme } from "@emotion/react";
@@ -13,10 +14,7 @@ import {
   TableHead,
   Typo,
 } from "@solved-ac/ui-react";
-import { institutionRegionMap } from "../data/institution";
-import {
-  TeamInFilteredStandingsLike
-} from "../data/types";
+import { TeamInFilteredStandingsLike } from "../data/types";
 
 interface Props {
   teams: TeamInFilteredStandingsLike[];
@@ -66,7 +64,7 @@ const RegionScoreboard = ({ teams }: Props) => {
                 <Cell>
                   <Region
                     region={
-                      institutionRegionMap.get(team.institution) ?? "Unknown"
+                      INSTITUTION_REGION_MAP.get(team.institution) ?? "Unknown"
                     }
                   />
                 </Cell>

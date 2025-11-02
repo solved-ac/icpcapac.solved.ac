@@ -5,7 +5,7 @@ import { useEffect } from "react";
 // Since we do SSG, we will redirect in client
 const Page = () => {
   useEffect(() => {
-    window.location.href = "/2025";
+    window.location.href = "/2026";
   }, []);
 
   return null;
