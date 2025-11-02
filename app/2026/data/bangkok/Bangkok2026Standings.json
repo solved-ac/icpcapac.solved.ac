@@ -1,0 +1,408 @@
+[
+  {
+    "teamId": 9900009,
+    "rank": 1,
+    "problemsSolved": 13,
+    "teamName": "Just use CRT",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 9900008,
+    "rank": 2,
+    "problemsSolved": 12,
+    "teamName": "floorsum",
+    "institution": "Seoul National University"
+  },
+  {
+    "teamId": 9900005,
+    "rank": 3,
+    "problemsSolved": 11,
+    "teamName": "Penguin and Tonic",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 9900010,
+    "rank": 4,
+    "problemsSolved": 10,
+    "teamName": "nobook",
+    "institution": "National Taiwan University"
+  },
+  {
+    "teamId": 9900053,
+    "rank": 5,
+    "problemsSolved": 9,
+    "teamName": "Here for the Free Snacks",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900047,
+    "rank": 6,
+    "problemsSolved": 9,
+    "teamName": "NEU.Anarchaos",
+    "institution": "National Economics University"
+  },
+  {
+    "teamId": 9900052,
+    "rank": 7,
+    "problemsSolved": 9,
+    "teamName": "HCMUS-AleaJactaEst",
+    "institution": "University of Science, VNU-HCM"
+  },
+  {
+    "teamId": 9900003,
+    "rank": 8,
+    "problemsSolved": 9,
+    "teamName": "print(\"\\u0D9E\")",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 9900049,
+    "rank": 9,
+    "problemsSolved": 9,
+    "teamName": "VNUHCM.UIT.JobSeekers",
+    "institution": "University of Information Technology - Vietnam National University HCM"
+  },
+  {
+    "teamId": 9900045,
+    "rank": 10,
+    "problemsSolved": 9,
+    "teamName": "FPTU New Era",
+    "institution": "FPT University"
+  },
+  {
+    "teamId": 9900006,
+    "rank": 11,
+    "problemsSolved": 8,
+    "teamName": "Still like to party!!",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 9900007,
+    "rank": 12,
+    "problemsSolved": 8,
+    "teamName": "stressed desserts",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 9900004,
+    "rank": 13,
+    "problemsSolved": 7,
+    "teamName": "ComTamBacKy",
+    "institution": "National University of Singapore"
+  },
+  {
+    "teamId": 9900001,
+    "rank": 14,
+    "problemsSolved": 7,
+    "teamName": "Murtabak",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 9900000,
+    "rank": 15,
+    "problemsSolved": 6,
+    "teamName": "honmono shinchan",
+    "institution": "The University of Osaka"
+  },
+  {
+    "teamId": 9900011,
+    "rank": 16,
+    "problemsSolved": 6,
+    "teamName": "NYCU_LLLemonade_Jam",
+    "institution": "National Yang Ming Chiao Tung University"
+  },
+  {
+    "teamId": 9900050,
+    "rank": 17,
+    "problemsSolved": 6,
+    "teamName": "BKDN.LoveBaku",
+    "institution": "University of Science and Technology - The University of Danang"
+  },
+  {
+    "teamId": 9900048,
+    "rank": 18,
+    "problemsSolved": 6,
+    "teamName": "VKU.FriendshipPower",
+    "institution": "The University of Danang, Vietnam-Korea University of ICT"
+  },
+  {
+    "teamId": 9900002,
+    "rank": 19,
+    "problemsSolved": 5,
+    "teamName": "penalty++",
+    "institution": "Nanyang Technological University"
+  },
+  {
+    "teamId": 9900051,
+    "rank": 20,
+    "problemsSolved": 5,
+    "teamName": "BKDN.NewStar",
+    "institution": "University of Science and Technology - The University of Danang"
+  },
+  {
+    "teamId": 9900012,
+    "rank": 21,
+    "problemsSolved": 5,
+    "teamName": "100%dp, caffeine addiction, You have evolved. From bulbasaur to idontduckingcare",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": 9900056,
+    "rank": 22,
+    "problemsSolved": 5,
+    "teamName": "Here for the Free Donuts",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900043,
+    "rank": 23,
+    "problemsSolved": 3,
+    "teamName": "Harbourspace_Hmm",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": 9900046,
+    "rank": 24,
+    "problemsSolved": 3,
+    "teamName": "FPTU SRO",
+    "institution": "FPT University"
+  },
+  {
+    "teamId": 9900013,
+    "rank": 25,
+    "problemsSolved": 3,
+    "teamName": "Debug or Die",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": 9900044,
+    "rank": 26,
+    "problemsSolved": 3,
+    "teamName": "FPTU Algorillas",
+    "institution": "FPT University"
+  },
+  {
+    "teamId": 9900022,
+    "rank": 27,
+    "problemsSolved": 2,
+    "teamName": "Jasmine, No means No",
+    "institution": "Kasetsart University - Thailand"
+  },
+  {
+    "teamId": 9900054,
+    "rank": 28,
+    "problemsSolved": 2,
+    "teamName": "Here for the Free Lunch",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900025,
+    "rank": 29,
+    "problemsSolved": 2,
+    "teamName": "Tana02",
+    "institution": "Kasetsart University - Thailand"
+  },
+  {
+    "teamId": 9900055,
+    "rank": 30,
+    "problemsSolved": 2,
+    "teamName": "Here for the Free Alcohol",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900014,
+    "rank": 31,
+    "problemsSolved": 2,
+    "teamName": "The Rizzcusion",
+    "institution": "Chiang Mai University"
+  },
+  {
+    "teamId": 9900041,
+    "rank": 32,
+    "problemsSolved": 2,
+    "teamName": "Harbourspace_199",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": 9900015,
+    "rank": 33,
+    "problemsSolved": 2,
+    "teamName": "3piggies",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900028,
+    "rank": 34,
+    "problemsSolved": 2,
+    "teamName": "SudJarb",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": 9900042,
+    "rank": 35,
+    "problemsSolved": 2,
+    "teamName": "Harbourspace_GDP",
+    "institution": "University of the Thai Chamber of Commerce"
+  },
+  {
+    "teamId": 9900038,
+    "rank": 36,
+    "problemsSolved": 2,
+    "teamName": "PSU-COE",
+    "institution": "Prince of Songkla University"
+  },
+  {
+    "teamId": 9900020,
+    "rank": 37,
+    "problemsSolved": 2,
+    "teamName": "CMKL Gooners",
+    "institution": "CMKL University"
+  },
+  {
+    "teamId": 9900017,
+    "rank": 38,
+    "problemsSolved": 2,
+    "teamName": "MonkeyType",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900023,
+    "rank": 39,
+    "problemsSolved": 2,
+    "teamName": "NothingBeatsJet3Holidays",
+    "institution": "Kasetsart University - Thailand"
+  },
+  {
+    "teamId": 9900027,
+    "rank": 40,
+    "problemsSolved": 2,
+    "teamName": "Submit and Pray",
+    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+  },
+  {
+    "teamId": 9900021,
+    "rank": 41,
+    "problemsSolved": 2,
+    "teamName": "FBT",
+    "institution": "CMKL University"
+  },
+  {
+    "teamId": 9900024,
+    "rank": 42,
+    "problemsSolved": 2,
+    "teamName": "Tana01",
+    "institution": "Kasetsart University - Thailand"
+  },
+  {
+    "teamId": 9900057,
+    "rank": 43,
+    "problemsSolved": 2,
+    "teamName": "Here for the Free Banana",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900032,
+    "rank": 44,
+    "problemsSolved": 1,
+    "teamName": "NNQ_KMUTNB",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900018,
+    "rank": 45,
+    "problemsSolved": 1,
+    "teamName": "StatP4",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900026,
+    "rank": 46,
+    "problemsSolved": 1,
+    "teamName": "CPESRC",
+    "institution": "Kasetsart University, Sriracha Campus"
+  },
+  {
+    "teamId": 9900031,
+    "rank": 46,
+    "problemsSolved": 1,
+    "teamName": "CodeKub_KMUTNB",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900019,
+    "rank": 48,
+    "problemsSolved": 1,
+    "teamName": "Three Man Up",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900037,
+    "rank": 49,
+    "problemsSolved": 1,
+    "teamName": "Orangutan Premium",
+    "institution": "Mahidol University"
+  },
+  {
+    "teamId": 9900040,
+    "rank": 49,
+    "problemsSolved": 1,
+    "teamName": "Ajan Krub Khor Parn",
+    "institution": "Rambhai Barni Rajabhat University"
+  },
+  {
+    "teamId": 9900039,
+    "rank": 51,
+    "problemsSolved": 1,
+    "teamName": "Goodbye World",
+    "institution": "Prince of Songkla University, Phuket Campus"
+  },
+  {
+    "teamId": 9900036,
+    "rank": 52,
+    "problemsSolved": 1,
+    "teamName": "AroiHoh",
+    "institution": "Mahidol University"
+  },
+  {
+    "teamId": 9900016,
+    "rank": 53,
+    "problemsSolved": 1,
+    "teamName": "MaLenLen",
+    "institution": "Chulalongkorn University"
+  },
+  {
+    "teamId": 9900029,
+    "rank": 54,
+    "problemsSolved": 0,
+    "teamName": "3pnu",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900030,
+    "rank": 54,
+    "problemsSolved": 0,
+    "teamName": "404 Brain Not Found",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900033,
+    "rank": 54,
+    "problemsSolved": 0,
+    "teamName": "NullPointerButValued",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900034,
+    "rank": 54,
+    "problemsSolved": 0,
+    "teamName": "OniChannnn",
+    "institution": "King Mongkut's University of Technology North Bangkok"
+  },
+  {
+    "teamId": 9900035,
+    "rank": 54,
+    "problemsSolved": 0,
+    "teamName": "Aventure247",
+    "institution": "King Mongkut's University of Technology Thonburi"
+  }
+]

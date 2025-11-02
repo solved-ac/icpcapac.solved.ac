@@ -1,6 +1,7 @@
 import { INSTITUTION_REGION_MAP } from "../../../data/institutions/institution";
 import {
   countTeamNames,
+  countTeams,
   countUniversities,
   regionScore,
   RegionScoreArgs,
@@ -11,13 +12,13 @@ import { Regional, RegionalStatus } from "../types";
 // Converted from https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview?fbclid=IwY2xjawN0NL9leHRuA2FlbQIxMABicmlkETFaRkdKRzhCekxwMzF2ZFlYAR6sX1rnk1smT8TaF0RRjA52mCblUk4R_dhT5Bf3k5ugbH4qgdjRQ1LtyDcMFQ_aem_yj1Fijx_bwk5kvrLPXYy6A
 import prelimsTeams from "./ThailandNational2025Teams.json";
 // Converted from https://icpc.cp.eng.chula.ac.th/2025/team-register
-import regionalTeams from "./Bangkok2026Teams.json";
+import regionalStandings from "./Bangkok2026Standings.json";
 
 const THAILAND_REGION_SCORE: RegionScoreArgs = {
-  univs: countUniversities(regionalTeams),
-  teams: countTeamNames(regionalTeams),
-  foreignTeams: countTeamNames(
-    regionalTeams.filter(
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
+  foreignTeams: countTeams(
+    regionalStandings.filter(
       (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "THA"
     )
   ),
@@ -30,26 +31,27 @@ export const Bangkok: Regional = {
   site: "Bangkok",
   region: "THA",
   url: "https://icpc.cp.eng.chula.ac.th/2025",
-  status: RegionalStatus.preliminariesFinished,
+  status: RegionalStatus.regionalsFinished,
   score: regionScore(THAILAND_REGION_SCORE),
   scoreDetails: THAILAND_REGION_SCORE,
-  regionalTeams,
+  scoreboard: regionalStandings,
   disclaimer: (
     <>
       The scoreboard (national round and regionals) is not yet available from
-      ICPC official sources.
+      ICPC official sources, therefore may differ from the official results.
       <br />
       Regional team list is converted from:{" "}
       <a href="https://icpc.cp.eng.chula.ac.th/2025/team-register">
         https://icpc.cp.eng.chula.ac.th/2025/team-register
       </a>
-      , w/o excluding teams with 0 solves.
+      .
       <br />
       Preliminary teams list is converted from:{" "}
       <a href="https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview">
         https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview
       </a>
-      , w/o excluding teams with 0 solves.
+      , <b>without excluding teams with 0 solves</b> &ndash; the site score may
+      decrease when teams with 0 solves are excluded.
     </>
   ),
 };
