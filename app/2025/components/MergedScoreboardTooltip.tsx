@@ -23,7 +23,7 @@ const MergedScoreboardTooltip = ({ team }: Props) => {
     );
   }
   if (status === TeamRankInCombinedScoreboardStatus.D3_3) {
-    return <>Won the regional st {team.fromSite} site (see D3 (3))</>;
+    return <>Won the regional at {team.fromSite} site (see D3 (3))</>;
   }
   if (status === TeamRankInCombinedScoreboardStatus.D4_2_1) {
     return <>Second instance of a single team (see D4 (2))</>;
