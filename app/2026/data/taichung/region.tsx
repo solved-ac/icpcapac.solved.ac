@@ -63,6 +63,5 @@ export const Taichung: Regional = {
   scoreDetails: TAIWAN_REGION_SCORE,
   regionalTeams: [...foreignTeams, ...domesticTeams],
   lastYear: Taichung2025,
-  disclaimer: <></>,
   // scoreboard: regionalStandings,
 };

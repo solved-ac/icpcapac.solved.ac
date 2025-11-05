@@ -1,408 +1,691 @@
 [
   {
-    "teamId": 9900009,
+    "teamId": 1084935,
     "rank": 1,
+    "medalCitation": "Gold Medal",
     "problemsSolved": 13,
+    "totalTime": 1671,
+    "lastProblemTime": 284,
+    "siteCitation": "",
+    "citation": "First Place",
     "teamName": "Just use CRT",
-    "institution": "Seoul National University"
+    "institution": "Seoul National University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900008,
+    "teamId": 1085231,
     "rank": 2,
+    "medalCitation": "Gold Medal",
     "problemsSolved": 12,
+    "totalTime": 1361,
+    "lastProblemTime": 215,
+    "siteCitation": "",
+    "citation": "Second Place",
     "teamName": "floorsum",
-    "institution": "Seoul National University"
+    "institution": "Seoul National University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900005,
+    "teamId": 1085601,
     "rank": 3,
+    "medalCitation": "Gold Medal",
     "problemsSolved": 11,
+    "totalTime": 1238,
+    "lastProblemTime": 257,
+    "siteCitation": "",
+    "citation": "Third Place",
     "teamName": "Penguin and Tonic",
-    "institution": "National University of Singapore"
+    "institution": "National University of Singapore",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900010,
+    "teamId": 1086915,
     "rank": 4,
+    "medalCitation": "Gold Medal",
     "problemsSolved": 10,
+    "totalTime": 1323,
+    "lastProblemTime": 277,
+    "siteCitation": "",
+    "citation": "Fourth Place",
     "teamName": "nobook",
-    "institution": "National Taiwan University"
+    "institution": "National Taiwan University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900053,
+    "teamId": 1104726,
     "rank": 5,
+    "medalCitation": "Silver Medal",
     "problemsSolved": 9,
+    "totalTime": 1085,
+    "lastProblemTime": 284,
+    "siteCitation": "",
+    "citation": "Fifth Place",
     "teamName": "Here for the Free Snacks",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900047,
+    "teamId": 1084034,
     "rank": 6,
+    "medalCitation": "Silver Medal",
     "problemsSolved": 9,
+    "totalTime": 1112,
+    "lastProblemTime": 235,
+    "siteCitation": "",
+    "citation": "Sixth Place",
     "teamName": "NEU.Anarchaos",
-    "institution": "National Economics University"
+    "institution": "National Economics University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900052,
+    "teamId": 1089072,
     "rank": 7,
+    "medalCitation": "Silver Medal",
     "problemsSolved": 9,
+    "totalTime": 1199,
+    "lastProblemTime": 235,
+    "siteCitation": "",
+    "citation": "Seventh Place",
     "teamName": "HCMUS-AleaJactaEst",
-    "institution": "University of Science, VNU-HCM"
+    "institution": "University of Science, VNU-HCM",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900003,
+    "teamId": 1085508,
     "rank": 8,
+    "medalCitation": "Silver Medal",
     "problemsSolved": 9,
+    "totalTime": 1211,
+    "lastProblemTime": 257,
+    "siteCitation": "",
+    "citation": "Eighth Place",
     "teamName": "print(\"\\u0D9E\")",
-    "institution": "Nanyang Technological University"
+    "institution": "Nanyang Technological University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900049,
+    "teamId": 1082760,
     "rank": 9,
+    "medalCitation": "Bronze Medal",
     "problemsSolved": 9,
+    "totalTime": 1247,
+    "lastProblemTime": 262,
+    "siteCitation": "",
+    "citation": "Ninth Place",
     "teamName": "VNUHCM.UIT.JobSeekers",
-    "institution": "University of Information Technology - Vietnam National University HCM"
+    "institution": "University of Information Technology - Vietnam National University HCM",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900045,
+    "teamId": 1085634,
     "rank": 10,
+    "medalCitation": "Bronze Medal",
     "problemsSolved": 9,
+    "totalTime": 1369,
+    "lastProblemTime": 297,
+    "siteCitation": "",
+    "citation": "Tenth Place",
     "teamName": "FPTU New Era",
-    "institution": "FPT University"
+    "institution": "FPT University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900006,
+    "teamId": 1085602,
     "rank": 11,
+    "medalCitation": "Bronze Medal",
     "problemsSolved": 8,
+    "totalTime": 1180,
+    "lastProblemTime": 256,
+    "siteCitation": "",
+    "citation": "Eleventh Place",
     "teamName": "Still like to party!!",
-    "institution": "National University of Singapore"
+    "institution": "National University of Singapore",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900007,
+    "teamId": 1085879,
     "rank": 12,
+    "medalCitation": "Bronze Medal",
     "problemsSolved": 8,
+    "totalTime": 1316,
+    "lastProblemTime": 286,
+    "siteCitation": "",
+    "citation": "Twelfth Place",
     "teamName": "stressed desserts",
-    "institution": "National University of Singapore"
+    "institution": "National University of Singapore",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900004,
+    "teamId": 1085603,
     "rank": 13,
+    "medalCitation": null,
     "problemsSolved": 7,
+    "totalTime": 872,
+    "lastProblemTime": 232,
+    "siteCitation": "",
+    "citation": "Thirteenth Place",
     "teamName": "ComTamBacKy",
-    "institution": "National University of Singapore"
+    "institution": "National University of Singapore",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900001,
+    "teamId": 1085506,
     "rank": 14,
+    "medalCitation": null,
     "problemsSolved": 7,
+    "totalTime": 889,
+    "lastProblemTime": 186,
+    "siteCitation": "",
+    "citation": "Fourteenth Place",
     "teamName": "Murtabak",
-    "institution": "Nanyang Technological University"
+    "institution": "Nanyang Technological University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900000,
+    "teamId": 1082169,
     "rank": 15,
+    "medalCitation": null,
     "problemsSolved": 6,
+    "totalTime": 587,
+    "lastProblemTime": 185,
+    "siteCitation": "",
+    "citation": "Fifteenth Place",
     "teamName": "honmono shinchan",
-    "institution": "The University of Osaka"
+    "institution": "The University of Osaka",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900011,
+    "teamId": 1085709,
     "rank": 16,
+    "medalCitation": null,
     "problemsSolved": 6,
+    "totalTime": 747,
+    "lastProblemTime": 241,
+    "siteCitation": "",
+    "citation": "Sixteenth Place",
     "teamName": "NYCU_LLLemonade_Jam",
-    "institution": "National Yang Ming Chiao Tung University"
+    "institution": "National Yang Ming Chiao Tung University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900050,
+    "teamId": 1082343,
     "rank": 17,
+    "medalCitation": null,
     "problemsSolved": 6,
+    "totalTime": 846,
+    "lastProblemTime": 296,
+    "siteCitation": "",
+    "citation": "Seventeenth Place",
     "teamName": "BKDN.LoveBaku",
-    "institution": "University of Science and Technology - The University of Danang"
+    "institution": "University of Science and Technology - The University of Danang",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900048,
+    "teamId": 1082503,
     "rank": 18,
+    "medalCitation": null,
     "problemsSolved": 6,
+    "totalTime": 1375,
+    "lastProblemTime": 298,
+    "siteCitation": "",
+    "citation": "Eighteenth Place",
     "teamName": "VKU.FriendshipPower",
-    "institution": "The University of Danang, Vietnam-Korea University of ICT"
+    "institution": "The University of Danang, Vietnam-Korea University of ICT",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900002,
+    "teamId": 1085556,
     "rank": 19,
+    "medalCitation": null,
     "problemsSolved": 5,
+    "totalTime": 665,
+    "lastProblemTime": 255,
+    "siteCitation": "",
+    "citation": "Nineteenth Place",
     "teamName": "penalty++",
-    "institution": "Nanyang Technological University"
+    "institution": "Nanyang Technological University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900051,
+    "teamId": 1085783,
     "rank": 20,
+    "medalCitation": null,
     "problemsSolved": 5,
+    "totalTime": 668,
+    "lastProblemTime": 209,
+    "siteCitation": "",
+    "citation": "Twentieth Place",
     "teamName": "BKDN.NewStar",
-    "institution": "University of Science and Technology - The University of Danang"
+    "institution": "University of Science and Technology - The University of Danang",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900012,
+    "teamId": 1085279,
     "rank": 21,
+    "medalCitation": null,
     "problemsSolved": 5,
+    "totalTime": 823,
+    "lastProblemTime": 240,
+    "siteCitation": "",
+    "citation": "Twenty-first Place",
     "teamName": "100%dp, caffeine addiction, You have evolved. From bulbasaur to idontduckingcare",
-    "institution": "Chiang Mai University"
+    "institution": "Chiang Mai University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900056,
+    "teamId": 1105464,
     "rank": 22,
-    "problemsSolved": 5,
+    "medalCitation": null,
+    "problemsSolved": 3,
+    "totalTime": 263,
+    "lastProblemTime": 154,
+    "siteCitation": "",
+    "citation": "Twenty-second Place",
     "teamName": "Here for the Free Donuts",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900043,
+    "teamId": 1088541,
     "rank": 23,
+    "medalCitation": null,
     "problemsSolved": 3,
+    "totalTime": 280,
+    "lastProblemTime": 154,
+    "siteCitation": "",
+    "citation": "Twenty-third Place",
     "teamName": "Harbourspace_Hmm",
-    "institution": "University of the Thai Chamber of Commerce"
+    "institution": "University of the Thai Chamber of Commerce",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900046,
+    "teamId": 1088456,
     "rank": 24,
+    "medalCitation": null,
     "problemsSolved": 3,
+    "totalTime": 359,
+    "lastProblemTime": 136,
+    "siteCitation": "",
+    "citation": "Twenty-fourth Place",
     "teamName": "FPTU SRO",
-    "institution": "FPT University"
+    "institution": "FPT University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900013,
+    "teamId": 1087266,
     "rank": 25,
+    "medalCitation": null,
     "problemsSolved": 3,
+    "totalTime": 453,
+    "lastProblemTime": 175,
+    "siteCitation": "",
+    "citation": "Twenty-fifth Place",
     "teamName": "Debug or Die",
-    "institution": "Chiang Mai University"
+    "institution": "Chiang Mai University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900044,
+    "teamId": 1088455,
     "rank": 26,
+    "medalCitation": null,
     "problemsSolved": 3,
+    "totalTime": 695,
+    "lastProblemTime": 265,
+    "siteCitation": "",
+    "citation": "Twenty-sixth Place",
     "teamName": "FPTU Algorillas",
-    "institution": "FPT University"
+    "institution": "FPT University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900022,
+    "teamId": 1088610,
     "rank": 27,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 43,
+    "lastProblemTime": 36,
+    "siteCitation": "",
+    "citation": "Twenty-seventh Place",
     "teamName": "Jasmine, No means No",
-    "institution": "Kasetsart University - Thailand"
+    "institution": "Kasetsart University - Thailand",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900054,
+    "teamId": 1104728,
     "rank": 28,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 163,
+    "lastProblemTime": 57,
+    "siteCitation": "",
+    "citation": "Twenty-eighth Place",
     "teamName": "Here for the Free Lunch",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900025,
+    "teamId": 1088673,
     "rank": 29,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 169,
+    "lastProblemTime": 126,
+    "siteCitation": "",
+    "citation": "Twenty-ninth Place",
     "teamName": "Tana02",
-    "institution": "Kasetsart University - Thailand"
+    "institution": "Kasetsart University - Thailand",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900055,
+    "teamId": 1104735,
     "rank": 30,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 170,
+    "lastProblemTime": 78,
+    "siteCitation": "",
+    "citation": "Thirtieth Place",
     "teamName": "Here for the Free Alcohol",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900014,
+    "teamId": 1088421,
     "rank": 31,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 213,
+    "lastProblemTime": 150,
+    "siteCitation": "",
+    "citation": "Thirty-first Place",
     "teamName": "The Rizzcusion",
-    "institution": "Chiang Mai University"
+    "institution": "Chiang Mai University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900041,
+    "teamId": 1088766,
     "rank": 32,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 231,
+    "lastProblemTime": 159,
+    "siteCitation": "",
+    "citation": "Thirty-second Place",
     "teamName": "Harbourspace_199",
-    "institution": "University of the Thai Chamber of Commerce"
+    "institution": "University of the Thai Chamber of Commerce",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900015,
+    "teamId": 1086857,
     "rank": 33,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 288,
+    "lastProblemTime": 110,
+    "siteCitation": "",
+    "citation": "Thirty-third Place",
     "teamName": "3piggies",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900028,
+    "teamId": 1088676,
     "rank": 34,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 321,
+    "lastProblemTime": 204,
+    "siteCitation": "",
+    "citation": "Thirty-fourth Place",
     "teamName": "SudJarb",
-    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+    "institution": "King Mongkut's Institute of Technology Ladkrabang",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900042,
+    "teamId": 1088767,
     "rank": 35,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 329,
+    "lastProblemTime": 177,
+    "siteCitation": "",
+    "citation": "Thirty-fifth Place",
     "teamName": "Harbourspace_GDP",
-    "institution": "University of the Thai Chamber of Commerce"
+    "institution": "University of the Thai Chamber of Commerce",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900038,
+    "teamId": 1084983,
     "rank": 36,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 346,
+    "lastProblemTime": 155,
+    "siteCitation": "",
+    "citation": "Thirty-sixth Place",
     "teamName": "PSU-COE",
-    "institution": "Prince of Songkla University"
+    "institution": "Prince of Songkla University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900020,
+    "teamId": 1087904,
     "rank": 37,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 346,
+    "lastProblemTime": 211,
+    "siteCitation": "",
+    "citation": "Thirty-seventh Place",
     "teamName": "CMKL Gooners",
-    "institution": "CMKL University"
+    "institution": "CMKL University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900017,
+    "teamId": 1087043,
     "rank": 38,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 404,
+    "lastProblemTime": 235,
+    "siteCitation": "",
+    "citation": "Thirty-eighth Place",
     "teamName": "MonkeyType",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900023,
+    "teamId": 1088611,
     "rank": 39,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 405,
+    "lastProblemTime": 194,
+    "siteCitation": "",
+    "citation": "Thirty-ninth Place",
     "teamName": "NothingBeatsJet3Holidays",
-    "institution": "Kasetsart University - Thailand"
+    "institution": "Kasetsart University - Thailand",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900027,
+    "teamId": 1086426,
     "rank": 40,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 408,
+    "lastProblemTime": 219,
+    "siteCitation": "",
+    "citation": "Fortieth Place",
     "teamName": "Submit and Pray",
-    "institution": "King Mongkut's Institute of Technology Ladkrabang"
+    "institution": "King Mongkut's Institute of Technology Ladkrabang",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900021,
+    "teamId": 1087900,
     "rank": 41,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 408,
+    "lastProblemTime": 255,
+    "siteCitation": "",
+    "citation": "Forty-first Place",
     "teamName": "FBT",
-    "institution": "CMKL University"
+    "institution": "CMKL University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900024,
+    "teamId": 1088674,
     "rank": 42,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 415,
+    "lastProblemTime": 275,
+    "siteCitation": "",
+    "citation": "Forty-second Place",
     "teamName": "Tana01",
-    "institution": "Kasetsart University - Thailand"
+    "institution": "Kasetsart University - Thailand",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900057,
+    "teamId": 1104750,
     "rank": 43,
+    "medalCitation": null,
     "problemsSolved": 2,
+    "totalTime": 467,
+    "lastProblemTime": 259,
+    "siteCitation": "",
+    "citation": "Forty-third Place",
     "teamName": "Here for the Free Banana",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900032,
+    "teamId": 1084249,
     "rank": 44,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 11,
+    "lastProblemTime": 11,
+    "siteCitation": "",
+    "citation": "Forty-fourth Place",
     "teamName": "NNQ_KMUTNB",
-    "institution": "King Mongkut's University of Technology North Bangkok"
+    "institution": "King Mongkut's University of Technology North Bangkok",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900018,
+    "teamId": 1087032,
     "rank": 45,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 13,
+    "lastProblemTime": 13,
+    "siteCitation": "",
+    "citation": "Forty-fifth Place",
     "teamName": "StatP4",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900026,
+    "teamId": 1084036,
     "rank": 46,
+    "medalCitation": null,
     "problemsSolved": 1,
-    "teamName": "CPESRC",
-    "institution": "Kasetsart University, Sriracha Campus"
-  },
-  {
-    "teamId": 9900031,
-    "rank": 46,
-    "problemsSolved": 1,
+    "totalTime": 18,
+    "lastProblemTime": 18,
+    "siteCitation": "",
+    "citation": "Forty-sixth Place",
     "teamName": "CodeKub_KMUTNB",
-    "institution": "King Mongkut's University of Technology North Bangkok"
+    "institution": "King Mongkut's University of Technology North Bangkok",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900019,
+    "teamId": 1088145,
+    "rank": 46,
+    "medalCitation": null,
+    "problemsSolved": 1,
+    "totalTime": 18,
+    "lastProblemTime": 18,
+    "siteCitation": "",
+    "citation": "Forty-sixth Place",
+    "teamName": "CPESRC",
+    "institution": "Kasetsart University, Sriracha Campus",
+    "honorableMentionCitation": null
+  },
+  {
+    "teamId": 1087044,
     "rank": 48,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 20,
+    "lastProblemTime": 20,
+    "siteCitation": "",
+    "citation": "Forty-eighth Place",
     "teamName": "Three Man Up",
-    "institution": "Chulalongkorn University"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900037,
+    "teamId": 1083347,
     "rank": 49,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 24,
+    "lastProblemTime": 24,
+    "siteCitation": "",
+    "citation": "Forty-ninth Place",
     "teamName": "Orangutan Premium",
-    "institution": "Mahidol University"
+    "institution": "Mahidol University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900040,
+    "teamId": 1084495,
     "rank": 49,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 24,
+    "lastProblemTime": 24,
+    "siteCitation": "",
+    "citation": "Forty-ninth Place",
     "teamName": "Ajan Krub Khor Parn",
-    "institution": "Rambhai Barni Rajabhat University"
+    "institution": "Rambhai Barni Rajabhat University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900039,
+    "teamId": 1086828,
     "rank": 51,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 36,
+    "lastProblemTime": 16,
+    "siteCitation": "",
+    "citation": "Fifty-first Place",
     "teamName": "Goodbye World",
-    "institution": "Prince of Songkla University, Phuket Campus"
+    "institution": "Prince of Songkla University, Phuket Campus",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900036,
+    "teamId": 1083105,
     "rank": 52,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 73,
+    "lastProblemTime": 33,
+    "siteCitation": "",
+    "citation": "Fifty-second Place",
     "teamName": "AroiHoh",
-    "institution": "Mahidol University"
+    "institution": "Mahidol University",
+    "honorableMentionCitation": null
   },
   {
-    "teamId": 9900016,
+    "teamId": 1087031,
     "rank": 53,
+    "medalCitation": null,
     "problemsSolved": 1,
+    "totalTime": 135,
+    "lastProblemTime": 95,
+    "siteCitation": "",
+    "citation": "Fifty-third Place",
     "teamName": "MaLenLen",
-    "institution": "Chulalongkorn University"
-  },
-  {
-    "teamId": 9900029,
-    "rank": 54,
-    "problemsSolved": 0,
-    "teamName": "3pnu",
-    "institution": "King Mongkut's University of Technology North Bangkok"
-  },
-  {
-    "teamId": 9900030,
-    "rank": 54,
-    "problemsSolved": 0,
-    "teamName": "404 Brain Not Found",
-    "institution": "King Mongkut's University of Technology North Bangkok"
-  },
-  {
-    "teamId": 9900033,
-    "rank": 54,
-    "problemsSolved": 0,
-    "teamName": "NullPointerButValued",
-    "institution": "King Mongkut's University of Technology North Bangkok"
-  },
-  {
-    "teamId": 9900034,
-    "rank": 54,
-    "problemsSolved": 0,
-    "teamName": "OniChannnn",
-    "institution": "King Mongkut's University of Technology North Bangkok"
-  },
-  {
-    "teamId": 9900035,
-    "rank": 54,
-    "problemsSolved": 0,
-    "teamName": "Aventure247",
-    "institution": "King Mongkut's University of Technology Thonburi"
+    "institution": "Chulalongkorn University",
+    "honorableMentionCitation": null
   }
 ]

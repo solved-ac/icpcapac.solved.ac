@@ -1,15 +1,18 @@
-import { regionScore, RegionScoreArgs } from "../regionScore";
+import {
+  countTeamNames,
+  countUniversities,
+  regionScore,
+  RegionScoreArgs,
+} from "../regionScore";
 import { Regional, RegionalStatus } from "../types";
+
+import foreignTeams from "./Manila2026ForeignTeams.json";
 
 // TODO replace this with official ICPC data
 const PHILIPPINES_REGION_SCORE: RegionScoreArgs = {
-  univs: 11,
-  teams: 28,
-  foreignTeams: 11 /* 2022 data; countTeams(
-    regionalStandings.filter(
-      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "IDN"
-    )
-  ) */,
+  univs: countUniversities(foreignTeams),
+  teams: countTeamNames(foreignTeams),
+  foreignTeams: countTeamNames(foreignTeams),
   // Does this site have a preliminary contest?
   // I can't query from https://icpc.global/regionals/finder/Asia-PSP-Provincials-2026
   // TODO: check later
@@ -25,11 +28,11 @@ export const Manila: Regional = {
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(PHILIPPINES_REGION_SCORE),
   scoreDetails: PHILIPPINES_REGION_SCORE,
-  regionalTeams: [],
+  regionalTeams: [...foreignTeams],
   disclaimer: (
     <>
-      Site score is estimated based on the 2022 data. I could not find any
-      information about preliminaries for this site.
+      Registration period not finished. The site score is very likely to change.
+      <br />I could not find any information about preliminaries for this site.
     </>
   ),
 };
