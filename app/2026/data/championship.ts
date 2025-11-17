@@ -145,14 +145,14 @@ export const combineRegions = (regions: Regional[]) => {
   });
 
   // D5: Wildcard team
-  const wildcard = teams.find((x) => x.teamName === "BogoSort");
-  if (wildcard) {
-    wildcard.sortKey = -600;
-    wildcard.status = TeamRankInCombinedScoreboardStatus.D5;
-    wildcard.fromSite = "Wildcard";
-    teams.splice(teams.indexOf(wildcard), 1);
-    teams.push(wildcard);
-  } else {
+  // const wildcard = teams.find((x) => x.teamName === "BogoSort");
+  // if (wildcard) {
+    // wildcard.sortKey = -600;
+    // wildcard.status = TeamRankInCombinedScoreboardStatus.D5;
+    // wildcard.fromSite = "Wildcard";
+    // teams.splice(teams.indexOf(wildcard), 1);
+    // teams.push(wildcard);
+  // } else {
     teams.push({
       teamId: -1,
       assignedValue: 0,
@@ -165,7 +165,7 @@ export const combineRegions = (regions: Regional[]) => {
       institution: "Wildcard",
       teamName: "Wildcard",
     });
-  }
+  // }
 
   teams.sort((a, b) =>
     a.sortKey !== b.sortKey

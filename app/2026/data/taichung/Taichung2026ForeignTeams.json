@@ -1,72 +1,82 @@
 [
   {
     "teamId": null,
-    "name": "Strong Zero",
+    "name": "Akai_Koibito",
     "status": null,
     "country": "",
-    "institution": "National University of Singapore"
-  },
-  {
-    "teamId": null,
-    "name": "aizu_3",
-    "status": null,
-    "country": "",
-    "institution": "University of Aizu"
-  },
-  {
-    "teamId": null,
-    "name": "aizu_C",
-    "status": null,
-    "country": "",
-    "institution": "University of Aizu"
-  },
-  {
-    "teamId": null,
-    "name": "Tsukuyom1",
-    "status": null,
-    "country": "",
-    "institution": "Institute of Science Tokyo"
+    "institution": "Hokkaido University",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
     "name": "y_1",
     "status": null,
     "country": "",
-    "institution": "Hokkaido University"
+    "institution": "Hokkaido University",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
-    "name": "Java++",
+    "name": "Tsukuyom1",
     "status": null,
     "country": "",
-    "institution": "Senshu University"
-  },
-  {
-    "teamId": null,
-    "name": "bonsai",
-    "status": null,
-    "country": "",
-    "institution": "University of Aizu"
-  },
-  {
-    "teamId": null,
-    "name": "MWM",
-    "status": null,
-    "country": "",
-    "institution": "Soongsil University"
+    "institution": "Institute of Science Tokyo",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
     "name": "SungSimDang",
     "status": null,
     "country": "",
-    "institution": "KAIST"
+    "institution": "KAIST",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
-    "name": "Akai_Koibito",
+    "name": "Strong Zero",
     "status": null,
     "country": "",
-    "institution": "Hokkaido University"
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Java++",
+    "status": null,
+    "country": "",
+    "institution": "Senshu University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "MWM",
+    "status": null,
+    "country": "",
+    "institution": "Soongsil University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "aizu_3",
+    "status": null,
+    "country": "",
+    "institution": "University of Aizu",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "aizu_C",
+    "status": null,
+    "country": "",
+    "institution": "University of Aizu",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "bonsai",
+    "status": null,
+    "country": "",
+    "institution": "University of Aizu",
+    "teamMembers": "[]"
   }
 ]

@@ -1,6 +1,5 @@
 import { Taichung as Taichung2025 } from "../../../2025/data/taichung/region";
 import {
-  countTeamNames,
   countTeams,
   countUniversities,
   regionScore,
@@ -8,12 +7,13 @@ import {
 } from "../regionScore";
 import { Regional, RegionalStatus, TeamInStandingsLike } from "../types";
 
-import domesticTeams from "./Taichung2026DomesticTeams.json";
-import foreignTeams from "./Taichung2026ForeignTeams.json";
-
 import prelimsOnlineStandings from "./Taiwan2026OnlineStandings.json";
 import prelimsPrivateUSStandings from "./Taiwan2026PrivateUStandings.json";
 import prelimsTechUSStandings from "./Taiwan2026TechUStandings.json";
+
+// TODO replace this with official ICPC data
+import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
+import regionalStandings from "./Taichung2026Standings.json";
 
 // Remove duplicate teams in prelims standings:
 // in Taiwan, one team can participate in multiple prelims contests
@@ -39,16 +39,13 @@ const TAIWAN_PRELIMS_ALL_STANDINGS = (() => {
 })();
 
 const TAIWAN_REGION_SCORE: RegionScoreArgs = {
-  // univs: countUniversities(regionalStandings),
-  univs: countUniversities(foreignTeams, domesticTeams),
-  // teams: countTeams(regionalStandings),
-  teams: countTeamNames(foreignTeams, domesticTeams),
-  // foreignTeams: countTeams(
-  //   regionalStandings.filter(
-  //     (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "TWN"
-  //   )
-  // ),
-  foreignTeams: countTeamNames(foreignTeams),
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
+  foreignTeams: countTeams(
+    regionalStandings.filter(
+      (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "TWN"
+    )
+  ),
   teamsPrelim: countTeams(TAIWAN_PRELIMS_ALL_STANDINGS),
   univsPrelim: countUniversities(TAIWAN_PRELIMS_ALL_STANDINGS),
 };
@@ -58,10 +55,16 @@ export const Taichung: Regional = {
   site: "Taichung",
   region: "TWN",
   url: "https://www.icpc.tw/2025/",
-  status: RegionalStatus.preliminariesFinished,
+  status: RegionalStatus.regionalsFinished,
   score: regionScore(TAIWAN_REGION_SCORE),
   scoreDetails: TAIWAN_REGION_SCORE,
-  regionalTeams: [...foreignTeams, ...domesticTeams],
+  scoreboard: regionalStandings,
   lastYear: Taichung2025,
-  // scoreboard: regionalStandings,
+  disclaimer: (
+    <>
+      Regional scoreboard is not yet published in the ICPC system. The regional
+      scoreboard is converted from{" "}
+      <a href="https://taichung2025.icpc.tw/">https://taichung2025.icpc.tw/</a>.
+    </>
+  ),
 };
