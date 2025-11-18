@@ -1,17 +1,10 @@
+import shortnames from "../app/data/institutions/_shortnames.json";
+
 // This should match the university name printed
 // on the ICPC World Finals T-shirt.
 
 const INSTITUTION_SHORT_NAMES: Record<string, string> = {
-  "Bina Nusantara University": "BINUS",
-  "Hanoi University of Science and Technology": "HUST",
-  "Nanyang Technological University": "Nanyang TU",
-  "National University of Singapore": "NUS",
-  "National Tsing Hua University": "NTHU",
-  "National Yang Ming Chiao Tung University": "NYCU",
-  "Pohang University of Science and Technology": "POSTECH",
-  "The University of Tokyo": "U Tokyo",
-  "Tokyo Institute of Technology": "Tokyo Tech",
-  "Universitas Indonesia": "UI",
+  ...shortnames,
 };
 
 export const shortenInstitutionName = (institution: string) => {

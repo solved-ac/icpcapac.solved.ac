@@ -6,6 +6,7 @@ import {
   Container,
   Divider,
   Row,
+  Space,
   Table,
   TableBody,
   TableHead,
@@ -66,11 +67,21 @@ const Page = () => {
       </Table>
       <Divider />
       <Card>
+        <b>Institution Names</b>: If the institution had participated in the
+        World Finals, its name is shortened according to the name printed on the
+        latest ICPC World Finals T-shirt. Otherwise, the full institution name
+        is shown.
+        <Space h={8} />
+        <Divider margin="none" />
+        <Space h={8} />
         <b>South Pacific Finals</b>: Scoreboard is not published yet in the ICPC
         system, but the information was retrieved from:{" "}
         <a href="https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/">
           https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/
         </a>
+        <Space h={8} />
+        <Divider margin="none" />
+        <Space h={8} />
         The selection algorithm is assumed to be the same as 2024-2025 cycle.
       </Card>
       <MergedScoreboard teams={mergedTeams} />
