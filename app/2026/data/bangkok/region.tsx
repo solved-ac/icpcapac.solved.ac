@@ -1,6 +1,5 @@
 import { INSTITUTION_REGION_MAP } from "../../../data/institutions/institution";
 import {
-  countTeamNames,
   countTeams,
   countUniversities,
   regionScore,
@@ -8,11 +7,6 @@ import {
 } from "../regionScore";
 import { Regional, RegionalStatus } from "../types";
 
-// TODO replace this with official ICPC data
-// Converted from https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview?fbclid=IwY2xjawN0NL9leHRuA2FlbQIxMABicmlkETFaRkdKRzhCekxwMzF2ZFlYAR6sX1rnk1smT8TaF0RRjA52mCblUk4R_dhT5Bf3k5ugbH4qgdjRQ1LtyDcMFQ_aem_yj1Fijx_bwk5kvrLPXYy6A
-import prelimsTeams from "./ThailandNational2025Teams.json";
-
-// However this is official:
 import regionalStandings from "./Bangkok2026Standings.json";
 
 const THAILAND_REGION_SCORE: RegionScoreArgs = {
@@ -23,8 +17,8 @@ const THAILAND_REGION_SCORE: RegionScoreArgs = {
       (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "THA"
     )
   ),
-  teamsPrelim: countTeamNames(prelimsTeams),
-  univsPrelim: countUniversities(prelimsTeams),
+  teamsPrelim: 0,
+  univsPrelim: 0,
 };
 
 export const Bangkok: Regional = {
@@ -38,14 +32,8 @@ export const Bangkok: Regional = {
   scoreboard: regionalStandings,
   disclaimer: (
     <>
-      The preliminary scoreboard is not available.
-      <br />
-      Preliminary teams list is converted from:{" "}
-      <a href="https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview">
-        https://docs.google.com/spreadsheets/d/1-iGAEtp5xeaeTdsj6eD9YJiBGgHIHP5QmvHvwRoZeCg/htmlview
-      </a>
-      , <b>without excluding teams with 0 solves</b> &ndash; the site score may
-      decrease when teams with 0 solves are excluded.
+      The technical director confirmed that the ICPC Thailand Nationals is not a
+      preliminary contest for this region.
     </>
   ),
 };
