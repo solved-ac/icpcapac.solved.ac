@@ -1,0 +1,658 @@
+[
+  {
+    "teamId": 414000,
+    "teamName": "Just use CRT",
+    "institution": "Seoul National University",
+    "problemsSolved": 10,
+    "totalTime": 1041,
+    "rank": 1
+  },
+  {
+    "teamId": 414001,
+    "teamName": "floorsum",
+    "institution": "Seoul National University",
+    "problemsSolved": 10,
+    "totalTime": 1085,
+    "rank": 2
+  },
+  {
+    "teamId": 414002,
+    "teamName": "AMATSUKAZE",
+    "institution": "Institute of Science Tokyo",
+    "problemsSolved": 10,
+    "totalTime": 1095,
+    "rank": 3
+  },
+  {
+    "teamId": 414003,
+    "teamName": "DaiMonge",
+    "institution": "Kyoto University",
+    "problemsSolved": 10,
+    "totalTime": 1149,
+    "rank": 4
+  },
+  {
+    "teamId": 414004,
+    "teamName": "revoNTUlet",
+    "institution": "National Taiwan University",
+    "problemsSolved": 9,
+    "totalTime": 933,
+    "rank": 5
+  },
+  {
+    "teamId": 414005,
+    "teamName": "Fox is cute",
+    "institution": "KAIST",
+    "problemsSolved": 9,
+    "totalTime": 988,
+    "rank": 6
+  },
+  {
+    "teamId": 414006,
+    "teamName": "Ssalhur",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 742,
+    "rank": 7
+  },
+  {
+    "teamId": 414007,
+    "teamName": "ThirdHighSchool",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 760,
+    "rank": 8
+  },
+  {
+    "teamId": 414008,
+    "teamName": "GENGFaker",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 785,
+    "rank": 9
+  },
+  {
+    "teamId": 414009,
+    "teamName": "20s",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 790,
+    "rank": 10
+  },
+  {
+    "teamId": 414010,
+    "teamName": "LeeMinGyu",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 871,
+    "rank": 11
+  },
+  {
+    "teamId": 414011,
+    "teamName": "DidYouCheckEERTREE",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 896,
+    "rank": 12
+  },
+  {
+    "teamId": 414012,
+    "teamName": "Magical Fish",
+    "institution": "The University of Tokyo",
+    "problemsSolved": 8,
+    "totalTime": 918,
+    "rank": 13
+  },
+  {
+    "teamId": 414013,
+    "teamName": "junhoLover",
+    "institution": "SungKyunKwan University",
+    "problemsSolved": 8,
+    "totalTime": 943,
+    "rank": 14
+  },
+  {
+    "teamId": 414014,
+    "teamName": "SEVERANCE",
+    "institution": "Yonsei University",
+    "problemsSolved": 8,
+    "totalTime": 944,
+    "rank": 15
+  },
+  {
+    "teamId": 414015,
+    "teamName": "NTNU_2beatdown",
+    "institution": "National Taiwan Normal University",
+    "problemsSolved": 8,
+    "totalTime": 967,
+    "rank": 16
+  },
+  {
+    "teamId": 414016,
+    "teamName": "NJG",
+    "institution": "Hanyang University",
+    "problemsSolved": 8,
+    "totalTime": 1001,
+    "rank": 17
+  },
+  {
+    "teamId": 414017,
+    "teamName": "UmJongNo",
+    "institution": "KAIST",
+    "problemsSolved": 8,
+    "totalTime": 1008,
+    "rank": 18
+  },
+  {
+    "teamId": 414018,
+    "teamName": "SMALLSHOT",
+    "institution": "KAIST",
+    "problemsSolved": 8,
+    "totalTime": 1026,
+    "rank": 19
+  },
+  {
+    "teamId": 414019,
+    "teamName": "Busan Tourism",
+    "institution": "KAIST",
+    "problemsSolved": 8,
+    "totalTime": 1052,
+    "rank": 20
+  },
+  {
+    "teamId": 414020,
+    "teamName": "2 3 5 8 14",
+    "institution": "Jeonbuk National University",
+    "problemsSolved": 8,
+    "totalTime": 1054,
+    "rank": 21
+  },
+  {
+    "teamId": 414021,
+    "teamName": "Endgame",
+    "institution": "Yonsei University",
+    "problemsSolved": 8,
+    "totalTime": 1065,
+    "rank": 22
+  },
+  {
+    "teamId": 414022,
+    "teamName": "CPG",
+    "institution": "Seoul National University",
+    "problemsSolved": 8,
+    "totalTime": 1069,
+    "rank": 23
+  },
+  {
+    "teamId": 414023,
+    "teamName": "clopa",
+    "institution": "KAIST",
+    "problemsSolved": 8,
+    "totalTime": 1205,
+    "rank": 24
+  },
+  {
+    "teamId": 414024,
+    "teamName": "Just Reboot JungSangHwa",
+    "institution": "Pusan National University",
+    "problemsSolved": 8,
+    "totalTime": 1524,
+    "rank": 25
+  },
+  {
+    "teamId": 414025,
+    "teamName": "GEESE CROSSING",
+    "institution": "KAIST",
+    "problemsSolved": 7,
+    "totalTime": 593,
+    "rank": 26
+  },
+  {
+    "teamId": 414026,
+    "teamName": "TempleRun",
+    "institution": "Seoul National University",
+    "problemsSolved": 7,
+    "totalTime": 634,
+    "rank": 27
+  },
+  {
+    "teamId": 414027,
+    "teamName": "Memoria",
+    "institution": "Kyung Hee University",
+    "problemsSolved": 7,
+    "totalTime": 692,
+    "rank": 28
+  },
+  {
+    "teamId": 414028,
+    "teamName": "541",
+    "institution": "Kookmin University",
+    "problemsSolved": 7,
+    "totalTime": 707,
+    "rank": 29
+  },
+  {
+    "teamId": 414029,
+    "teamName": "finimage",
+    "institution": "Korea University",
+    "problemsSolved": 7,
+    "totalTime": 770,
+    "rank": 30
+  },
+  {
+    "teamId": 414030,
+    "teamName": "ConSpirito",
+    "institution": "Pohang University of Science and Technology",
+    "problemsSolved": 7,
+    "totalTime": 782,
+    "rank": 31
+  },
+  {
+    "teamId": 414031,
+    "teamName": "goraani",
+    "institution": "Sogang University",
+    "problemsSolved": 7,
+    "totalTime": 786,
+    "rank": 32
+  },
+  {
+    "teamId": 414032,
+    "teamName": "Delusion",
+    "institution": "Pohang University of Science and Technology",
+    "problemsSolved": 7,
+    "totalTime": 818,
+    "rank": 33
+  },
+  {
+    "teamId": 414033,
+    "teamName": "PIMM",
+    "institution": "Chonnam National University",
+    "problemsSolved": 7,
+    "totalTime": 957,
+    "rank": 34
+  },
+  {
+    "teamId": 414034,
+    "teamName": "Kpop Ssal Hunters",
+    "institution": "Yonsei University",
+    "problemsSolved": 7,
+    "totalTime": 967,
+    "rank": 35
+  },
+  {
+    "teamId": 414035,
+    "teamName": "Rock kokiri Paper",
+    "institution": "KAIST",
+    "problemsSolved": 7,
+    "totalTime": 979,
+    "rank": 36
+  },
+  {
+    "teamId": 414036,
+    "teamName": "Greenbelt",
+    "institution": "Ulsan National Institute of Science and Technology",
+    "problemsSolved": 7,
+    "totalTime": 996,
+    "rank": 37
+  },
+  {
+    "teamId": 414037,
+    "teamName": "Seoulved AC",
+    "institution": "Hanyang University",
+    "problemsSolved": 7,
+    "totalTime": 1082,
+    "rank": 38
+  },
+  {
+    "teamId": 414038,
+    "teamName": "AwesomeTeamNameV2",
+    "institution": "Daegu Gyungbook Institute of Science and Technology",
+    "problemsSolved": 7,
+    "totalTime": 1184,
+    "rank": 39
+  },
+  {
+    "teamId": 414039,
+    "teamName": "GeongongiIsMae",
+    "institution": "University of Seoul",
+    "problemsSolved": 7,
+    "totalTime": 1213,
+    "rank": 40
+  },
+  {
+    "teamId": 414040,
+    "teamName": "NaNiGaSuKi",
+    "institution": "Soongsil University",
+    "problemsSolved": 7,
+    "totalTime": 1247,
+    "rank": 41
+  },
+  {
+    "teamId": 414041,
+    "teamName": "Sportsmen",
+    "institution": "KAIST",
+    "problemsSolved": 6,
+    "totalTime": 600,
+    "rank": 42
+  },
+  {
+    "teamId": 414042,
+    "teamName": "junhaLover",
+    "institution": "SungKyunKwan University",
+    "problemsSolved": 6,
+    "totalTime": 697,
+    "rank": 43
+  },
+  {
+    "teamId": 414043,
+    "teamName": "3Blue1Nutella",
+    "institution": "Yonsei University",
+    "problemsSolved": 6,
+    "totalTime": 729,
+    "rank": 44
+  },
+  {
+    "teamId": 414044,
+    "teamName": "Three Sigma",
+    "institution": "Ulsan National Institute of Science and Technology",
+    "problemsSolved": 6,
+    "totalTime": 757,
+    "rank": 45
+  },
+  {
+    "teamId": 414045,
+    "teamName": "UNAHAREMIKU",
+    "institution": "Seoul National University",
+    "problemsSolved": 6,
+    "totalTime": 764,
+    "rank": 46
+  },
+  {
+    "teamId": 414046,
+    "teamName": "Entropi",
+    "institution": "KAIST",
+    "problemsSolved": 6,
+    "totalTime": 827,
+    "rank": 47
+  },
+  {
+    "teamId": 414047,
+    "teamName": "Painful Solving",
+    "institution": "KAIST",
+    "problemsSolved": 6,
+    "totalTime": 968,
+    "rank": 48
+  },
+  {
+    "teamId": 414048,
+    "teamName": "ProofByAC",
+    "institution": "Korea University",
+    "problemsSolved": 6,
+    "totalTime": 1004,
+    "rank": 49
+  },
+  {
+    "teamId": 414049,
+    "teamName": "kumayuC",
+    "institution": "Korea University",
+    "problemsSolved": 6,
+    "totalTime": 1160,
+    "rank": 50
+  },
+  {
+    "teamId": 414050,
+    "teamName": "TBNTB",
+    "institution": "Sejong University",
+    "problemsSolved": 5,
+    "totalTime": 637,
+    "rank": 51
+  },
+  {
+    "teamId": 414051,
+    "teamName": "HwangGyoseon",
+    "institution": "Ajou University",
+    "problemsSolved": 5,
+    "totalTime": 656,
+    "rank": 52
+  },
+  {
+    "teamId": 414052,
+    "teamName": "Preforce",
+    "institution": "KAIST",
+    "problemsSolved": 5,
+    "totalTime": 683,
+    "rank": 53
+  },
+  {
+    "teamId": 414053,
+    "teamName": "TwoMinuteSearch",
+    "institution": "Dankook University",
+    "problemsSolved": 5,
+    "totalTime": 772,
+    "rank": 54
+  },
+  {
+    "teamId": 414054,
+    "teamName": "Marttians",
+    "institution": "Ulsan National Institute of Science and Technology",
+    "problemsSolved": 5,
+    "totalTime": 899,
+    "rank": 55
+  },
+  {
+    "teamId": 414055,
+    "teamName": "kimchijeon",
+    "institution": "Seoul National University",
+    "problemsSolved": 5,
+    "totalTime": 993,
+    "rank": 56
+  },
+  {
+    "teamId": 414056,
+    "teamName": "SungSimDang",
+    "institution": "KAIST",
+    "problemsSolved": 4,
+    "totalTime": 361,
+    "rank": 57
+  },
+  {
+    "teamId": 414057,
+    "teamName": "ATRI",
+    "institution": "MyongJi University",
+    "problemsSolved": 4,
+    "totalTime": 402,
+    "rank": 58
+  },
+  {
+    "teamId": 414058,
+    "teamName": "goldttalkak",
+    "institution": "Seoul National University",
+    "problemsSolved": 4,
+    "totalTime": 422,
+    "rank": 59
+  },
+  {
+    "teamId": 414059,
+    "teamName": "REREREAD",
+    "institution": "National Cheng-Chi University",
+    "problemsSolved": 4,
+    "totalTime": 465,
+    "rank": 60
+  },
+  {
+    "teamId": 414060,
+    "teamName": "ANA",
+    "institution": "Chungnam National University",
+    "problemsSolved": 4,
+    "totalTime": 472,
+    "rank": 61
+  },
+  {
+    "teamId": 414061,
+    "teamName": "MSG",
+    "institution": "Sangmyung University",
+    "problemsSolved": 4,
+    "totalTime": 514,
+    "rank": 62
+  },
+  {
+    "teamId": 414062,
+    "teamName": "Team ALGOS",
+    "institution": "Sookmyung Women’s University",
+    "problemsSolved": 4,
+    "totalTime": 575,
+    "rank": 63
+  },
+  {
+    "teamId": 414063,
+    "teamName": "kim hu ha",
+    "institution": "Pukyong National University",
+    "problemsSolved": 3,
+    "totalTime": 295,
+    "rank": 64
+  },
+  {
+    "teamId": 414064,
+    "teamName": "1st",
+    "institution": "Handong Global University",
+    "problemsSolved": 3,
+    "totalTime": 357,
+    "rank": 65
+  },
+  {
+    "teamId": 414065,
+    "teamName": "hambugihambook",
+    "institution": "Ewha Womans University",
+    "problemsSolved": 3,
+    "totalTime": 424,
+    "rank": 66
+  },
+  {
+    "teamId": 414066,
+    "teamName": "1Che0ngDam",
+    "institution": "Kyungpook National University",
+    "problemsSolved": 3,
+    "totalTime": 465,
+    "rank": 67
+  },
+  {
+    "teamId": 414067,
+    "teamName": "BEXCOTour",
+    "institution": "Incheon National University",
+    "problemsSolved": 3,
+    "totalTime": 531,
+    "rank": 68
+  },
+  {
+    "teamId": 414068,
+    "teamName": "TeamKoala",
+    "institution": "Korea Aerospace University",
+    "problemsSolved": 3,
+    "totalTime": 561,
+    "rank": 69
+  },
+  {
+    "teamId": 414069,
+    "teamName": "isSnakeCase",
+    "institution": "Konkuk University",
+    "problemsSolved": 3,
+    "totalTime": 649,
+    "rank": 70
+  },
+  {
+    "teamId": 414070,
+    "teamName": "Make ChAOS Great Again",
+    "institution": "Chung-Ang University",
+    "problemsSolved": 2,
+    "totalTime": 71,
+    "rank": 71
+  },
+  {
+    "teamId": 414071,
+    "teamName": "HahahahahaHiarc",
+    "institution": "Hongik University",
+    "problemsSolved": 2,
+    "totalTime": 101,
+    "rank": 72
+  },
+  {
+    "teamId": 414072,
+    "teamName": "JKK 22",
+    "institution": "Inha University",
+    "problemsSolved": 2,
+    "totalTime": 108,
+    "rank": 73
+  },
+  {
+    "teamId": 414073,
+    "teamName": "OlympicJeongSin",
+    "institution": "The Catholic University of Korea",
+    "problemsSolved": 2,
+    "totalTime": 131,
+    "rank": 74
+  },
+  {
+    "teamId": 414074,
+    "teamName": "Solutio",
+    "institution": "Kyonggi University",
+    "problemsSolved": 2,
+    "totalTime": 133,
+    "rank": 75
+  },
+  {
+    "teamId": 414075,
+    "teamName": "CAPS",
+    "institution": "Dongguk University",
+    "problemsSolved": 2,
+    "totalTime": 158,
+    "rank": 76
+  },
+  {
+    "teamId": 414076,
+    "teamName": "KimChangKimchi",
+    "institution": "Kongju National University",
+    "problemsSolved": 2,
+    "totalTime": 397,
+    "rank": 77
+  },
+  {
+    "teamId": 414077,
+    "teamName": "stoi",
+    "institution": "Gachon University",
+    "problemsSolved": 2,
+    "totalTime": 495,
+    "rank": 78
+  },
+  {
+    "teamId": 414078,
+    "teamName": "I am Who",
+    "institution": "Dong-Eui University",
+    "problemsSolved": 2,
+    "totalTime": 526,
+    "rank": 79
+  },
+  {
+    "teamId": 414079,
+    "teamName": "CatBoost",
+    "institution": "Korea National University of Education",
+    "problemsSolved": 2,
+    "totalTime": 588,
+    "rank": 80
+  },
+  {
+    "teamId": 414080,
+    "teamName": "La Mer",
+    "institution": "Jeju National University",
+    "problemsSolved": 1,
+    "totalTime": 178,
+    "rank": 81
+  },
+  {
+    "teamId": 414081,
+    "teamName": "RASP",
+    "institution": "Kyungsung University",
+    "problemsSolved": 1,
+    "totalTime": 216,
+    "rank": 82
+  }
+]
