@@ -1,7 +1,7 @@
 import { INSTITUTION_REGION_MAP } from "@/app/data/institutions/institution";
 import { Jakarta as Jakarta2025 } from "../../../2025/data/jakarta/region";
 import {
-  countTeamNames,
+  countTeams,
   countUniversities,
   regionScore,
   RegionScoreArgs,
@@ -10,13 +10,13 @@ import { Regional, RegionalStatus } from "../types";
 
 // TODO replace this with official ICPC data
 // import regionalStandings from "./Jakarta2025Standings.json";
-import regionalTeams from "./Jakarta2026Teams.json";
+import regionalStandings from "./Jakarta2026Standings.json";
 
 const INDONESIA_REGION_SCORE: RegionScoreArgs = {
-  univs: countUniversities(regionalTeams),
-  teams: countTeamNames(regionalTeams),
-  foreignTeams: countTeamNames(
-    regionalTeams.filter(
+  univs: countUniversities(regionalStandings),
+  teams: countTeams(regionalStandings),
+  foreignTeams: countTeams(
+    regionalStandings.filter(
       (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "IDN"
     )
   ),
@@ -31,13 +31,20 @@ export const Jakarta: Regional = {
   site: "Jakarta",
   region: "IDN",
   url: "https://competition.binus.ac.id/icpc2025/",
-  status: RegionalStatus.preliminariesFinished,
+  status: RegionalStatus.regionalsFinished,
   score: regionScore(INDONESIA_REGION_SCORE),
   scoreDetails: INDONESIA_REGION_SCORE,
-  regionalTeams,
+  scoreboard: regionalStandings,
   lastYear: Jakarta2025,
   disclaimer: (
     <>
+      The scoreboard is not yet published in the ICPC system. It is converted
+      from:{" "}
+      <a href="https://competition.binus.ac.id/contest/public">
+        https://competition.binus.ac.id/contest/public
+      </a>{" "}
+      at 25-11-24.
+      <br />
       Preliminary teams list is converted from:{" "}
       <a href="https://competition.binus.ac.id/inc2025/">
         https://competition.binus.ac.id/inc2025/

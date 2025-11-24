@@ -1,0 +1,538 @@
+[
+  {
+    "teamId": 416000,
+    "teamName": "std_abs",
+    "institution": "National Taiwan University",
+    "problemsSolved": 13,
+    "totalTime": 1395,
+    "rank": 1
+  },
+  {
+    "teamId": 416001,
+    "teamName": "193637",
+    "institution": "National University of Singapore",
+    "problemsSolved": 10,
+    "totalTime": 945,
+    "rank": 2
+  },
+  {
+    "teamId": 416002,
+    "teamName": "NYCU_CartesianTreeII",
+    "institution": "National Yang Ming Chiao Tung University",
+    "problemsSolved": 10,
+    "totalTime": 1221,
+    "rank": 3
+  },
+  {
+    "teamId": 416003,
+    "teamName": "milliard",
+    "institution": "University of Engineering and Technology - VNU",
+    "problemsSolved": 10,
+    "totalTime": 1856,
+    "rank": 4
+  },
+  {
+    "teamId": 416004,
+    "teamName": "stressed desserts",
+    "institution": "National University of Singapore",
+    "problemsSolved": 8,
+    "totalTime": 778,
+    "rank": 5
+  },
+  {
+    "teamId": 416005,
+    "teamName": "PTIT.Star",
+    "institution": "Posts and Telecommunications Institute of Technology, HN",
+    "problemsSolved": 7,
+    "totalTime": 794,
+    "rank": 6
+  },
+  {
+    "teamId": 416006,
+    "teamName": "WanPiece",
+    "institution": "BINUS University",
+    "problemsSolved": 6,
+    "totalTime": 550,
+    "rank": 7
+  },
+  {
+    "teamId": 416007,
+    "teamName": "NYCU_Hitori",
+    "institution": "National Yang Ming Chiao Tung University",
+    "problemsSolved": 6,
+    "totalTime": 644,
+    "rank": 8
+  },
+  {
+    "teamId": 416008,
+    "teamName": "r3eial",
+    "institution": "BINUS University",
+    "problemsSolved": 6,
+    "totalTime": 659,
+    "rank": 9
+  },
+  {
+    "teamId": 416009,
+    "teamName": "NYCU_Houkago_Tea_Time",
+    "institution": "National Yang Ming Chiao Tung University",
+    "problemsSolved": 6,
+    "totalTime": 668,
+    "rank": 10
+  },
+  {
+    "teamId": 416010,
+    "teamName": "fa ri do la si ma net",
+    "institution": "BINUS University",
+    "problemsSolved": 6,
+    "totalTime": 712,
+    "rank": 11
+  },
+  {
+    "teamId": 416011,
+    "teamName": "GMAC",
+    "institution": "Universitas Gadjah Mada",
+    "problemsSolved": 6,
+    "totalTime": 784,
+    "rank": 12
+  },
+  {
+    "teamId": 416012,
+    "teamName": "Jangan Lupa Beli Akun ML di @sultanmarketmlbb",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 5,
+    "totalTime": 339,
+    "rank": 13
+  },
+  {
+    "teamId": 416013,
+    "teamName": "BlueCapeFlyingCat",
+    "institution": "National Tsing Hua University",
+    "problemsSolved": 5,
+    "totalTime": 352,
+    "rank": 14
+  },
+  {
+    "teamId": 416014,
+    "teamName": "no AC, we KRY :'(",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 5,
+    "totalTime": 377,
+    "rank": 15
+  },
+  {
+    "teamId": 416015,
+    "teamName": "Sprague-GaRomDy",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 5,
+    "totalTime": 483,
+    "rank": 16
+  },
+  {
+    "teamId": 416016,
+    "teamName": "DoaAyahRestuIbu",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 5,
+    "totalTime": 534,
+    "rank": 17
+  },
+  {
+    "teamId": 416017,
+    "teamName": "NEU.Arsonists",
+    "institution": "National Economics University",
+    "problemsSolved": 5,
+    "totalTime": 548,
+    "rank": 18
+  },
+  {
+    "teamId": 416018,
+    "teamName": "Monalisea",
+    "institution": "Institut Teknologi Sepuluh Nopember",
+    "problemsSolved": 5,
+    "totalTime": 627,
+    "rank": 19
+  },
+  {
+    "teamId": 416019,
+    "teamName": "Persatuan Bebek Jawa",
+    "institution": "Universitas Gadjah Mada",
+    "problemsSolved": 5,
+    "totalTime": 719,
+    "rank": 20
+  },
+  {
+    "teamId": 416020,
+    "teamName": "Crispy MSG",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 5,
+    "totalTime": 763,
+    "rank": 21
+  },
+  {
+    "teamId": 416021,
+    "teamName": " Indonesian Airfryer",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 5,
+    "totalTime": 872,
+    "rank": 22
+  },
+  {
+    "teamId": 416022,
+    "teamName": "Selamat! Berjuang! Sukses! *handclap",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 4,
+    "totalTime": 231,
+    "rank": 23
+  },
+  {
+    "teamId": 416023,
+    "teamName": "4.0 ★★★★☆ (727 reviews)",
+    "institution": "Singapore University of Technology and Design",
+    "problemsSolved": 4,
+    "totalTime": 236,
+    "rank": 24
+  },
+  {
+    "teamId": 416024,
+    "teamName": "67",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 4,
+    "totalTime": 338,
+    "rank": 25
+  },
+  {
+    "teamId": 416025,
+    "teamName": "1 BrrBrr, 2 MasMas",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 4,
+    "totalTime": 467,
+    "rank": 26
+  },
+  {
+    "teamId": 416026,
+    "teamName": "Runtime Error",
+    "institution": "BINUS University",
+    "problemsSolved": 4,
+    "totalTime": 468,
+    "rank": 27
+  },
+  {
+    "teamId": 416027,
+    "teamName": "skrg hari apa",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 4,
+    "totalTime": 560,
+    "rank": 28
+  },
+  {
+    "teamId": 416028,
+    "teamName": "loosen up",
+    "institution": "BINUS University",
+    "problemsSolved": 4,
+    "totalTime": 562,
+    "rank": 29
+  },
+  {
+    "teamId": 416029,
+    "teamName": "TriTrieTree",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 4,
+    "totalTime": 583,
+    "rank": 30
+  },
+  {
+    "teamId": 416030,
+    "teamName": "Three Perantau",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 4,
+    "totalTime": 818,
+    "rank": 31
+  },
+  {
+    "teamId": 416031,
+    "teamName": "Kata Pak Denny harus lebih semangat dan sering latihan dan upsolving d=(^.^)",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 3,
+    "totalTime": 298,
+    "rank": 32
+  },
+  {
+    "teamId": 416032,
+    "teamName": "No More What Ifs",
+    "institution": "BINUS University",
+    "problemsSolved": 3,
+    "totalTime": 321,
+    "rank": 33
+  },
+  {
+    "teamId": 416033,
+    "teamName": "TLE: VelonY-v2",
+    "institution": "Institut Pertanian Bogor",
+    "problemsSolved": 3,
+    "totalTime": 405,
+    "rank": 34
+  },
+  {
+    "teamId": 416034,
+    "teamName": "power puff girls",
+    "institution": "BINUS University",
+    "problemsSolved": 3,
+    "totalTime": 493,
+    "rank": 35
+  },
+  {
+    "teamId": 416035,
+    "teamName": "Miracle Trio",
+    "institution": "Xiamen University Malaysia",
+    "problemsSolved": 3,
+    "totalTime": 503,
+    "rank": 36
+  },
+  {
+    "teamId": 416036,
+    "teamName": "smokeBreak",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 188,
+    "rank": 37
+  },
+  {
+    "teamId": 416037,
+    "teamName": "BentengMaria",
+    "institution": "Universitas Pembangunan Nasional \"Veteran\" Yogyakarta",
+    "problemsSolved": 2,
+    "totalTime": 236,
+    "rank": 38
+  },
+  {
+    "teamId": 416038,
+    "teamName": "GK",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 276,
+    "rank": 39
+  },
+  {
+    "teamId": 416039,
+    "teamName": "Do Not Give Opinion Edisi Mencari Kerja",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 334,
+    "rank": 40
+  },
+  {
+    "teamId": 416040,
+    "teamName": "Bismillah Anak Lama AC",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 343,
+    "rank": 41
+  },
+  {
+    "teamId": 416041,
+    "teamName": "ayce",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 400,
+    "rank": 42
+  },
+  {
+    "teamId": 416042,
+    "teamName": "CTF Enjoyer",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 460,
+    "rank": 43
+  },
+  {
+    "teamId": 416043,
+    "teamName": "mr siduY enjoyer",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 2,
+    "totalTime": 476,
+    "rank": 44
+  },
+  {
+    "teamId": 416044,
+    "teamName": "sudo rm -rf /hope",
+    "institution": "Politeknik Negeri Bandung",
+    "problemsSolved": 2,
+    "totalTime": 789,
+    "rank": 45
+  },
+  {
+    "teamId": 416045,
+    "teamName": "cakalang fufu",
+    "institution": "Sam Ratulangi University",
+    "problemsSolved": 1,
+    "totalTime": 127,
+    "rank": 46
+  },
+  {
+    "teamId": 416046,
+    "teamName": "where tree? (tribute to bg Kenny btw)",
+    "institution": "Universitas Tanjungpura",
+    "problemsSolved": 1,
+    "totalTime": 143,
+    "rank": 47
+  },
+  {
+    "teamId": 416047,
+    "teamName": "udahpasrah",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 1,
+    "totalTime": 207,
+    "rank": 48
+  },
+  {
+    "teamId": 416048,
+    "teamName": "BCC RaidenFanClub",
+    "institution": "Brawijaya University",
+    "problemsSolved": 1,
+    "totalTime": 239,
+    "rank": 49
+  },
+  {
+    "teamId": 416049,
+    "teamName": "r2sv",
+    "institution": "Institut Teknologi Bandung",
+    "problemsSolved": 1,
+    "totalTime": 292,
+    "rank": 50
+  },
+  {
+    "teamId": 416050,
+    "teamName": "Meowl",
+    "institution": "Gunadarma University",
+    "problemsSolved": 1,
+    "totalTime": 315,
+    "rank": 51
+  },
+  {
+    "teamId": 416051,
+    "teamName": "BZK",
+    "institution": "Universitas Hasanuddin",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416052,
+    "teamName": "Bebas lah",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416053,
+    "teamName": "Halo",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416054,
+    "teamName": "InilahIjat",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416055,
+    "teamName": "JackJack",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416056,
+    "teamName": "KEL 14",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416057,
+    "teamName": "Libur Malah Lomba",
+    "institution": "Universitas Gadjah Mada",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416058,
+    "teamName": "Nakes cocok deh kalo sama programmer",
+    "institution": "Universitas Diponegoro",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416059,
+    "teamName": "PengabdiTLE",
+    "institution": "Telkom University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416060,
+    "teamName": "Qwertyuioooooooop",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416061,
+    "teamName": "SukaKoding",
+    "institution": "Universitas Pendidikan Indonesia",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416062,
+    "teamName": "Time Limit Exceeded",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416063,
+    "teamName": "Trio Malas",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416064,
+    "teamName": "abhyāsa",
+    "institution": "University of Padjadjaran",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416065,
+    "teamName": "baru balik dari banjar",
+    "institution": "Universitas Indonesia",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  },
+  {
+    "teamId": 416066,
+    "teamName": "mapintint",
+    "institution": "BINUS University",
+    "problemsSolved": 0,
+    "totalTime": 0,
+    "rank": 52
+  }
+]
