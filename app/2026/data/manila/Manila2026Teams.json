@@ -1,7 +1,7 @@
 [
   {
     "teamId": null,
-    "name": "Child Nodes Make My Edges Heavy",
+    "name": "Edge Cases Make Me Long Long",
     "status": null,
     "country": "",
     "institution": "Ateneo de Manila University",
@@ -9,7 +9,7 @@
   },
   {
     "teamId": null,
-    "name": "Edge Cases Make Me Long Long",
+    "name": "Our Past Team Name Was a Double-Edged Sword",
     "status": null,
     "country": "",
     "institution": "Ateneo de Manila University",
@@ -105,10 +105,10 @@
   },
   {
     "teamId": null,
-    "name": "iTama_Mo",
+    "name": "2 3 5 8 14",
     "status": null,
     "country": "",
-    "institution": "FEU Institute of Technology",
+    "institution": "Jeonbuk National University",
     "teamMembers": "[]"
   },
   {
@@ -197,6 +197,14 @@
     "status": null,
     "country": "",
     "institution": "Singapore University of Technology and Design",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Ethereal",
+    "status": null,
+    "country": "",
+    "institution": "Technological Institute of the Philippines - Quezon City",
     "teamMembers": "[]"
   },
   {
