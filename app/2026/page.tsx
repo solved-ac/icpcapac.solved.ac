@@ -36,6 +36,7 @@ const Page = () => {
           <Row>
             <Cell>Site</Cell>
             <Cell>Score</Cell>
+            <Cell>(2024)</Cell>
           </Row>
         </TableHead>
         <TableBody>
@@ -60,6 +61,19 @@ const Page = () => {
                     ? ""
                     : "?"}
                 </Typo>
+              </Cell>
+              <Cell
+                style={{
+                  textAlign: "right",
+                }}
+              >
+                {region.lastYear ? (
+                  <Typo tabular description>
+                    {region.lastYear.score.toFixed(2)}
+                  </Typo>
+                ) : (
+                  <Typo description>-</Typo>
+                )}
               </Cell>
             </Row>
           ))}
