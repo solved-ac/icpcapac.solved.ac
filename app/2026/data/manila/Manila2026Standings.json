@@ -1,0 +1,298 @@
+[
+  {
+    "teamId": 500001,
+    "teamName": "PCkomachi",
+    "institution": "National Taiwan University",
+    "rank": 1,
+    "problemsSolved": 12,
+    "totalTime": 971
+  },
+  {
+    "teamId": 500002,
+    "teamName": "Endgame",
+    "institution": "Yonsei University",
+    "rank": 2,
+    "problemsSolved": 11,
+    "totalTime": 1344
+  },
+  {
+    "teamId": 500003,
+    "teamName": "print(\"\\u0D9E\") ",
+    "institution": "Nanyang Technological University",
+    "rank": 3,
+    "problemsSolved": 11,
+    "totalTime": 1480
+  },
+  {
+    "teamId": 500004,
+    "teamName": "infinity",
+    "institution": "University of Engineering and Technology - VNU",
+    "rank": 4,
+    "problemsSolved": 10,
+    "totalTime": 1115
+  },
+  {
+    "teamId": 500005,
+    "teamName": "Here for the Free Snacks",
+    "institution": "Chulalongkorn University",
+    "rank": 5,
+    "problemsSolved": 10,
+    "totalTime": 1305
+  },
+  {
+    "teamId": 500006,
+    "teamName": "WanPiece",
+    "institution": "BINUS University",
+    "rank": 6,
+    "problemsSolved": 9,
+    "totalTime": 914
+  },
+  {
+    "teamId": 500007,
+    "teamName": "Peanut Butter and Neovim",
+    "institution": "Nanyang Technological University",
+    "rank": 7,
+    "problemsSolved": 9,
+    "totalTime": 983
+  },
+  {
+    "teamId": 500008,
+    "teamName": "The b in problem b stands for brick",
+    "institution": "De La Salle University",
+    "rank": 8,
+    "problemsSolved": 9,
+    "totalTime": 1033
+  },
+  {
+    "teamId": 500009,
+    "teamName": "Murtabak",
+    "institution": "Nanyang Technological University",
+    "rank": 9,
+    "problemsSolved": 9,
+    "totalTime": 1103
+  },
+  {
+    "teamId": 500010,
+    "teamName": "Muchas gracias afición, este es para vosotros",
+    "institution": "Nanyang Technological University",
+    "rank": 10,
+    "problemsSolved": 9,
+    "totalTime": 1154
+  },
+  {
+    "teamId": 500011,
+    "teamName": "HowToCompile",
+    "institution": "Nanyang Technological University",
+    "rank": 11,
+    "problemsSolved": 8,
+    "totalTime": 769
+  },
+  {
+    "teamId": 500012,
+    "teamName": "GUESSFORCES",
+    "institution": "Nanyang Technological University",
+    "rank": 12,
+    "problemsSolved": 8,
+    "totalTime": 807
+  },
+  {
+    "teamId": 500013,
+    "teamName": "UIT.SQD.DemonSlayer",
+    "institution": "University of Information Technology - Vietnam National University HCM",
+    "rank": 13,
+    "problemsSolved": 8,
+    "totalTime": 846
+  },
+  {
+    "teamId": 500014,
+    "teamName": "Harbourspace_Hmm",
+    "institution": "University of the Thai Chamber of Commerce",
+    "rank": 14,
+    "problemsSolved": 8,
+    "totalTime": 944
+  },
+  {
+    "teamId": 500015,
+    "teamName": "2 3 5 8 14",
+    "institution": "Jeonbuk National University",
+    "rank": 15,
+    "problemsSolved": 8,
+    "totalTime": 1005
+  },
+  {
+    "teamId": 500016,
+    "teamName": "4.0 ★★★★☆ (727 reviews)",
+    "institution": "Singapore University of Technology and Design",
+    "rank": 16,
+    "problemsSolved": 7,
+    "totalTime": 863
+  },
+  {
+    "teamId": 500017,
+    "teamName": "de_dust2",
+    "institution": "Nanyang Technological University",
+    "rank": 17,
+    "problemsSolved": 7,
+    "totalTime": 1199
+  },
+  {
+    "teamId": 500018,
+    "teamName": "can't implem",
+    "institution": "De La Salle University",
+    "rank": 18,
+    "problemsSolved": 7,
+    "totalTime": 1331
+  },
+  {
+    "teamId": 500019,
+    "teamName": "fa ri do la si ma net",
+    "institution": "BINUS University",
+    "rank": 19,
+    "problemsSolved": 6,
+    "totalTime": 417
+  },
+  {
+    "teamId": 500020,
+    "teamName": "Salty Spitoon",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 20,
+    "problemsSolved": 6,
+    "totalTime": 775
+  },
+  {
+    "teamId": 500021,
+    "teamName": "Here for the Free Donuts",
+    "institution": "Chulalongkorn University",
+    "rank": 21,
+    "problemsSolved": 5,
+    "totalTime": 508
+  },
+  {
+    "teamId": 500022,
+    "teamName": "Iskolarz",
+    "institution": "Polytechnic University of the Philippines",
+    "rank": 22,
+    "problemsSolved": 5,
+    "totalTime": 586
+  },
+  {
+    "teamId": 500023,
+    "teamName": "wala ko maisip",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 23,
+    "problemsSolved": 5,
+    "totalTime": 626
+  },
+  {
+    "teamId": 500024,
+    "teamName": "lvl 16 mega knight",
+    "institution": "Ateneo de Manila University",
+    "rank": 24,
+    "problemsSolved": 5,
+    "totalTime": 896
+  },
+  {
+    "teamId": 500025,
+    "teamName": "lvl 1 crook",
+    "institution": "Ateneo de Manila University",
+    "rank": 25,
+    "problemsSolved": 4,
+    "totalTime": 256
+  },
+  {
+    "teamId": 500026,
+    "teamName": "lvl -2147483648 overlord",
+    "institution": "Ateneo de Manila University",
+    "rank": 26,
+    "problemsSolved": 4,
+    "totalTime": 338
+  },
+  {
+    "teamId": 500027,
+    "teamName": "FlatUwan",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 27,
+    "problemsSolved": 4,
+    "totalTime": 416
+  },
+  {
+    "teamId": 500028,
+    "teamName": "Nim",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 28,
+    "problemsSolved": 4,
+    "totalTime": 565
+  },
+  {
+    "teamId": 500029,
+    "teamName": "Kevinatics",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 29,
+    "problemsSolved": 4,
+    "totalTime": 578
+  },
+  {
+    "teamId": 500030,
+    "teamName": "C++kawa",
+    "institution": "University of the Philippines - Diliman",
+    "rank": 30,
+    "problemsSolved": 3,
+    "totalTime": 148
+  },
+  {
+    "teamId": 500031,
+    "teamName": "Harbourspace_GDP",
+    "institution": "University of the Thai Chamber of Commerce",
+    "rank": 31,
+    "problemsSolved": 3,
+    "totalTime": 165
+  },
+  {
+    "teamId": 500032,
+    "teamName": "DAD",
+    "institution": "Ateneo de Naga University",
+    "rank": 32,
+    "problemsSolved": 3,
+    "totalTime": 291
+  },
+  {
+    "teamId": 500033,
+    "teamName": "Mikro Hava Beats",
+    "institution": "Ateneo de Naga University",
+    "rank": 33,
+    "problemsSolved": 3,
+    "totalTime": 340
+  },
+  {
+    "teamId": 500034,
+    "teamName": "BITSTAKE",
+    "institution": "San Beda College Alabang",
+    "rank": 34,
+    "problemsSolved": 2,
+    "totalTime": 35
+  },
+  {
+    "teamId": 500035,
+    "teamName": "0xDEADBEEF",
+    "institution": "University of the Philippines Baguio",
+    "rank": 35,
+    "problemsSolved": 2,
+    "totalTime": 76
+  },
+  {
+    "teamId": 500036,
+    "teamName": "Rene DeClasses Fan Club: Code-gito ergo sum",
+    "institution": "Ateneo de Naga University",
+    "rank": 36,
+    "problemsSolved": 2,
+    "totalTime": 107
+  },
+  {
+    "teamId": 500037,
+    "teamName": "Jobert Batumbakal",
+    "institution": "De La Salle University",
+    "rank": 37,
+    "problemsSolved": 2,
+    "totalTime": 235
+  }
+]
