@@ -38,13 +38,6 @@ export const Jakarta: Regional = {
   lastYear: Jakarta2025,
   disclaimer: (
     <>
-      The scoreboard is not yet published in the ICPC system. It is converted
-      from:{" "}
-      <a href="https://competition.binus.ac.id/contest/public">
-        https://competition.binus.ac.id/contest/public
-      </a>{" "}
-      at 25-11-24.
-      <br />
       Preliminary teams list is converted from:{" "}
       <a href="https://competition.binus.ac.id/inc2025/">
         https://competition.binus.ac.id/inc2025/

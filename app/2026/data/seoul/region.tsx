@@ -34,10 +34,4 @@ export const Seoul: Regional = {
   scoreDetails: KOREA_REGION_SCORE,
   scoreboard: regionalStandings,
   lastYear: Seoul2025,
-  disclaimer: (
-    <>
-      Scoreboard is not yet published in the ICPC system, but is official since
-      I am in the technical committee.
-    </>
-  ),
 };

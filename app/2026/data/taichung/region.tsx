@@ -60,11 +60,4 @@ export const Taichung: Regional = {
   scoreDetails: TAIWAN_REGION_SCORE,
   scoreboard: regionalStandings,
   lastYear: Taichung2025,
-  disclaimer: (
-    <>
-      Regional scoreboard is not yet published in the ICPC system. The regional
-      scoreboard is converted from{" "}
-      <a href="https://taichung2025.icpc.tw/">https://taichung2025.icpc.tw/</a>.
-    </>
-  ),
 };

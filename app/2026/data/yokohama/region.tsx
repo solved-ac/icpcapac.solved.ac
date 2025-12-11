@@ -34,13 +34,4 @@ export const Yokohama: Regional = {
   scoreDetails: JAPAN_REGION_SCORE,
   scoreboard: regionalStandings,
   lastYear: Yokohama2025,
-  disclaimer: (
-    <>
-      Scoreboard is not yet published in the ICPC system. It is converted from:{" "}
-      <a href="https://icpcsec.firebaseapp.com/standings/">
-        https://icpcsec.firebaseapp.com/standings/
-      </a>{" "}
-      at 25-12-07.
-    </>
-  ),
 };
