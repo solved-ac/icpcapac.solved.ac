@@ -98,6 +98,7 @@ const Page = () => {
         <Space h={8} />
         The selection algorithm is assumed to be the same as 2024-2025 cycle.
       </Card>
+      <Space h={32} />
       <MergedScoreboard teams={mergedTeams} />
     </Container>
   );
