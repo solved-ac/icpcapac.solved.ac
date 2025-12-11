@@ -1,86 +1,146 @@
 [
   {
     "teamId": null,
-    "name": "Penguin and Tonic",
+    "name": "404 Logic Not Found",
     "status": null,
     "country": "",
-    "institution": "National University of Singapore"
+    "institution": "Chiang Mai University",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
-    "name": "Still like to party!!",
+    "name": "The Three Body's Problem",
     "status": null,
     "country": "",
-    "institution": "National University of Singapore"
+    "institution": "Chiang Mai University",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
-    "name": "Tê con",
+    "name": "Here for Free Lunch",
     "status": null,
     "country": "",
-    "institution": "National University of Singapore"
+    "institution": "Chulalongkorn University",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
-    "name": "ComTamBacKy",
+    "name": "Rock kokiri paper",
     "status": null,
     "country": "",
-    "institution": "National University of Singapore"
-  },
-  {
-    "teamId": null,
-    "name": "TYC",
-    "status": null,
-    "country": "",
-    "institution": "National Cheng Kung University"
-  },
-  {
-    "teamId": null,
-    "name": "Quid faciam? Quo eam?",
-    "status": null,
-    "country": "",
-    "institution": "Xiamen University Malaysia"
-  },
-  {
-    "teamId": null,
-    "name": "fruit_advantages",
-    "status": null,
-    "country": "",
-    "institution": "National Taiwan University"
-  },
-  {
-    "teamId": null,
-    "name": "'; DROP TABLE users; --",
-    "status": null,
-    "country": "",
-    "institution": "Singapore Management University"
-  },
-  {
-    "teamId": null,
-    "name": "lost_and_unfound",
-    "status": null,
-    "country": "",
-    "institution": "Singapore Management University"
-  },
-  {
-    "teamId": null,
-    "name": "193637",
-    "status": null,
-    "country": "",
-    "institution": "National University of Singapore"
-  },
-  {
-    "teamId": null,
-    "name": "penalty++ ",
-    "status": null,
-    "country": "",
-    "institution": "Nanyang Technological University"
+    "institution": "KAIST",
+    "teamMembers": "[]"
   },
   {
     "teamId": null,
     "name": "Ciallo (∠・w )⌒☆",
     "status": null,
     "country": "",
-    "institution": "Nanyang Technological University"
+    "institution": "Nanyang Technological University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "penalty++ ",
+    "status": null,
+    "country": "",
+    "institution": "Nanyang Technological University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "TYC",
+    "status": null,
+    "country": "",
+    "institution": "National Cheng Kung University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Meowtomatwo",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan Ocean University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "fruit_advantages",
+    "status": null,
+    "country": "",
+    "institution": "National Taiwan University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "193637",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "ComTamBacKy",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Penguin and Tonic",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Still like to party!!",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Tê con",
+    "status": null,
+    "country": "",
+    "institution": "National University of Singapore",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "'; DROP TABLE users; --",
+    "status": null,
+    "country": "",
+    "institution": "Singapore Management University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "lost_and_unfound",
+    "status": null,
+    "country": "",
+    "institution": "Singapore Management University",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "akkkksc03",
+    "status": null,
+    "country": "",
+    "institution": "Xiamen University Malaysia",
+    "teamMembers": "[]"
+  },
+  {
+    "teamId": null,
+    "name": "Quid faciam? Quo eam?",
+    "status": null,
+    "country": "",
+    "institution": "Xiamen University Malaysia",
+    "teamMembers": "[]"
   }
 ]
