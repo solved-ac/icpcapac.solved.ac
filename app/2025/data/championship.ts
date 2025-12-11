@@ -120,7 +120,7 @@ export const combineRegions = (regions: Region[]) => {
 
   // D2: Two top teams of the South Pacific Independent Regional Contest
   teams.push({
-    teamId: -1,
+    teamId: -100001,
     assignedValue: 0,
     sortKey: -1000,
     status: TeamRankInCombinedScoreboardStatus.D2,
@@ -132,7 +132,7 @@ export const combineRegions = (regions: Region[]) => {
     teamName: "W[3]-complete",
   });
   teams.push({
-    teamId: -1,
+    teamId: -100002,
     assignedValue: 0,
     sortKey: -1000,
     status: TeamRankInCombinedScoreboardStatus.D2,
@@ -154,7 +154,7 @@ export const combineRegions = (regions: Region[]) => {
     teams.push(wildcard);
   } else {
     teams.push({
-      teamId: -1,
+      teamId: -100003,
       assignedValue: 0,
       sortKey: -1000,
       status: TeamRankInCombinedScoreboardStatus.D5,

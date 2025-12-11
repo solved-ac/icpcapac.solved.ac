@@ -6,6 +6,7 @@ import {
   Container,
   Divider,
   Row,
+  Space,
   Table,
   TableBody,
   TableHead,
@@ -61,6 +62,7 @@ const Page = () => {
         ICPC system, but retrieved from:
         https://sppcontests.org/scoreboards/2024/regionals/scoreboard.htm
       </Card>
+      <Space h={32} />
       <MergedScoreboard teams={mergedTeams} />
     </Container>
   );
