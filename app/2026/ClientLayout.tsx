@@ -13,8 +13,8 @@ const regions = [
   ["Seoul", "KOR"], // 11/21
   ["Jakarta", "IDN"], // 11/23
   ["Yokohama", "JPN"], // 12/06
-  ["HCMC", "VNM"], // 12/11
   ["Manila", "PHL"], // 12/09
+  ["HCMC", "VNM"], // 12/11
 ];
 
 const ClientLayout = ({ children }: PropsWithChildren) => {

@@ -24,7 +24,7 @@ import { RegionalStatus } from "./data/types";
 import { Yokohama } from "./data/yokohama/region";
 import Region from "@/components/Region";
 
-const regions = [Bangkok, Taichung, Seoul, Jakarta, Yokohama, HCMC, Manila];
+const regions = [Bangkok, Taichung, Seoul, Jakarta, Yokohama, Manila, HCMC];
 
 const Page = () => {
   return (
