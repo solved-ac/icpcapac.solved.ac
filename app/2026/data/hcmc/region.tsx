@@ -1,18 +1,33 @@
 import { Regional, RegionalStatus } from "../types";
+import { isVNMHighSchool } from "@/app/data/institutions/institution";
+import {
+  countTeams,
+  countUniversities,
+  regionScore,
+  RegionScoreArgs,
+} from "../regionScore";
 
 import { Hanoi as Hanoi2025 } from "@/app/2025/data/hanoi/region";
 
-// const VIETNAM_REGION_SCORE: RegionScoreArgs = {
-//   univs: countUniversities(regionalStandings),
-//   teams: countTeams(regionalStandings),
-//   foreignTeams: countTeams(
-//     regionalStandings.filter(
-//       (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "VNM"
-//     )
-//   ),
-//   teamsPrelim: countTeams(VIETNAM_PRELIM_TEAMS),
-//   univsPrelim: countUniversities(VIETNAM_PRELIM_TEAMS),
-// };
+import regionalStandings from "./Vietnam2026NationalScoreboard.json";
+import foreignTeams from "./HCMC2026ForeignTeams.json";
+
+const VIETNAM_PRELIM_TEAMS = regionalStandings.filter(
+  (team) => !isVNMHighSchool(team.institution)
+);
+
+const VIETNAM_REGION_SCORE: RegionScoreArgs = {
+  univs: 62, //countUniversities(regionalStandings),
+  teams: 130, //countTeams(regionalStandings),
+  // foreignTeams: countTeams(
+  //   regionalStandings.filter(
+  //     (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "VNM"
+  //   )
+  // ),
+  foreignTeams: foreignTeams.length,
+  teamsPrelim: countTeams(VIETNAM_PRELIM_TEAMS),
+  univsPrelim: countUniversities(VIETNAM_PRELIM_TEAMS),
+};
 
 export const HCMC: Regional = {
   contestDate: "2025-12-11",
@@ -20,10 +35,8 @@ export const HCMC: Regional = {
   region: "VNM",
   url: "https://acm-icpc.olp.vn/",
   status: RegionalStatus.preparing,
-  // score: regionScore(VIETNAM_REGION_SCORE),
-  // scoreDetails: VIETNAM_REGION_SCORE,
-  score: Hanoi2025.score,
-  scoreDetails: Hanoi2025.scoreDetails,
+  score: regionScore(VIETNAM_REGION_SCORE),
+  scoreDetails: VIETNAM_REGION_SCORE,
   lastYear: Hanoi2025,
-  disclaimer: <>Site score is from last year&lsquo;s Hanoi regionals.</>,
+  disclaimer: <>It is confirmed that 130 teams from 62 univs will attend.</>,
 };
