@@ -17,8 +17,8 @@ const VIETNAM_PRELIM_TEAMS = regionalStandings.filter(
 );
 
 const VIETNAM_REGION_SCORE: RegionScoreArgs = {
-  univs: 62, //countUniversities(regionalStandings),
-  teams: 130, //countTeams(regionalStandings),
+  univs: 61, //countUniversities(regionalStandings),
+  teams: 129, //countTeams(regionalStandings),
   // foreignTeams: countTeams(
   //   regionalStandings.filter(
   //     (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "VNM"
