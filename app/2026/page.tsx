@@ -5,6 +5,8 @@ import {
   Cell,
   Container,
   Divider,
+  Item,
+  Itemize,
   Row,
   Space,
   Table,
@@ -24,9 +26,26 @@ import { RegionalStatus } from "./data/types";
 import { Yokohama } from "./data/yokohama/region";
 import Region from "@/components/Region";
 
+import sameTeams from "./data/same_teams.json";
+import { shortenInstitutionName } from "@/utils/institution";
+import styled from "@emotion/styled";
+import { Fragment } from "react";
+
 const regions = [Bangkok, Taichung, Seoul, Jakarta, Yokohama, Manila, HCMC];
 
+const Name = styled.code`
+  font-family: monospace;
+  font-size: 90%;
+  background-color: #f7d7ad;
+  white-space: pre;
+  border-radius: 4px;
+  padding: 2px 4px;
+  border: 1px solid #e0a96d;
+`;
+
 const Page = () => {
+  const sameTeamsCount = sameTeams.length;
+
   return (
     <Container>
       <Typo h2>Candidate Teams to the APAC Finals</Typo>
@@ -96,7 +115,39 @@ const Page = () => {
         <Space h={8} />
         <Divider margin="none" />
         <Space h={8} />
-        The selection algorithm is assumed to be the same as 2024-2025 cycle.
+        {sameTeamsCount > 0 && (
+          <>
+            <b>
+              There are {sameTeamsCount} pairs of teams with the same
+              institution and similar names
+            </b>
+            . These teams are considered the same team for the purpose of
+            selection to the APAC Finals:
+            <Itemize>
+              {sameTeams.map(({ institution, names }) => (
+                <Item key={institution + names[0]}>
+                  {shortenInstitutionName(institution)}:{" "}
+                  {names.map((name, index) => (
+                    <Fragment key={name}>
+                      {index > 0 && <>, </>}
+                      <Name key={name}>{name}</Name>
+                    </Fragment>
+                  ))}
+                </Item>
+              ))}
+            </Itemize>
+            It is unclear if the members of these teams are actually the same,
+            and if the names are considered the same{" "}
+            <a
+              href="https://icpc.jp/apac/2025-26/rules/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              (see rule (A1) for why it matters)
+            </a>
+            .
+          </>
+        )}
       </Card>
       <Space h={32} />
       <MergedScoreboard teams={mergedTeams} />

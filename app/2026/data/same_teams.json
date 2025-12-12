@@ -2,5 +2,25 @@
   {
     "institution": "Nanyang Technological University",
     "names": ["print(\"\\u0D9E\") ", "print(\"\\u0D9E\")"]
+  },
+  {
+    "institution": "University of Information Technology - Vietnam National University HCM",
+    "names": ["UIT.KHQ.JobSeekers", "VNUHCM.UIT.JobSeekers"]
+  },
+  {
+    "institution": "FPT University",
+    "names": ["FPTU New Era", "FPTU HN - New Era"]
+  },
+  {
+    "institution": "FPT University",
+    "names": ["FPTU SRO", "FPTU HCM - SRO"]
+  },
+  {
+    "institution": "FPT University",
+    "names": ["FPTU Algorillas", "FPTU HCM - Algorillas"]
+  },
+  {
+    "institution": "Chulalongkorn University",
+    "names": ["Here for the Free Lunch", "Here for Free Lunch"]
   }
 ]
