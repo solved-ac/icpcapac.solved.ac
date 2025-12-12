@@ -100,6 +100,11 @@ const Page = () => {
       </Table>
       <Divider />
       <Card>
+        <b>Constraints</b>: There is a discussion to increase the number of
+        qualifying teams from 65 to 70, however it is not confirmed yet.
+        <Space h={8} />
+        <Divider margin="none" />
+        <Space h={8} />
         <b>Institution Names</b>: If the institution had participated in the
         World Finals, its name is shortened according to the name printed on the
         latest ICPC World Finals T-shirt. Otherwise, the full institution name
@@ -112,11 +117,11 @@ const Page = () => {
         <a href="https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/">
           https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/
         </a>
-        <Space h={8} />
-        <Divider margin="none" />
-        <Space h={8} />
-        {sameTeamsCount > 0 && (
-          <>
+      </Card>
+      <Space h={8} />
+      {sameTeamsCount > 0 && (
+        <>
+          <Card>
             <b>
               There are {sameTeamsCount} pairs of teams with the same
               institution and similar names.
@@ -137,9 +142,9 @@ const Page = () => {
               ))}
             </Itemize>
             It is unclear if the members of these teams are actually the same.
-          </>
-        )}
-      </Card>
+          </Card>
+        </>
+      )}
       <Space h={32} />
       <MergedScoreboard teams={mergedTeams} />
     </Container>
