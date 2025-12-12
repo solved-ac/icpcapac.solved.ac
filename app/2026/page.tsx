@@ -119,9 +119,9 @@ const Page = () => {
           <>
             <b>
               There are {sameTeamsCount} pairs of teams with the same
-              institution and similar names
-            </b>
-            . These teams are considered the same team for the purpose of
+              institution and similar names.
+            </b>{" "}
+            These teams are considered the same team for the purpose of
             selection to the APAC Finals:
             <Itemize>
               {sameTeams.map(({ institution, names }) => (
@@ -136,16 +136,7 @@ const Page = () => {
                 </Item>
               ))}
             </Itemize>
-            It is unclear if the members of these teams are actually the same,
-            and if the names are considered the same{" "}
-            <a
-              href="https://icpc.jp/apac/2025-26/rules/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              (see rule (A1) for why it matters)
-            </a>
-            .
+            It is unclear if the members of these teams are actually the same.
           </>
         )}
       </Card>

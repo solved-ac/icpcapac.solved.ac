@@ -66,7 +66,7 @@ interface Props {
 const RegionScoreboard = ({ teams }: Props) => {
   const theme = useTheme();
 
-  const CUTLINE = 65;
+  const CUTLINE = 70;
 
   const regionData = useMemo(() => {
     const regionCount = new Map<string, number>();
