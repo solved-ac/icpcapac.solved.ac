@@ -100,8 +100,8 @@ const Page = () => {
       </Table>
       <Divider />
       <Card>
-        <b>Constraints</b>: There is a discussion to increase the number of
-        qualifying teams from 65 to 70, however it is not confirmed yet.
+        <b>Constraints</b>: It is confirmed that the 2026 APAC Finals will
+        qualify <b>70</b> teams.
         <Space h={8} />
         <Divider margin="none" />
         <Space h={8} />
@@ -109,14 +109,6 @@ const Page = () => {
         World Finals, its name is shortened according to the name printed on the
         latest ICPC World Finals T-shirt. Otherwise, the full institution name
         is shown.
-        <Space h={8} />
-        <Divider margin="none" />
-        <Space h={8} />
-        <b>South Pacific Finals</b>: Scoreboard is not published yet in the ICPC
-        system, but the information was retrieved from:{" "}
-        <a href="https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/">
-          https://sppcontests.org/2025-icpc-south-pacific-regional-final-report/
-        </a>
       </Card>
       <Space h={8} />
       {sameTeamsCount > 0 && (
@@ -141,7 +133,9 @@ const Page = () => {
                 </Item>
               ))}
             </Itemize>
-            It is unclear if the members of these teams are actually the same.
+            The RCDs confirmed that the members of these teams are same. They
+            also reminded that, in the future, teams should register with the
+            exact same name in both sites to avoid issues.
           </Card>
         </>
       )}
