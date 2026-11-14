@@ -8,8 +8,7 @@ import {
   regionScore,
 } from "../regionScore";
 
-// TODO replace this with official ICPC data
-// import regionalStandings from "./Jakarta2025Standings.json";
+import prelimsStandings from "./Indonesia2026NationalStandings.json";
 import regionalStandings from "./Jakarta2026Standings.json";
 
 const INDONESIA_REGION_SCORE: RegionScoreArgs = {
@@ -20,10 +19,8 @@ const INDONESIA_REGION_SCORE: RegionScoreArgs = {
       (team) => INSTITUTION_REGION_MAP.get(team.institution) !== "IDN",
     ),
   ),
-  // Calculated from https://competition.binus.ac.id/inc2025/
-  // (excl. teams with 0 solves)
-  teamsPrelim: 436,
-  univsPrelim: 25,
+  teamsPrelim: countTeams(prelimsStandings),
+  univsPrelim: countUniversities(prelimsStandings),
 };
 
 export const Jakarta: Regional = {
@@ -36,13 +33,4 @@ export const Jakarta: Regional = {
   scoreDetails: INDONESIA_REGION_SCORE,
   scoreboard: regionalStandings,
   lastYear: Jakarta2025,
-  disclaimer: (
-    <>
-      Preliminary teams list is converted from:{" "}
-      <a href="https://competition.binus.ac.id/inc2025/">
-        https://competition.binus.ac.id/inc2025/
-      </a>
-      , excluding teams with 0 solves.
-    </>
-  ),
 };

@@ -9,7 +9,6 @@ import {
 
 import regionalStandings from "./Manila2026Standings.json";
 
-// TODO replace this with official ICPC data
 const PHILIPPINES_REGION_SCORE: RegionScoreArgs = {
   univs: countUniversities(regionalStandings),
   teams: countTeams(regionalStandings),
@@ -35,13 +34,6 @@ export const Manila: Regional = {
   scoreDetails: PHILIPPINES_REGION_SCORE,
   scoreboard: regionalStandings,
   disclaimer: (
-    <>
-      Scoreboard is not yet published in the ICPC system. It is taken and
-      hand-converted from:
-      <a href="https://www.facebook.com/photo/?fbid=836955312434837&set=a.836948792435489">
-        https://www.facebook.com/photo/?fbid=836955312434837&set=a.836948792435489
-      </a>
-      .<br />I could not find any information about preliminaries for this site.
-    </>
+    <>I could not find any information about preliminaries for this site.</>
   ),
 };

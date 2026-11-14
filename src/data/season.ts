@@ -30,6 +30,8 @@ export interface Season {
   /** For an institution, the value its third team was assigned: a fourth
    *  team has to beat it to count. Winner institutions map to 0. */
   institutionRequiredValue: Map<string, number>;
+  /** The most teams one university can send to the championship (Q). */
+  maxTeamsPerUniversity: number;
   /** This season's site-score weights, as its `regionScore` applies them. */
   scoreWeights: RegionScoreWeights;
   /** This season's rule for which teams of a regional stay in the ranking. */

@@ -21,6 +21,7 @@ export const season2026: Season = {
   mergedTeams,
   winnerInstitutions,
   institutionRequiredValue: instutiteRequireValueMap,
+  maxTeamsPerUniversity: 3,
   scoreWeights: REGION_SCORE_WEIGHTS,
   filterRegionalTeams,
   regionalTitle: (regional) =>
@@ -35,6 +36,17 @@ export const season2026: Season = {
         <>
           It is confirmed that the 2026 APAC Finals will qualify <b>70</b>{" "}
           teams.
+        </>
+      ),
+    },
+    {
+      title: "Final",
+      body: (
+        <>
+          All regionals use the standings published on icpc.global. The teams
+          above the cutline are the 70 teams that competed in the 2026 Asia
+          Pacific Championship; the wildcard team (D5) was <b>WhereisSouth</b>{" "}
+          of National Central University.
         </>
       ),
     },

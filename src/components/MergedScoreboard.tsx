@@ -25,8 +25,14 @@ const isTeamInvited = (status: TeamRankInCombinedScoreboardStatus) =>
   status === TeamRankInCombinedScoreboardStatus.D5 ||
   status === TeamRankInCombinedScoreboardStatus.D4_4;
 
+/** 3 → "3rd", 4 → "4th". Only small numbers are ever asked for. */
+const ordinal = (n: number) => `${n}${["th", "st", "nd", "rd"][n] ?? "th"}`;
+
 /** Why a team is where it is, citing the selection rule that put it there. */
-function statusReason(team: ChampionshipTeamLike): string | null {
+function statusReason(
+  team: ChampionshipTeamLike,
+  maxTeamsPerUniversity: number,
+): string | null {
   switch (team.status) {
     case TeamRankInCombinedScoreboardStatus.D2:
       return "In top 2 teams of the South Pacific Independent Regional Contest (see D2)";
@@ -35,7 +41,7 @@ function statusReason(team: ChampionshipTeamLike): string | null {
     case TeamRankInCombinedScoreboardStatus.D4_2_1:
       return "Second instance of a single team (see D4 (2))";
     case TeamRankInCombinedScoreboardStatus.D4_2_2:
-      return `4th or later instance of ${shortenInstitutionName(
+      return `${ordinal(maxTeamsPerUniversity + 1)} or later instance of ${shortenInstitutionName(
         team.institution,
       )} (see D4 (2))`;
     case TeamRankInCombinedScoreboardStatus.D4_3:
@@ -93,13 +99,19 @@ interface Props {
   teams: ChampionshipTeamLike[];
   /** Number of teams that qualify. */
   cutline: number;
+  /** The most teams one university can send (Q in the rules). */
+  maxTeamsPerUniversity: number;
 }
 
 /**
  * Every regional's teams merged into the one list the championship is
  * selected from, with the lines that selection draws across it.
  */
-export function MergedScoreboard({ teams, cutline }: Props) {
+export function MergedScoreboard({
+  teams,
+  cutline,
+  maxTeamsPerUniversity,
+}: Props) {
   const [regionFilter, setRegionFilter] = useState(ALL);
   const [siteFilter, setSiteFilter] = useState(ALL);
 
@@ -209,7 +221,7 @@ export function MergedScoreboard({ teams, cutline }: Props) {
             )}
             {filteredTeams.map((team, index) => {
               const invited = isTeamInvited(team.status);
-              const reason = statusReason(team);
+              const reason = statusReason(team, maxTeamsPerUniversity);
               return (
                 <Fragment key={team.teamId}>
                   <Table.Row

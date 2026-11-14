@@ -27,4 +27,11 @@ Pages.
   last one is where `/` leads.
 - `src/data/institutions/` maps institutions to countries, and
   `_shortnames.json` holds the short names shown on the scoreboards.
-- `scripts/` has helpers that extract standings from scoreboard pages.
+- `scripts/icpc_global_fetch.mjs` reads icpc.global. `tree APSEPC-2027` lists
+  a season's regionals and preliminaries with their dates, accepted team
+  counts and whether standings are published; `standings Seoul-2027 out.json`
+  writes a contest's official standings in the shape the data files use.
+  Team lists of contests not yet held are not public there.
+- The other files in `scripts/` are pasted into the browser console on a
+  scoreboard page (DOMjudge, the Japanese Firebase board, VNOJ) to extract
+  standings that icpc.global does not have yet.

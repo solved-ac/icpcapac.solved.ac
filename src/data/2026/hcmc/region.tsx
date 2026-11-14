@@ -40,13 +40,4 @@ export const HCMC: Regional = {
   scoreDetails: VIETNAM_REGION_SCORE,
   scoreboard: regionalStandings,
   lastYear: Hanoi2025,
-  disclaimer: (
-    <>
-      Scoreboard is not yet published in the ICPC system. It is converted from:{" "}
-      <a href="https://icpc.vnoi.info/contest/icpc_regional_2025/ranking/?tags=">
-        https://icpc.vnoi.info/contest/icpc_regional_2025/ranking/?tags=
-      </a>{" "}
-      at 25-12-13.
-    </>
-  ),
 };

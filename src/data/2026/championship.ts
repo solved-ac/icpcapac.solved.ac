@@ -150,27 +150,27 @@ export const combineRegions = (regions: Regional[]) => {
   });
 
   // D5: Wildcard team
-  // const wildcard = teams.find((x) => x.teamName === "BogoSort");
-  // if (wildcard) {
-  // wildcard.sortKey = -600;
-  // wildcard.status = TeamRankInCombinedScoreboardStatus.D5;
-  // wildcard.fromSite = "Wildcard";
-  // teams.splice(teams.indexOf(wildcard), 1);
-  // teams.push(wildcard);
-  // } else {
-  teams.push({
-    teamId: -100003,
-    assignedValue: 0,
-    sortKey: -1000,
-    status: TeamRankInCombinedScoreboardStatus.D5,
-    rank: null,
-    fromSite: "Wildcard",
-    rankInSite: 0,
-    rankInRegion: -1,
-    institution: "Wildcard",
-    teamName: "Wildcard",
-  });
-  // }
+  const wildcard = teams.find((x) => x.teamName === "WhereisSouth");
+  if (wildcard) {
+    wildcard.sortKey = -600;
+    wildcard.status = TeamRankInCombinedScoreboardStatus.D5;
+    wildcard.fromSite = "Wildcard";
+    teams.splice(teams.indexOf(wildcard), 1);
+    teams.push(wildcard);
+  } else {
+    teams.push({
+      teamId: -100003,
+      assignedValue: 0,
+      sortKey: -1000,
+      status: TeamRankInCombinedScoreboardStatus.D5,
+      rank: null,
+      fromSite: "Wildcard",
+      rankInSite: 0,
+      rankInRegion: -1,
+      institution: "Wildcard",
+      teamName: "Wildcard",
+    });
+  }
 
   teams.sort((a, b) =>
     a.sortKey !== b.sortKey

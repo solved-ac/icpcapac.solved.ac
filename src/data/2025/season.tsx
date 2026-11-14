@@ -17,6 +17,7 @@ export const season2025: Season = {
   mergedTeams,
   winnerInstitutions,
   institutionRequiredValue: instutiteRequireValueMap,
+  maxTeamsPerUniversity: 3,
   scoreWeights: REGION_SCORE_WEIGHTS,
   filterRegionalTeams,
   regionalTitle: (regional) =>

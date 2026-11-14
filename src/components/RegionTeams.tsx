@@ -12,6 +12,13 @@ interface Props {
 /** Whatever is known of a regional's teams at the stage it has reached. */
 export function RegionTeams({ season, region }: Props) {
   if (region.status === RegionalStatus.preliminariesFinished) {
+    if (region.regionalTeams.length === 0) {
+      return (
+        <Text py={12} textAlign="center" color="fg.muted">
+          The teams of {region.site} are not published yet.
+        </Text>
+      );
+    }
     return (
       <RegionTeamList
         season={season}

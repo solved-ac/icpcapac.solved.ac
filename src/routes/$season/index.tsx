@@ -139,7 +139,11 @@ function SeasonHomePage() {
           <SameTeamsNotice sameTeams={season.sameTeams} />
         )}
       </Stack>
-      <MergedScoreboard teams={season.mergedTeams} cutline={season.cutline} />
+      <MergedScoreboard
+        teams={season.mergedTeams}
+        cutline={season.cutline}
+        maxTeamsPerUniversity={season.maxTeamsPerUniversity}
+      />
     </Stack>
   );
 }

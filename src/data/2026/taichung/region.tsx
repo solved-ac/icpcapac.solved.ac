@@ -1,5 +1,4 @@
 import { Taichung as Taichung2025 } from "../../2025/taichung/region";
-// TODO replace this with official ICPC data
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
 import {
   type Regional,

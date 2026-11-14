@@ -1,9 +1,10 @@
 import { season2025 } from "./2025/season";
 import { season2026 } from "./2026/season";
+import { season2027 } from "./2027/season";
 import { type Season, siteSlug } from "./season";
 
 /** Oldest first. Adding a season here adds its pages. */
-export const SEASONS: Season[] = [season2025, season2026];
+export const SEASONS: Season[] = [season2025, season2026, season2027];
 
 /** Where `/` leads. */
 export const LATEST_SEASON = SEASONS[SEASONS.length - 1];
