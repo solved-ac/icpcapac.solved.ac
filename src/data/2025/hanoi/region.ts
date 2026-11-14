@@ -31,7 +31,9 @@ const VIETNAM_REGION_SCORE: RegionScoreArgs = {
 export const Hanoi: Regional = {
   site: "Hanoi",
   region: "VNM",
-  url: "https://acm-icpc.olp.vn/",
+  dates: { start: "2024-12-12", end: "2024-12-13" },
+  location: "Hanoi, Vietnam",
+  icpcCode: "HCMC-2025",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(VIETNAM_REGION_SCORE),
   scoreDetails: VIETNAM_REGION_SCORE,

@@ -34,6 +34,13 @@ export const Yokohama: Regional = {
   contestDate: "2026-12-06",
   site: "Yokohama",
   region: "JPN",
+  dates: { start: "2026-12-05", end: "2026-12-06" },
+  location: "Yokohama, Japan",
+  venue: {
+    name: "Yokohama Sanbo Hall (横浜産貿ホール)",
+    address: "2 Yamashita-cho, Naka-ku, Yokohama, 231-0023 Japan",
+  },
+  icpcCode: "Yokohama-2027",
   url: "https://icpc.jp/2026/",
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(JAPAN_REGION_SCORE),

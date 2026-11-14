@@ -37,6 +37,15 @@ export const Jakarta: Regional = {
   contestDate: "2026-11-29",
   site: "Jakarta",
   region: "IDN",
+  dates: { start: "2026-11-28", end: "2026-11-30" },
+  location: "Jakarta, Indonesia",
+  venue: {
+    name: "BINUS University, Anggrek Campus",
+    address:
+      "Jl. Kebon Jeruk Raya No. 27, Kebun Jeruk, Jakarta Barat 11530, Indonesia",
+    mapUrl: "https://maps.app.goo.gl/yvfh18v6SN63ZHzY9",
+  },
+  icpcCode: "Jakarta-2027",
   url: "https://competition.binus.ac.id/icpc2026/",
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(INDONESIA_REGION_SCORE),

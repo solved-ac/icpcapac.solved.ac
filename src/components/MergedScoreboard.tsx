@@ -1,15 +1,18 @@
 import { HStack, IconButton, Stack, Table, Text } from "@chakra-ui/react";
 import { IconAlertCircle, IconArrowUp } from "@tabler/icons-react";
-import { Fragment, useMemo, useState } from "react";
+import { Fragment, memo, useMemo, useState } from "react";
 import { INSTITUTION_REGION_MAP } from "../data/institutions/institution";
 import {
   type ChampionshipTeamLike,
   TeamRankInCombinedScoreboardStatus,
 } from "../data/types";
+import { useRowSearch } from "../lib/useRowSearch";
 import { shortenInstitutionName } from "../utils/institution";
 import { type Choice, ChoiceSelect } from "./ChoiceSelect";
 import { HoverTooltip } from "./HoverTooltip";
 import { Region } from "./Region";
+import { ResultCount } from "./ResultCount";
+import { SearchField } from "./SearchField";
 import { labelCell, numericCell, TeamName, teamCell } from "./TeamName";
 
 const ALL = "all";
@@ -95,6 +98,93 @@ function CutlineRow({ label, bg }: { label: string; bg: string }) {
   );
 }
 
+/** What the search looks through for a team. Stable, for `useRowSearch`. */
+const searchFields = (team: ChampionshipTeamLike) => [
+  team.teamName,
+  team.institution,
+  shortenInstitutionName(team.institution),
+  regionOf(team),
+  team.fromSite,
+];
+
+/**
+ * One team's row.
+ *
+ * Memoized and never unmounted by a search: a row that stops matching is
+ * hidden, so a keystroke re-renders only the rows whose visibility changed.
+ */
+const TeamRow = memo(function TeamRow({
+  team,
+  visible,
+  maxTeamsPerUniversity,
+}: {
+  team: ChampionshipTeamLike;
+  visible: boolean;
+  maxTeamsPerUniversity: number;
+}) {
+  const invited = isTeamInvited(team.status);
+  const reason = statusReason(team, maxTeamsPerUniversity);
+  return (
+    <Table.Row
+      display={visible ? undefined : "none"}
+      // Struck out of the selection: kept in the list, dimmed.
+      color={team.rank === -1 ? "fg.subtle" : undefined}
+    >
+      <Table.Cell {...numericCell}>
+        {team.rank === -1 ? "-" : team.rank}
+      </Table.Cell>
+      <Table.Cell {...numericCell} pe={{ base: 2, md: 6 }}>
+        {invited ? (
+          <Text as="span" opacity={0.6}>
+            invited
+          </Text>
+        ) : (
+          team.assignedValue.toFixed(4)
+        )}
+      </Table.Cell>
+      <Table.Cell {...labelCell}>
+        {team.fromSite}
+        {team.rankInSite !== 0 && (
+          <>
+            {" "}
+            <Text as="span" opacity={0.6}>
+              #{team.rankInSite}
+            </Text>
+          </>
+        )}
+      </Table.Cell>
+      <Table.Cell {...labelCell}>
+        <Region region={regionOf(team)} />
+        {team.rankInRegion !== -1 && (
+          <>
+            {" "}
+            <Text as="span" opacity={0.6}>
+              #{team.rankInRegion}
+            </Text>
+          </>
+        )}
+      </Table.Cell>
+      <Table.Cell {...teamCell}>
+        <TeamName name={team.teamName} institution={team.institution} />
+      </Table.Cell>
+      <Table.Cell py={0}>
+        {reason && (
+          <HoverTooltip label={reason}>
+            <IconButton
+              variant="ghost"
+              size="xs"
+              color="inherit"
+              aria-label={reason}
+            >
+              <IconAlertCircle />
+            </IconButton>
+          </HoverTooltip>
+        )}
+      </Table.Cell>
+    </Table.Row>
+  );
+});
+
 interface Props {
   teams: ChampionshipTeamLike[];
   /** Number of teams that qualify. */
@@ -114,6 +204,7 @@ export function MergedScoreboard({
 }: Props) {
   const [regionFilter, setRegionFilter] = useState(ALL);
   const [siteFilter, setSiteFilter] = useState(ALL);
+  const { query, setQuery, matches, stale } = useRowSearch(teams, searchFields);
 
   const regionOptions = useMemo<Choice[]>(
     () => [
@@ -149,34 +240,35 @@ export function MergedScoreboard({
     [teams, cutline],
   );
 
-  const { filteredTeams, lastInvitedIndex, lastQualifiedIndex } =
+  // Indices are into `teams`: every row stays in the table, and these say
+  // which are shown and after which of them the two lines are drawn.
+  const { visible, shownCount, lastInvitedIndex, lastQualifiedIndex } =
     useMemo(() => {
-      const filteredTeams = teams
-        .filter(
-          (team) => regionFilter === ALL || regionOf(team) === regionFilter,
-        )
-        .filter((team) => siteFilter === ALL || team.fromSite === siteFilter);
-      const lastInvitedIndex =
-        filteredTeams
-          .map((team, i) => ({
-            status: team.status,
-            index: i,
-          }))
-          .filter((x) => isTeamInvited(x.status))
-          .sort((a, b) => b.index - a.index)[0]?.index ?? -1;
-      const lastQualifiedIndex =
-        filteredTeams
-          .map((team, i) => ({
-            rank: team.rank && team.rank !== -1 ? team.rank : teams.length + 1,
-            index: i,
-          }))
-          .filter((x) => x.rank <= cutline)
-          .sort((a, b) => {
-            if (a.rank !== b.rank) return b.rank - a.rank;
-            return b.index - a.index;
-          })[0]?.index ?? -1;
-      return { filteredTeams, lastInvitedIndex, lastQualifiedIndex };
-    }, [teams, cutline, regionFilter, siteFilter]);
+      const visible = teams.map(
+        (team, i) =>
+          matches[i] &&
+          (regionFilter === ALL || regionOf(team) === regionFilter) &&
+          (siteFilter === ALL || team.fromSite === siteFilter),
+      );
+      let shownCount = 0;
+      let lastInvitedIndex = -1;
+      // The shown team inside the cutline with the largest rank; among
+      // equals, the last one.
+      let lastQualifiedIndex = -1;
+      let lastQualifiedRank = -1;
+      teams.forEach((team, i) => {
+        if (!visible[i]) return;
+        shownCount += 1;
+        if (isTeamInvited(team.status)) lastInvitedIndex = i;
+        const rank =
+          team.rank && team.rank !== -1 ? team.rank : teams.length + 1;
+        if (rank <= cutline && rank >= lastQualifiedRank) {
+          lastQualifiedRank = rank;
+          lastQualifiedIndex = i;
+        }
+      });
+      return { visible, shownCount, lastInvitedIndex, lastQualifiedIndex };
+    }, [teams, cutline, matches, regionFilter, siteFilter]);
 
   return (
     <Stack gap={3}>
@@ -193,8 +285,15 @@ export function MergedScoreboard({
           value={siteFilter}
           onChange={setSiteFilter}
         />
+        <SearchField
+          value={query}
+          onChange={setQuery}
+          placeholder="Search teams, institutions, sites"
+        />
+        <ResultCount shown={shownCount} total={teams.length} />
       </HStack>
-      <Table.ScrollArea>
+      {/* Dimmed while the table is catching up with what was typed. */}
+      <Table.ScrollArea opacity={stale ? 0.6 : 1} transition="opacity 0.1s">
         <Table.Root size="sm">
           <Table.Header>
             <Table.Row>
@@ -207,7 +306,7 @@ export function MergedScoreboard({
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {filteredTeams.length === 0 && (
+            {shownCount === 0 && (
               <Table.Row>
                 <Table.Cell
                   colSpan={COLUMNS}
@@ -215,83 +314,25 @@ export function MergedScoreboard({
                   textAlign="center"
                   color="fg.muted"
                 >
-                  No teams match the selected filters.
+                  No teams match the search and filters.
                 </Table.Cell>
               </Table.Row>
             )}
-            {filteredTeams.map((team, index) => {
-              const invited = isTeamInvited(team.status);
-              const reason = statusReason(team, maxTeamsPerUniversity);
-              return (
-                <Fragment key={team.teamId}>
-                  <Table.Row
-                    // Struck out of the selection: kept in the list, dimmed.
-                    color={team.rank === -1 ? "fg.subtle" : undefined}
-                  >
-                    <Table.Cell {...numericCell}>
-                      {team.rank === -1 ? "-" : team.rank}
-                    </Table.Cell>
-                    <Table.Cell {...numericCell} pe={{ base: 2, md: 6 }}>
-                      {invited ? (
-                        <Text as="span" opacity={0.6}>
-                          invited
-                        </Text>
-                      ) : (
-                        team.assignedValue.toFixed(4)
-                      )}
-                    </Table.Cell>
-                    <Table.Cell {...labelCell}>
-                      {team.fromSite}
-                      {team.rankInSite !== 0 && (
-                        <>
-                          {" "}
-                          <Text as="span" opacity={0.6}>
-                            #{team.rankInSite}
-                          </Text>
-                        </>
-                      )}
-                    </Table.Cell>
-                    <Table.Cell {...labelCell}>
-                      <Region region={regionOf(team)} />
-                      {team.rankInRegion !== -1 && (
-                        <>
-                          {" "}
-                          <Text as="span" opacity={0.6}>
-                            #{team.rankInRegion}
-                          </Text>
-                        </>
-                      )}
-                    </Table.Cell>
-                    <Table.Cell {...teamCell}>
-                      <TeamName
-                        name={team.teamName}
-                        institution={team.institution}
-                      />
-                    </Table.Cell>
-                    <Table.Cell py={0}>
-                      {reason && (
-                        <HoverTooltip label={reason}>
-                          <IconButton
-                            variant="ghost"
-                            size="xs"
-                            color="inherit"
-                            aria-label={reason}
-                          >
-                            <IconAlertCircle />
-                          </IconButton>
-                        </HoverTooltip>
-                      )}
-                    </Table.Cell>
-                  </Table.Row>
-                  {index === lastInvitedIndex && (
-                    <CutlineRow label="INVITED" bg="orange.solid" />
-                  )}
-                  {index === lastQualifiedIndex && (
-                    <CutlineRow label="QUALIFIED" bg="red.solid" />
-                  )}
-                </Fragment>
-              );
-            })}
+            {teams.map((team, index) => (
+              <Fragment key={team.teamId}>
+                <TeamRow
+                  team={team}
+                  visible={visible[index]}
+                  maxTeamsPerUniversity={maxTeamsPerUniversity}
+                />
+                {index === lastInvitedIndex && (
+                  <CutlineRow label="INVITED" bg="orange.solid" />
+                )}
+                {index === lastQualifiedIndex && (
+                  <CutlineRow label="QUALIFIED" bg="red.solid" />
+                )}
+              </Fragment>
+            ))}
           </Table.Body>
         </Table.Root>
       </Table.ScrollArea>

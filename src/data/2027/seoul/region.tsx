@@ -29,6 +29,13 @@ export const Seoul: Regional = {
   contestDate: "2026-11-14",
   site: "Seoul",
   region: "KOR",
+  dates: { start: "2026-11-13", end: "2026-11-14" },
+  location: "Goyang, Korea",
+  venue: {
+    name: "KINTEX Exhibition Center 2, 4th floor",
+    address: "217-60 Kintex-ro, Ilsanseo-gu, Goyang-si, Gyeonggi-do, Korea",
+  },
+  icpcCode: "Seoul-2027",
   url: "https://icpckorea.org/2026-seoul/2026-regional/",
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(KOREA_REGION_SCORE),

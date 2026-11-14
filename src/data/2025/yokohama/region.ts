@@ -26,7 +26,14 @@ const JAPAN_REGION_SCORE: RegionScoreArgs = {
 export const Yokohama: Regional = {
   site: "Yokohama",
   region: "JPN",
-  url: "https://icpc.jp/2025/",
+  dates: { start: "2024-12-21", end: "2024-12-22" },
+  location: "Yokohama, Japan",
+  venue: {
+    name: "Yokohama Sanbo Hall (横浜産貿ホール)",
+    address: "2 Yamashita-cho, Naka-ku, Yokohama, 231-0023 Japan",
+  },
+  icpcCode: "Yokohama-2025",
+  url: "https://icpc.jp/2024/",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(JAPAN_REGION_SCORE),
   scoreDetails: JAPAN_REGION_SCORE,

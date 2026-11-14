@@ -62,6 +62,12 @@ export const Yunlin: Regional = {
   contestDate: "2026-12-13",
   site: "Yunlin",
   region: "TWN",
+  dates: { start: "2026-12-12", end: "2026-12-14" },
+  location: "Douliu, Yunlin, Taiwan",
+  venue: {
+    name: "Gymnasium, National Yunlin University of Science and Technology (YunTech)",
+  },
+  icpcCode: "Taipei-2027",
   url: "https://www.icpc.tw/en/events/2026/",
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(TAIWAN_REGION_SCORE),

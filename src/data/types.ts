@@ -18,14 +18,36 @@ export enum RegionalStatus {
   regionalsFinished = "regionalsFinished",
 }
 
+/** A calendar day, `2026-11-14`. */
+export type IsoDate = `${number}-${string}-${string}`;
+
 export interface RegionalBase {
-  contestDate?: `${number}-${string}-${string}`;
+  contestDate?: IsoDate;
   site: string;
   /** A site the regional was first announced at, shown struck through
    *  beside the site it moved to. */
   formerSite?: string;
   region: string;
+  /** The regional's own website. */
   url?: string;
+  /** First and last day of the event, as the host announces them. */
+  dates?: { start: IsoDate; end: IsoDate };
+  /** The city and the country it is held in. */
+  location?: string;
+  /**
+   * The exact place, as the host announced it. Left out where the host's
+   * pages name no venue; `address` likewise where they give none.
+   */
+  venue?: {
+    name: string;
+    address?: string;
+    /** The host's own map link. Without one, the page links a map search
+     *  for the name and address. */
+    mapUrl?: string;
+  };
+  /** The contest's code on icpc.global: `Seoul-2027` is the page
+   *  https://icpc.global/regionals/finder/Seoul-2027. */
+  icpcCode?: string;
   score: number;
   scoreOverride?: number;
   scoreDetails: RegionScoreArgs;

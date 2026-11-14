@@ -24,7 +24,7 @@ export function Footer() {
   return (
     <Box as="footer" color="fg.subtle" fontSize="xs" mt={16}>
       <Separator />
-      <Container maxW="5xl" py={8}>
+      <Container maxW="6xl" py={8}>
         <Stack gap={4}>
           <HStack justify="space-between" wrap="wrap" gap={2}>
             <Text fontSize="sm">

@@ -39,6 +39,14 @@ export const Danang: Regional = {
   contestDate: "2026-12-11",
   site: "Danang",
   region: "VNM",
+  dates: { start: "2026-12-10", end: "2026-12-11" },
+  location: "Danang, Vietnam",
+  venue: {
+    name: "Vietnam-Korea University of Information and Communication Technology (VKU)",
+    address:
+      "No. 470 Tran Dai Nghia Street, Ngu Hanh Son Ward, Da Nang City, Vietnam",
+  },
+  icpcCode: "HCMC-2027",
   url: "https://acm-icpc.olp.vn/",
   status: RegionalStatus.preliminariesFinished,
   score: regionScore(VIETNAM_REGION_SCORE),

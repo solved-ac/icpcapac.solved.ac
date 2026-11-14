@@ -29,6 +29,12 @@ export const Seoul: Regional = {
   site: "Seoul",
   formerSite: "Busan",
   region: "KOR",
+  dates: { start: "2025-11-21", end: "2025-11-22" },
+  location: "Busan, Korea",
+  venue: {
+    name: "BEXCO Exhibition Center 2, Hall 5A",
+  },
+  icpcCode: "Seoul-2026",
   url: "https://icpckorea.org/2025-seoul/regional",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(KOREA_REGION_SCORE),

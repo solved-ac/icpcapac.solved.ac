@@ -1,9 +1,20 @@
-import { Badge, Heading, HStack, Stack, Table, Text } from "@chakra-ui/react";
+import {
+  Badge,
+  DataList,
+  Heading,
+  HStack,
+  Link,
+  Stack,
+  Table,
+  Text,
+} from "@chakra-ui/react";
+import { IconExternalLink, IconMapPin } from "@tabler/icons-react";
 import {
   type Regional,
   RegionalStatus,
   type RegionScoreWeights,
 } from "../data/types";
+import { formatDateRange } from "../lib/dates";
 import { Notice } from "./Notice";
 import { numericCell } from "./TeamName";
 
@@ -24,6 +35,108 @@ function Figure({ pending, children }: { pending: boolean; children: string }) {
       {children}
       {pending ? "?" : ""}
     </Text>
+  );
+}
+
+const external = { target: "_blank", rel: "noreferrer" } as const;
+
+/** `https://icpc.jp/2026/` → `icpc.jp/2026`, for showing a link as itself. */
+const displayUrl = (url: string) =>
+  url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+
+/** A map search for the venue, for hosts that publish no map link. */
+const mapSearchUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+
+/** When, where, and the pages to read more on. */
+function RegionFacts({ region }: { region: Regional }) {
+  const { dates, location, venue, url, icpcCode } = region;
+  if (!dates && !location && !venue && !url && !icpcCode) return null;
+
+  return (
+    <DataList.Root orientation="horizontal" size="md" gap={2}>
+      {dates && (
+        <DataList.Item>
+          <DataList.ItemLabel minW="20">Dates</DataList.ItemLabel>
+          <DataList.ItemValue>
+            {formatDateRange(dates.start, dates.end)}
+          </DataList.ItemValue>
+        </DataList.Item>
+      )}
+      {venue && (
+        <DataList.Item alignItems="flex-start">
+          <DataList.ItemLabel minW="20">Venue</DataList.ItemLabel>
+          <DataList.ItemValue>
+            <Stack gap={0.5}>
+              <Text>{venue.name}</Text>
+              {venue.address && (
+                <Text color="fg.muted" fontSize="sm">
+                  {venue.address}
+                </Text>
+              )}
+              <Link
+                href={
+                  venue.mapUrl ??
+                  mapSearchUrl(
+                    [venue.name, venue.address ?? location]
+                      .filter(Boolean)
+                      .join(", "),
+                  )
+                }
+                variant="underline"
+                colorPalette="primary"
+                fontSize="sm"
+                w="fit-content"
+                {...external}
+              >
+                <IconMapPin size="1em" />
+                Open map
+              </Link>
+            </Stack>
+          </DataList.ItemValue>
+        </DataList.Item>
+      )}
+      {location && (
+        <DataList.Item>
+          <DataList.ItemLabel minW="20">Location</DataList.ItemLabel>
+          <DataList.ItemValue>{location}</DataList.ItemValue>
+        </DataList.Item>
+      )}
+      {(url || icpcCode) && (
+        <DataList.Item alignItems="flex-start">
+          <DataList.ItemLabel minW="20">Links</DataList.ItemLabel>
+          <DataList.ItemValue>
+            <Stack gap={0.5} minW={0}>
+              {url && (
+                <Link
+                  href={url}
+                  variant="underline"
+                  colorPalette="primary"
+                  w="fit-content"
+                  overflowWrap="anywhere"
+                  {...external}
+                >
+                  {displayUrl(url)}
+                  <IconExternalLink size="1em" />
+                </Link>
+              )}
+              {icpcCode && (
+                <Link
+                  href={`https://icpc.global/regionals/finder/${icpcCode}`}
+                  variant="underline"
+                  colorPalette="primary"
+                  w="fit-content"
+                  {...external}
+                >
+                  icpc.global
+                  <IconExternalLink size="1em" />
+                </Link>
+              )}
+            </Stack>
+          </DataList.ItemValue>
+        </DataList.Item>
+      )}
+    </DataList.Root>
   );
 }
 
@@ -65,6 +178,7 @@ export function RegionHeader({ region, title, weights }: Props) {
         </Heading>
         <StatusBadge status={region.status} />
       </HStack>
+      <RegionFacts region={region} />
       <Table.Root size="sm" w="auto">
         <Table.Body>
           {terms.map((term) => (

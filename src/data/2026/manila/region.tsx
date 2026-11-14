@@ -28,6 +28,12 @@ export const Manila: Regional = {
   contestDate: "2025-12-10",
   site: "Manila",
   region: "PHL",
+  dates: { start: "2025-12-09", end: "2025-12-10" },
+  location: "Quezon City, Philippines",
+  venue: {
+    name: "Areté, Ateneo de Manila University",
+  },
+  icpcCode: "Manila-2026",
   url: "https://icpc.ateneo.edu/",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(PHILIPPINES_REGION_SCORE),

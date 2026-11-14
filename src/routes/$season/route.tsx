@@ -1,28 +1,19 @@
 import {
+  Box,
   Link as ChakraLink,
   Container,
+  Flex,
   Heading,
   Stack,
-  Tabs,
   Text,
 } from "@chakra-ui/react";
-import {
-  createFileRoute,
-  notFound,
-  Outlet,
-  useParams,
-} from "@tanstack/react-router";
-import { Region } from "../../components/Region";
-import {
-  TabsLinkRoot,
-  TabsTriggerLink,
-} from "../../components/TabsTriggerLink";
-import { siteSlug } from "../../data/season";
+import { createFileRoute, notFound, Outlet } from "@tanstack/react-router";
+import { SeasonNav } from "../../components/SeasonNav";
 import { findSeason } from "../../data/seasons";
 import { SITE_NAME } from "../../site";
 
 /**
- * A season: its heading and the tabs over its regionals.
+ * A season: its heading, the navigation over its regionals, and the page.
  *
  * The loader only checks that the season exists. The data itself is imported
  * by the components: it holds JSX and Maps, which loader data, having to
@@ -43,18 +34,15 @@ export const Route = createFileRoute("/$season")({
   component: SeasonLayout,
 });
 
-const HOME_TAB = "home";
-
 const external = { target: "_blank", rel: "noreferrer" } as const;
 
 function SeasonLayout() {
   const { season: seasonId } = Route.useParams();
-  const { site } = useParams({ strict: false });
   const season = findSeason(seasonId);
   if (!season) return null;
 
   return (
-    <Container maxW="5xl" pt={10}>
+    <Container maxW="6xl" pt={{ base: 6, md: 10 }}>
       <Stack gap={6}>
         <Stack gap={1}>
           <Heading as="h1" size="2xl">
@@ -87,46 +75,18 @@ function SeasonLayout() {
             </ChakraLink>
           </Text>
         </Stack>
-        <TabsLinkRoot
-          value={site ?? HOME_TAB}
-          variant="line"
-          colorPalette="primary"
+        <Flex
+          direction={{ base: "column", md: "row" }}
+          align={{ base: "stretch", md: "flex-start" }}
+          gap={{ base: 4, md: 10 }}
         >
-          {/* Seven sites do not fit a phone; the list scrolls sideways
-              instead of wrapping into a second row of tabs. */}
-          <Tabs.List overflowX="auto" overflowY="hidden">
-            <TabsTriggerLink
-              value={HOME_TAB}
-              to="/$season"
-              params={{ season: season.id }}
-              flexShrink={0}
-            >
-              Home
-            </TabsTriggerLink>
-            {season.regionals.map((regional) => (
-              <TabsTriggerLink
-                key={regional.site}
-                value={siteSlug(regional)}
-                to="/$season/$site"
-                params={{ season: season.id, site: siteSlug(regional) }}
-                flexShrink={0}
-              >
-                <Region region={regional.region} flagOnly />
-                {regional.formerSite && (
-                  <Text
-                    as="span"
-                    color="fg.subtle"
-                    textDecoration="line-through"
-                  >
-                    {regional.formerSite}
-                  </Text>
-                )}
-                {regional.site}
-              </TabsTriggerLink>
-            ))}
-          </Tabs.List>
-        </TabsLinkRoot>
-        <Outlet />
+          <SeasonNav season={season} />
+          {/* `minW: 0` lets the tables inside scroll sideways instead of
+              pushing the column wider than the screen. */}
+          <Box flex={1} minW={0}>
+            <Outlet />
+          </Box>
+        </Flex>
       </Stack>
     </Container>
   );

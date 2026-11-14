@@ -26,7 +26,7 @@ export function TopBar() {
       bg="bg"
       borderBottomWidth={1}
     >
-      <Container as="nav" maxW="5xl" h="headerBar">
+      <Container as="nav" maxW="6xl" h="headerBar">
         {/* The ghost buttons at either end carry their own padding; the
             bleed takes it back, so their contents line up with the page's
             edges. Inside the container, because a bleed around a centred

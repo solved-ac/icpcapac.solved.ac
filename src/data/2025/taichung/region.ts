@@ -55,6 +55,9 @@ const TAIWAN_REGION_SCORE: RegionScoreArgs = {
 export const Taichung: Regional = {
   site: "Taichung",
   region: "TWN",
+  dates: { start: "2024-11-16", end: "2024-11-18" },
+  location: "Taichung, Taiwan",
+  icpcCode: "Taipei-2025",
   url: "https://hpc.asia.edu.tw/icpc2024/",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(TAIWAN_REGION_SCORE),

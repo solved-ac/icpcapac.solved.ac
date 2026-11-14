@@ -25,6 +25,12 @@ const KOREA_REGION_SCORE: RegionScoreArgs = {
 export const Seoul: Regional = {
   site: "Seoul",
   region: "KOR",
+  dates: { start: "2024-11-22", end: "2024-11-23" },
+  location: "Goyang, Korea",
+  venue: {
+    name: "KINTEX",
+  },
+  icpcCode: "Seoul-2025",
   url: "https://icpckorea.org/2024-seoul/regional",
   status: RegionalStatus.regionalsFinished,
   score: regionScore(KOREA_REGION_SCORE),
