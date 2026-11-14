@@ -57,8 +57,8 @@ export const season2027: Season = {
       title: "Estimates",
       body: (
         <>
-          No regional of this season has official standings yet, so the list
-          below holds a placeholder for each team a site expects. A site&rsquo;s
+          Seoul has official standings. For a regional not yet held, the list
+          below holds a placeholder for each team the site expects, and its
           score is computed from the official preliminary standings and from
           what is known of its teams; each site&rsquo;s page says where its
           numbers come from.
