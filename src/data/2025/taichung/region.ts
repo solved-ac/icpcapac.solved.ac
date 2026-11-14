@@ -1,15 +1,15 @@
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
 import {
-  countTeams,
-  countUniversities,
-  type RegionScoreArgs,
-  regionScore,
-} from "../../regionScore";
-import {
   type Regional,
   RegionalStatus,
   type TeamInStandingsLike,
 } from "../../types";
+import {
+  countTeams,
+  countUniversities,
+  type RegionScoreArgs,
+  regionScore,
+} from "../regionScore";
 
 import regionalStandings from "./Taichung2025Standings.json";
 

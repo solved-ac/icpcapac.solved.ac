@@ -1,11 +1,11 @@
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 
 import prelimsStandings from "./Korea2025NationalFirstStandings.json";
 import regionalStandings from "./Seoul2025Standings.json";

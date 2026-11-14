@@ -2,16 +2,16 @@ import { Taichung as Taichung2025 } from "../../2025/taichung/region";
 // TODO replace this with official ICPC data
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
 import {
-  countTeams,
-  countUniversities,
-  type RegionScoreArgs,
-  regionScore,
-} from "../../regionScore";
-import {
   type Regional,
   RegionalStatus,
   type TeamInStandingsLike,
 } from "../../types";
+import {
+  countTeams,
+  countUniversities,
+  type RegionScoreArgs,
+  regionScore,
+} from "../regionScore";
 import regionalStandings from "./Taichung2026Standings.json";
 import prelimsOnlineStandings from "./Taiwan2026OnlineStandings.json";
 import prelimsPrivateUSStandings from "./Taiwan2026PrivateUStandings.json";

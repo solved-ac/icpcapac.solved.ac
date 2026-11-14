@@ -1,5 +1,9 @@
 import { Badge, Heading, HStack, Stack, Table, Text } from "@chakra-ui/react";
-import { type Regional, RegionalStatus } from "../data/types";
+import {
+  type Regional,
+  RegionalStatus,
+  type RegionScoreWeights,
+} from "../data/types";
 import { Notice } from "./Notice";
 import { numericCell } from "./TeamName";
 
@@ -26,49 +30,32 @@ function Figure({ pending, children }: { pending: boolean; children: string }) {
 interface Props {
   region: Regional;
   title: string;
+  /** The season's site-score weights. */
+  weights: RegionScoreWeights;
 }
 
 /** A regional's name, its status, and how its site score adds up. */
-export function RegionHeader({ region, title }: Props) {
+export function RegionHeader({ region, title, weights }: Props) {
   const prelimsPending =
     region.status !== RegionalStatus.preliminariesFinished &&
     region.status !== RegionalStatus.regionalsFinished;
   const regionalsPending = region.status !== RegionalStatus.regionalsFinished;
 
   const { scoreDetails } = region;
-  // The weights are `regionScore`'s.
-  const terms = [
-    {
-      label: "# Univs",
-      count: scoreDetails.univs,
-      weight: 0.56,
-      pending: regionalsPending,
-    },
-    {
-      label: "# Teams",
-      count: scoreDetails.teams,
-      weight: 0.24,
-      pending: regionalsPending,
-    },
-    {
-      label: "# Foreign Teams",
-      count: scoreDetails.foreignTeams,
-      weight: 0.3,
-      pending: regionalsPending,
-    },
-    {
-      label: "# Univs in Prelim",
-      count: scoreDetails.univsPrelim,
-      weight: 0.14,
-      pending: prelimsPending,
-    },
-    {
-      label: "# Teams in Prelim",
-      count: scoreDetails.teamsPrelim,
-      weight: 0.06,
-      pending: prelimsPending,
-    },
-  ];
+  const terms = (
+    [
+      ["univs", "# Univs", regionalsPending],
+      ["teams", "# Teams", regionalsPending],
+      ["foreignTeams", "# Foreign Teams", regionalsPending],
+      ["univsPrelim", "# Univs in Prelim", prelimsPending],
+      ["teamsPrelim", "# Teams in Prelim", prelimsPending],
+    ] as const
+  ).map(([key, label, pending]) => ({
+    label,
+    count: scoreDetails[key],
+    weight: weights[key],
+    pending,
+  }));
 
   return (
     <Stack gap={4} align="flex-start">

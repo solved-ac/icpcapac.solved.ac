@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/react";
 import { type ReactNode, useMemo } from "react";
 
-export interface FilterOption {
+export interface Choice {
   value: string;
   /** What the row shows. */
   label: ReactNode;
@@ -18,44 +18,55 @@ export interface FilterOption {
   count?: string;
 }
 
-function OptionRow({ option }: { option: FilterOption }) {
+function ChoiceRow({ choice }: { choice: Choice }) {
   return (
     <HStack gap={3} flex={1} minW={0}>
       <Text as="span" flex={1} truncate>
-        {option.label}
+        {choice.label}
       </Text>
-      {option.count && (
+      {choice.count && (
         <Text as="span" color="fg.muted" fontVariantNumeric="tabular-nums">
-          {option.count}
+          {choice.count}
         </Text>
       )}
     </HStack>
   );
 }
 
-/** A single-choice dropdown over rows that carry a label and a count. */
-export function FilterSelect({
+/**
+ * A single-choice dropdown: Chakra's `Select` chain as one component, for
+ * every dropdown on the site.
+ */
+export function ChoiceSelect({
   label,
-  options,
+  choices,
   value,
   onChange,
+  placeholder,
+  width = "60",
+  ghost = false,
 }: {
   /** Names the control for assistive technology. Not shown. */
   label: string;
-  options: FilterOption[];
-  value: string;
+  choices: Choice[];
+  /** `undefined` when nothing is chosen; the placeholder shows then. */
+  value: string | undefined;
   onChange: (value: string) => void;
+  placeholder?: string;
+  width?: Select.RootProps["width"];
+  /** No border and no fill until hovered, to sit among ghost buttons. */
+  ghost?: boolean;
 }) {
   const collection = useMemo(
     () =>
       createListCollection({
-        items: options,
+        items: choices,
         itemToString: (item) => item.text,
         itemToValue: (item) => item.value,
       }),
-    [options],
+    [choices],
   );
-  const selected = options.find((option) => option.value === value);
+  const selected = choices.find((choice) => choice.value === value);
 
   return (
     <Select.Root
@@ -66,8 +77,11 @@ export function FilterSelect({
       unmountOnExit
       collection={collection}
       size="sm"
-      width="60"
-      value={[value]}
+      // Select has no ghost variant. `subtle` is the one with no border, and
+      // the trigger below takes its fill off.
+      variant={ghost ? "subtle" : "outline"}
+      width={width}
+      value={value === undefined ? [] : [value]}
       onValueChange={(details) => {
         const next = details.value[0];
         if (next !== undefined && next !== value) onChange(next);
@@ -76,9 +90,12 @@ export function FilterSelect({
       <Select.HiddenSelect />
       <Select.Label srOnly>{label}</Select.Label>
       <Select.Control>
-        <Select.Trigger>
-          <Select.ValueText>
-            {selected && <OptionRow option={selected} />}
+        <Select.Trigger
+          fontVariantNumeric="tabular-nums"
+          {...(ghost && { bg: "transparent", _hover: { bg: "bg.muted" } })}
+        >
+          <Select.ValueText placeholder={placeholder}>
+            {selected && <ChoiceRow choice={selected} />}
           </Select.ValueText>
         </Select.Trigger>
         <Select.IndicatorGroup>
@@ -88,9 +105,9 @@ export function FilterSelect({
       <Portal>
         <Select.Positioner>
           <Select.Content>
-            {options.map((option) => (
-              <Select.Item item={option} key={option.value}>
-                <OptionRow option={option} />
+            {choices.map((choice) => (
+              <Select.Item item={choice} key={choice.value}>
+                <ChoiceRow choice={choice} />
                 <Select.ItemIndicator />
               </Select.Item>
             ))}

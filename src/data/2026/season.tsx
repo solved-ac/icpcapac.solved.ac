@@ -4,6 +4,8 @@ import { HCMC } from "./hcmc/region";
 import { Jakarta } from "./jakarta/region";
 import { Manila } from "./manila/region";
 import { instutiteRequireValueMap, mergedTeams } from "./mergedTeams";
+import { REGION_SCORE_WEIGHTS } from "./regionScore";
+import { filterRegionalTeams } from "./regionScoreboard";
 import sameTeams from "./same_teams.json";
 import { Seoul } from "./seoul/region";
 import { Taichung } from "./taichung/region";
@@ -19,6 +21,8 @@ export const season2026: Season = {
   mergedTeams,
   winnerInstitutions,
   institutionRequiredValue: instutiteRequireValueMap,
+  scoreWeights: REGION_SCORE_WEIGHTS,
+  filterRegionalTeams,
   regionalTitle: (regional) =>
     `The 2025 ICPC Asia ${
       regional.site === "HCMC" ? "Ho Chi Minh City" : regional.site

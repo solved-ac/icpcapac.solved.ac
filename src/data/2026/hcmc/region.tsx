@@ -3,13 +3,13 @@ import {
   INSTITUTION_REGION_MAP,
   isVNMHighSchool,
 } from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 
 import regionalStandings from "./HCMC2026Standings.json";
 import prelimsStandings from "./Vietnam2026NationalScoreboard.json";

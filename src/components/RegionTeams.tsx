@@ -1,5 +1,4 @@
 import { Text } from "@chakra-ui/react";
-import { filterRegionalTeams } from "../data/regionScoreboard";
 import type { Season } from "../data/season";
 import { type Regional, RegionalStatus } from "../data/types";
 import { RegionScoreboard } from "./RegionScoreboard";
@@ -23,12 +22,7 @@ export function RegionTeams({ season, region }: Props) {
   }
   if (region.status === RegionalStatus.regionalsFinished) {
     return (
-      <RegionScoreboard
-        teams={filterRegionalTeams(
-          region.scoreboard,
-          season.winnerInstitutions,
-        )}
-      />
+      <RegionScoreboard teams={season.filterRegionalTeams(region.scoreboard)} />
     );
   }
   return (

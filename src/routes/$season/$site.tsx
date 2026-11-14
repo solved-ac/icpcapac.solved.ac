@@ -38,7 +38,11 @@ function SitePage() {
 
   return (
     <Stack gap={6}>
-      <RegionHeader region={regional} title={season.regionalTitle(regional)} />
+      <RegionHeader
+        region={regional}
+        title={season.regionalTitle(regional)}
+        weights={season.scoreWeights}
+      />
       {regional.disclaimer ? (
         <Notice>
           <b>{regional.site}</b>: {regional.disclaimer}

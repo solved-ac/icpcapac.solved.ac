@@ -1,15 +1,17 @@
-import {
-  createListCollection,
-  HStack,
-  IconButton,
-  Portal,
-  Select,
-} from "@chakra-ui/react";
+import { HStack, IconButton } from "@chakra-ui/react";
 import { IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { Link, useNavigate } from "@tanstack/react-router";
 import type { ReactNode } from "react";
 import type { Season } from "../data/season";
 import { SEASONS } from "../data/seasons";
+import { type Choice, ChoiceSelect } from "./ChoiceSelect";
+
+/** Newest first, as a list of years is usually read. */
+const SEASON_CHOICES: Choice[] = [...SEASONS].reverse().map((season) => ({
+  value: season.id,
+  label: season.label,
+  text: season.label,
+}));
 
 /**
  * A step to the season before or after. A link, so it can be opened in a new
@@ -53,70 +55,20 @@ export function SeasonSwitcher({ current }: { current: Season | undefined }) {
   const previous = index > 0 ? SEASONS[index - 1] : undefined;
   const next = index >= 0 ? SEASONS[index + 1] : undefined;
 
-  // Built here, not at module scope, to stay next to the list it mirrors.
-  const collection = createListCollection({
-    items: SEASONS,
-    itemToString: (season) => season.label,
-    itemToValue: (season) => season.id,
-  });
-
   return (
     <HStack as="nav" gap={0} aria-label="Seasons" flexShrink={0}>
       <StepButton to={previous} label="Previous season">
         <IconChevronLeft />
       </StepButton>
-      <Select.Root
-        // The list is a portal, so it is built on first open and torn down
-        // on close: built up front, the browser would hydrate a subtree the
-        // prerendered HTML does not have.
-        lazyMount
-        unmountOnExit
-        collection={collection}
-        size="sm"
-        // `subtle` is the variant with no border; with its fill taken off
-        // below it reads as a ghost button, which Select has no variant for.
-        variant="subtle"
+      <ChoiceSelect
+        label="Season"
+        placeholder="Season"
+        choices={SEASON_CHOICES}
+        value={current?.id}
+        onChange={(season) => navigate({ to: "/$season", params: { season } })}
         width="32"
-        value={current ? [current.id] : []}
-        onValueChange={(details) => {
-          const picked = details.value[0];
-          if (picked !== undefined && picked !== current?.id) {
-            navigate({ to: "/$season", params: { season: picked } });
-          }
-        }}
-      >
-        <Select.HiddenSelect />
-        <Select.Label srOnly>Season</Select.Label>
-        <Select.Control>
-          <Select.Trigger
-            fontVariantNumeric="tabular-nums"
-            bg="transparent"
-            _hover={{ bg: "bg.muted" }}
-          >
-            <Select.ValueText placeholder="Season" />
-          </Select.Trigger>
-          <Select.IndicatorGroup>
-            <Select.Indicator />
-          </Select.IndicatorGroup>
-        </Select.Control>
-        <Portal>
-          <Select.Positioner>
-            <Select.Content>
-              {/* Newest first, as a list of years is usually read. */}
-              {[...SEASONS].reverse().map((season) => (
-                <Select.Item
-                  item={season}
-                  key={season.id}
-                  fontVariantNumeric="tabular-nums"
-                >
-                  {season.label}
-                  <Select.ItemIndicator />
-                </Select.Item>
-              ))}
-            </Select.Content>
-          </Select.Positioner>
-        </Portal>
-      </Select.Root>
+        ghost
+      />
       <StepButton to={next} label="Next season">
         <IconChevronRight />
       </StepButton>

@@ -1,13 +1,13 @@
 import { Seoul as Seoul2025 } from "../../2025/seoul/region";
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 // import { INSTITUTION_REGION_MAP } from "../institution";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 
 import prelimsStandings from "./Korea2026NationalFirstStandings.json";
 import regionalStandings from "./Seoul2026Standings.json";

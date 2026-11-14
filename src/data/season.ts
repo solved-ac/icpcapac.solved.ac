@@ -1,5 +1,11 @@
 import type { ReactNode } from "react";
-import type { ChampionshipTeamLike, Regional } from "./types";
+import type {
+  ChampionshipTeamLike,
+  Regional,
+  RegionScoreWeights,
+  TeamInFilteredStandingsLike,
+  TeamInStandingsLike,
+} from "./types";
 
 export interface SameTeams {
   institution: string;
@@ -24,6 +30,12 @@ export interface Season {
   /** For an institution, the value its third team was assigned: a fourth
    *  team has to beat it to count. Winner institutions map to 0. */
   institutionRequiredValue: Map<string, number>;
+  /** This season's site-score weights, as its `regionScore` applies them. */
+  scoreWeights: RegionScoreWeights;
+  /** This season's rule for which teams of a regional stay in the ranking. */
+  filterRegionalTeams: (
+    teams: TeamInStandingsLike[],
+  ) => TeamInFilteredStandingsLike[];
   /** Heading of a regional's page. */
   regionalTitle: (regional: Regional) => string;
   /** Column heading for `Regional.lastYear`, e.g. "(2024)". */

@@ -1,16 +1,21 @@
 import type {
+  RegionScoreArgs,
+  RegionScoreWeights,
   TeamInStandingsLike,
   TeamInTeamListLike,
   TeamInTeamListLikeTeamIdNullable,
-} from "./types";
+} from "../types";
 
-export interface RegionScoreArgs {
-  univs: number;
-  teams: number;
-  foreignTeams: number;
-  univsPrelim: number;
-  teamsPrelim: number;
-}
+export type { RegionScoreArgs };
+
+/** This season's weights. Shown on each regional's page as well as applied. */
+export const REGION_SCORE_WEIGHTS: RegionScoreWeights = {
+  univs: 0.56,
+  teams: 0.24,
+  foreignTeams: 0.3,
+  univsPrelim: 0.14,
+  teamsPrelim: 0.06,
+};
 
 export const regionScore = ({
   univs,
@@ -20,11 +25,11 @@ export const regionScore = ({
   teamsPrelim,
 }: RegionScoreArgs) => {
   return (
-    0.56 * univs +
-    0.24 * teams +
-    0.14 * univsPrelim +
-    0.06 * teamsPrelim +
-    0.3 * foreignTeams
+    REGION_SCORE_WEIGHTS.univs * univs +
+    REGION_SCORE_WEIGHTS.teams * teams +
+    REGION_SCORE_WEIGHTS.univsPrelim * univsPrelim +
+    REGION_SCORE_WEIGHTS.teamsPrelim * teamsPrelim +
+    REGION_SCORE_WEIGHTS.foreignTeams * foreignTeams
   );
 };
 

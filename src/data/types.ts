@@ -1,5 +1,16 @@
 import type { ReactNode } from "react";
-import type { RegionScoreArgs } from "./regionScore";
+
+/** The five counts a site's score is made of. */
+export interface RegionScoreArgs {
+  univs: number;
+  teams: number;
+  foreignTeams: number;
+  univsPrelim: number;
+  teamsPrelim: number;
+}
+
+/** What each of those counts is multiplied by. Set by each season's rules. */
+export type RegionScoreWeights = RegionScoreArgs;
 
 export enum RegionalStatus {
   preparing = "preparing",

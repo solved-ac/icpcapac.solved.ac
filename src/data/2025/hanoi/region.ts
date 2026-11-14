@@ -1,19 +1,20 @@
-import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
+import {
+  INSTITUTION_REGION_MAP,
+  isVNMHighSchool,
+} from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 import regionalStandings from "./Hanoi2025Standings.json";
 import prelimsTeamsWithUnofficial from "./Vietnam2025NationalScoreboard.json";
 
-const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter((x) => {
-  if (x.institution.match(/^HS(GS)? /)) return false;
-  if (x.institution.match(/High School/i)) return false;
-  return true;
-});
+const VIETNAM_PRELIM_TEAMS = prelimsTeamsWithUnofficial.filter(
+  (team) => !isVNMHighSchool(team.institution),
+);
 
 const VIETNAM_REGION_SCORE: RegionScoreArgs = {
   univs: countUniversities(regionalStandings),

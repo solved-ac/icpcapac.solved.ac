@@ -1,5 +1,4 @@
 import { INSTITUTION_REGION_MAP } from "../institutions/institution";
-import { filterRegionalTeams } from "../regionScoreboard";
 import {
   type ChampionshipTeamLike,
   type Regional,
@@ -8,15 +7,24 @@ import {
   TeamRankInCombinedScoreboardStatus,
   TeamRankStatus,
 } from "../types";
+import { filterRegionalTeams } from "./regionScoreboard";
 
 import sameTeams from "./same_teams.json";
-import winnerInstitutions from "./winnerInstitutions.json";
 
+// Stand-ins for the teams of a regional that has not been held yet.
+//
+// Their ids and institutions are derived from the site's name, not drawn at
+// random: the page is rendered once at build time and again in the browser,
+// and the two have to come out the same.
 const createFauxTeams = (
   region: Regional,
   count: number,
 ): TeamInFilteredStandingsLike[] => {
-  const base = Math.floor(Math.random() * 1000);
+  const base =
+    [...region.site].reduce(
+      (hash, char) => (hash * 31 + char.charCodeAt(0)) % 1000,
+      0,
+    ) + 1;
   return new Array(count).fill(0).map((_, i) => ({
     teamId: -base * 1000 - i,
     status: TeamRankStatus.NONE,
@@ -47,7 +55,7 @@ export const combineRegions = (regions: Regional[]) => {
       region,
       teams:
         region.status === RegionalStatus.regionalsFinished
-          ? filterRegionalTeams(region.scoreboard, winnerInstitutions).filter(
+          ? filterRegionalTeams(region.scoreboard).filter(
               (x) => x.status === TeamRankStatus.NONE,
             )
           : createFauxTeams(region, region.scoreDetails.teams),
@@ -78,9 +86,7 @@ export const combineRegions = (regions: Regional[]) => {
   const instituteCountMap = new Map<string, number>();
   teams.forEach((team) => {
     const teamIdTemp = `${team.institution}$$${team.teamName}`;
-    const teamId = sameTeamsMap.has(teamIdTemp)
-      ? sameTeamsMap.get(teamIdTemp)!
-      : teamIdTemp;
+    const teamId = sameTeamsMap.get(teamIdTemp) ?? teamIdTemp;
     if (teamIdsSet.has(teamId)) {
       team.status = TeamRankInCombinedScoreboardStatus.D4_2_1;
       return;
@@ -109,10 +115,8 @@ export const combineRegions = (regions: Regional[]) => {
     }
     const teamRegion = INSTITUTION_REGION_MAP.get(team.institution);
     if (!teamRegion) return;
-    if (
-      regionsMap.has(teamRegion) &&
-      team.assignedValue > regionsMap.get(teamRegion)!
-    )
+    const smallestInRegion = regionsMap.get(teamRegion);
+    if (smallestInRegion !== undefined && team.assignedValue > smallestInRegion)
       return;
     regionsMap.set(teamRegion, team.assignedValue);
     team.status = TeamRankInCombinedScoreboardStatus.D4_3;

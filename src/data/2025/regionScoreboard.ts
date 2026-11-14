@@ -1,9 +1,10 @@
-import { INSTITUTION_REGION_MAP } from "./institutions/institution";
+import { INSTITUTION_REGION_MAP } from "../institutions/institution";
 import {
   type TeamInFilteredStandingsLike,
   type TeamInStandingsLike,
   TeamRankStatus,
-} from "./types";
+} from "../types";
+import winnersInOtherRegions from "./winnerInstitutions.json";
 
 export const asiaPacificRegions = new Set([
   "BRN",
@@ -24,8 +25,6 @@ export const asiaPacificRegions = new Set([
 
 export const filterRegionalTeams = <T extends TeamInStandingsLike>(
   teams: T[],
-  /** Institutions that won a regional this season, at this site or another. */
-  winnersInOtherRegions: string[],
 ): (TeamInFilteredStandingsLike & T)[] => {
   const winnerInstitutions = new Set(winnersInOtherRegions);
   const institutionOccurCount = new Map<string, number>();

@@ -1,13 +1,13 @@
 import { Yokohama as Yokohama2025 } from "../../2025/yokohama/region";
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 // import { INSTITUTION_REGION_MAP } from "../institution";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 
 import prelimsStandings from "./Japan2026OnlineFirstRoundStandings.json";
 import regionalStandings from "./Yokohama2026Standings.json";

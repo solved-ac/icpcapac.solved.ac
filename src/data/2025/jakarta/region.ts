@@ -1,11 +1,11 @@
 import { INSTITUTION_REGION_MAP } from "../../institutions/institution";
+import { type Regional, RegionalStatus } from "../../types";
 import {
   countTeams,
   countUniversities,
   type RegionScoreArgs,
   regionScore,
-} from "../../regionScore";
-import { type Regional, RegionalStatus } from "../../types";
+} from "../regionScore";
 
 // TODO replace this with official ICPC data
 import regionalStandings from "./Jakarta2025Standings.json";

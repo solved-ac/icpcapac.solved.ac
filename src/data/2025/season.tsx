@@ -2,6 +2,8 @@ import type { Season } from "../season";
 import { Hanoi } from "./hanoi/region";
 import { Jakarta } from "./jakarta/region";
 import { instutiteRequireValueMap, mergedTeams } from "./mergedTeams";
+import { REGION_SCORE_WEIGHTS } from "./regionScore";
+import { filterRegionalTeams } from "./regionScoreboard";
 import { Seoul } from "./seoul/region";
 import { Taichung } from "./taichung/region";
 import winnerInstitutions from "./winnerInstitutions.json";
@@ -15,6 +17,8 @@ export const season2025: Season = {
   mergedTeams,
   winnerInstitutions,
   institutionRequiredValue: instutiteRequireValueMap,
+  scoreWeights: REGION_SCORE_WEIGHTS,
+  filterRegionalTeams,
   regionalTitle: (regional) =>
     `2024 ICPC Asia-Pacific Region - ${regional.site} Site`,
   notices: [

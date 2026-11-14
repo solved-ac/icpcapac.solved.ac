@@ -7,7 +7,7 @@ import {
   TeamRankInCombinedScoreboardStatus,
 } from "../data/types";
 import { shortenInstitutionName } from "../utils/institution";
-import { type FilterOption, FilterSelect } from "./FilterSelect";
+import { type Choice, ChoiceSelect } from "./ChoiceSelect";
 import { HoverTooltip } from "./HoverTooltip";
 import { Region } from "./Region";
 import { labelCell, numericCell, TeamName, teamCell } from "./TeamName";
@@ -103,7 +103,7 @@ export function MergedScoreboard({ teams, cutline }: Props) {
   const [regionFilter, setRegionFilter] = useState(ALL);
   const [siteFilter, setSiteFilter] = useState(ALL);
 
-  const regionOptions = useMemo<FilterOption[]>(
+  const regionOptions = useMemo<Choice[]>(
     () => [
       { value: ALL, label: "All Regions", text: "All Regions" },
       ...tally(teams, cutline, regionOf)
@@ -122,7 +122,7 @@ export function MergedScoreboard({ teams, cutline }: Props) {
     [teams, cutline],
   );
 
-  const siteOptions = useMemo<FilterOption[]>(
+  const siteOptions = useMemo<Choice[]>(
     () => [
       { value: ALL, label: "All Sites", text: "All Sites" },
       ...tally(teams, cutline, (team) => team.fromSite)
@@ -169,15 +169,15 @@ export function MergedScoreboard({ teams, cutline }: Props) {
   return (
     <Stack gap={3}>
       <HStack gap={2} wrap="wrap">
-        <FilterSelect
+        <ChoiceSelect
           label="Region"
-          options={regionOptions}
+          choices={regionOptions}
           value={regionFilter}
           onChange={setRegionFilter}
         />
-        <FilterSelect
+        <ChoiceSelect
           label="Site"
-          options={siteOptions}
+          choices={siteOptions}
           value={siteFilter}
           onChange={setSiteFilter}
         />
